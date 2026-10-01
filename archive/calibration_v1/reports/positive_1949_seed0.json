@@ -1,0 +1,190 @@
+{
+  "results": [
+    {
+      "source_index": 1949,
+      "side": "left",
+      "h": 0.0,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 187,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 969,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 397,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 80,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 155,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 303,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 332,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 992,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 994,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 248,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 654,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 395,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 291,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 457,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 7,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 577,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 204,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 893,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 827,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 47,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 379,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 981,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 921,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        },
+        {
+          "grasp_id": 167,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        187,
+        969,
+        397,
+        80,
+        155,
+        303,
+        332,
+        992,
+        994,
+        248,
+        654,
+        395,
+        291,
+        457,
+        7,
+        577,
+        204,
+        893,
+        827,
+        47,
+        379,
+        981,
+        921,
+        167
+      ],
+      "adjustment_samples": 260
+    }
+  ],
+  "status": "excluded_infrastructure_error",
+  "exclusion_record": "E001-excluded.json"
+}

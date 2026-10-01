@@ -1,0 +1,73 @@
+[
+  {
+    "source_index": 1949,
+    "role": "P-01",
+    "expected_house": 97,
+    "expected_asset": "Candle_1",
+    "mode": "ordinary"
+  },
+  {
+    "source_index": 14,
+    "role": "P-02",
+    "expected_house": 103,
+    "expected_asset": "Cup_30",
+    "mode": "ordinary"
+  },
+  {
+    "source_index": 1915,
+    "role": "C1-01a",
+    "expected_house": 95,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary"
+  },
+  {
+    "source_index": 1916,
+    "role": "C1-01b",
+    "expected_house": 95,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary"
+  },
+  {
+    "source_index": 118,
+    "role": "C1-02",
+    "expected_house": 144,
+    "expected_asset": "Pepper_Shaker_1",
+    "mode": "ordinary"
+  },
+  {
+    "source_index": 1329,
+    "role": "C1-03",
+    "expected_house": 693,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary"
+  },
+  {
+    "source_index": 4,
+    "role": "C2-01",
+    "expected_house": 10,
+    "expected_asset": "Mug_1",
+    "mode": "handle"
+  },
+  {
+    "source_index": 26,
+    "role": "C2-02",
+    "expected_house": 107,
+    "expected_asset": "Mug_2",
+    "mode": "handle"
+  },
+  {
+    "source_index": 9,
+    "role": "C2-03",
+    "expected_house": 100,
+    "expected_asset": "RoboTHOR_mug_ai2_1_v",
+    "mode": "handle"
+  },
+  {
+    "source_index": 750,
+    "role": "P-01-replacement",
+    "expected_house": 430,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary",
+    "reason": "user_authorized_scene_substitution; higher target and shorter base-target distance; not yet physical positive"
+  }
+]

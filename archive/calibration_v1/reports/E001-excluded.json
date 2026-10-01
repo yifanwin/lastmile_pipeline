@@ -1,0 +1,14 @@
+{
+  "run_id": "E001",
+  "status": "excluded_infrastructure_error",
+  "reasons": [
+    "cuRobo motion_plan on failure returns [start_config]; adapter incorrectly treated non-empty path as success",
+    "raw MJCF gripper is motor; RBY1 position-servo overrides were not applied"
+  ],
+  "evidence": [
+    "../molmospaces/molmo_spaces/planner/curobo_planner.py:378-389",
+    "../molmospaces/molmo_spaces/robots/rby1.py:_set_gripper_position_servos"
+  ],
+  "raw_artifacts": "runs/stage_a/1949_seed0",
+  "policy": "Do not admit assets or compute grasp success rate from this run"
+}

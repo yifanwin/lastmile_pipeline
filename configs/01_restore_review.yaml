@@ -1,0 +1,9 @@
+version: 1
+case_type: case1_distance
+source_index: 14
+case_id: case1-cup-001
+model_cache: archive/calibration_v1/runs/stage_a/E002-corrected/0014_seed0
+camera_policy: restore_benchmark_robot_mounted_cameras
+review_views: [overhead, initial_robot_view, target_closeup, support_access_map]
+human_gate_required: true
+agent_advisory_only: true

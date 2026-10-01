@@ -1,0 +1,18 @@
+version: 1
+point_name: A
+point_semantics: initial_success_station_before_constructing_failure_start
+side: left
+h: 0.738
+grasp_ids: [794]
+world_geometry: mesh
+time_dilation: 0.25
+approach_overshoot_m: 0.01
+nominal_required: 5
+perturbed_required: 20
+perturbed_successes_required: 19
+allow_provisional_before_human_review: true
+import_evidence:
+  nominal: archive/calibration_v1/reports/E013-cup-admission-nominal.json
+  perturbed: archive/calibration_v1/reports/E012-cup-admission-perturbed.json
+  selection_protocol: archive/calibration_v1/configs/cup_admission_v1.json
+fresh_A_witness_required: true

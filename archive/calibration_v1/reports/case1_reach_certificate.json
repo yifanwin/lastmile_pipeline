@@ -1,0 +1,26 @@
+{
+  "method": "triangle-inequality bound to every physical selected-finger collision point; torso horizontal cancellation for [0,h,-2h,h,0,0]",
+  "coverage": "both arms, all arm configurations, all yaw, continuous h in [0,.738], all target collision geometry; not an IK budget inference",
+  "arm_bounds": [
+    {
+      "side": "left",
+      "shoulder_horizontal_radius_m": 0.22,
+      "shoulder_to_any_finger_collision_point_bound_m": 0.8609927760035209
+    },
+    {
+      "side": "right",
+      "shoulder_horizontal_radius_m": 0.22,
+      "shoulder_to_any_finger_collision_point_bound_m": 0.8609927760035209
+    }
+  ],
+  "target_collision_radius_bound_m": 0.10613416417983623,
+  "tracking_and_settling_inflation_m": 0.03,
+  "base_to_target_contact_radius_bound_m": 1.217126940183357,
+  "start_base_to_target_xy_m": 1.7327987092044543,
+  "gap_m": 0.5156717690210972,
+  "same_south_side_band_y_max": 0.5153759999999998,
+  "same_south_side_min_target_distance_m": 1.5834353404423918,
+  "same_side_gap_m": 0.36630840025903466,
+  "scope": "south operation band only; does not claim east/west sides inaccessible",
+  "robot_model_sha256": "9854cf4ea024b50d857abac1f02ffc8f29d205c3859fdc493cec58db6f389b19"
+}

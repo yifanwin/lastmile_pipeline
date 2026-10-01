@@ -1,0 +1,11 @@
+transport: openai_compatible_chat_completions
+env_file: ../.env
+key_env: LLM_API_KEY
+base_url_env: LLM_BASE_URL
+model_env: LLM_MODEL
+timeout_s: 120
+max_output_tokens: 4096
+max_images: 3
+role: advisory_scene_review
+can_approve_human_gate: false
+can_override_physics: false

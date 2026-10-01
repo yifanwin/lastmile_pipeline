@@ -1,0 +1,69 @@
+{
+  "selection": {
+    "method": "frozen control sequence; fresh independent full-state restore and physical execution",
+    "source_trace_sha256": "84fddf0666d30c75810decb645bc87b5fae640b4261935c24ff64e4a72a49f27",
+    "source_prefix_sha256": "550b2ecb3d374651f7a8e97b00a77238fa33be4b01ce963c6af3f3bd4d4c951c",
+    "grasp_id": 600,
+    "source_index": 1949,
+    "side": "right"
+  },
+  "trials": [
+    {
+      "trial_id": "E010-candle-force-aware-nominal-00",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "5724ce56c7bda0f016774c1c825a78c32d7efaf26e26e53c1a8c4e01b74fe1a1",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E010-candle-force-aware/nominal_00.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E010-candle-force-aware-nominal-01",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "5724ce56c7bda0f016774c1c825a78c32d7efaf26e26e53c1a8c4e01b74fe1a1",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E010-candle-force-aware/nominal_01.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E010-candle-force-aware-nominal-02",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "5724ce56c7bda0f016774c1c825a78c32d7efaf26e26e53c1a8c4e01b74fe1a1",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E010-candle-force-aware/nominal_02.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E010-candle-force-aware-nominal-03",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "5724ce56c7bda0f016774c1c825a78c32d7efaf26e26e53c1a8c4e01b74fe1a1",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E010-candle-force-aware/nominal_03.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E010-candle-force-aware-nominal-04",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "5724ce56c7bda0f016774c1c825a78c32d7efaf26e26e53c1a8c4e01b74fe1a1",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E010-candle-force-aware/nominal_04.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    }
+  ],
+  "successes": 5,
+  "note": "deterministic controller repeatability only; not perturbed or fresh planning success rate"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "case_id": "case1-cup-001",
+  "files": {
+    "scene_facts.json": "e2bd5b8e36e46d7baf02729e6534481546f3399802dd3e7f2f8b22ead8274597",
+    "views/initial_robot_view.png": "27ef12961cc51c0a235d4b2e6bcd9e364a8be9e9ca67989ff0932d7db647cc45",
+    "views/overhead.png": "a259d807bdfea0522e4933f3b7527772e19defd7850e48a9abb0cd0fb6ec3b6e",
+    "views/support_access_map.png": "4a01d80606cce5b163c52508db76d677c90e8fe95832c91981fc942433cf8521",
+    "views/support_access_map.svg": "00b7fc3a86bacfc5eeacf1c772f28ce8bb6357e888c9c7a06953775c39fa799f",
+    "views/target_closeup.png": "7471dd90338c17b5f4e40cb4c955fe16e3972d2b2a779178607fedc128ded992"
+  },
+  "compiled_model_sha256": "d262d0bf6775ee619d8ce976de16c75e1858a14831291a924b1aa713d771eb95",
+  "initial_snapshot_sha256": "7787c82d425a9154eccc79bc62f6ad28dbd0c159924cbc81844dd8d4a648ea13",
+  "source_episode_sha256": "bc4e24420fd5ab2d619b2132b45ef8b850bff38494c43e91ad6fd1577983fbb5"
+}

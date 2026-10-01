@@ -1,0 +1,103 @@
+{
+  "stage": "A",
+  "status": "passed",
+  "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+  "contact_sampler_version": "force-aware-v2",
+  "positive_regressions": [
+    {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "grasp_id": 794,
+      "nominal_completed": 5,
+      "nominal_successes": 5,
+      "evidence_report": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/reports/E009-cup-force-aware.json",
+      "status": "passed",
+      "verdicts": [
+        {
+          "trial_id": "E009-cup-force-aware-nominal-00",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E009-cup-force-aware-nominal-01",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E009-cup-force-aware-nominal-02",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E009-cup-force-aware-nominal-03",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E009-cup-force-aware-nominal-04",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        }
+      ]
+    },
+    {
+      "source_index": 1949,
+      "side": "right",
+      "h": 0.738,
+      "grasp_id": 600,
+      "nominal_completed": 5,
+      "nominal_successes": 5,
+      "evidence_report": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/reports/E010-candle-force-aware.json",
+      "status": "passed",
+      "verdicts": [
+        {
+          "trial_id": "E010-candle-force-aware-nominal-00",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E010-candle-force-aware-nominal-01",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E010-candle-force-aware-nominal-02",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E010-candle-force-aware-nominal-03",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        },
+        {
+          "trial_id": "E010-candle-force-aware-nominal-04",
+          "prefix_failure": null,
+          "status": "verified_success",
+          "reason": "strict_pick"
+        }
+      ]
+    }
+  ],
+  "scope": "20D and single-arm configuration/static calibration plus two original positive scenes; nominal fixed-controller physical repeatability, not randomized planner success or asset whitelist",
+  "finalization_code_sha256": {
+    "parts.py": "d9323c1d87643e423ac406ed832bb7c6580eae33e2f98a60e0d9572fe24f3585",
+    "calibration_runner.py": "c8dbbdfc84f3f5f91e54b48d681e470f6f59d109c77a73b422f5e51f6aa65dd5",
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation.py": "2ef491b6b926c8a117807af1c0c3ec63d5b7acf14c1273f788fe08f8c99b3de1",
+    "protocol.py": "4eeb45a960f91f6515e475457e595ee9b09845a43296dbd2fcb622b8bf06676a",
+    "validation.py": "188c6968bc1a5ad7dd965be0cf745edd2c82a562b33b6b5ee99f3a6d9525efeb",
+    "admission.py": "d8ff6b4d83331eff2b3e0a1aeb0f57d195821c2227e9e021c128c100519b6916",
+    "audit.py": "6f732d4980b857a2048b7393e298f68208f4a5b1d8d94179163cfd9807c53825"
+  }
+}

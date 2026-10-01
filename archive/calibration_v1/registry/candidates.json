@@ -1,0 +1,419 @@
+[
+  {
+    "source_index": 1949,
+    "role": "P-01",
+    "expected_house": 97,
+    "expected_asset": "Candle_1",
+    "mode": "ordinary",
+    "asset_id": "Candle_1",
+    "target_name": "candle_77f795c2402f54ee90454c0fe13bff06_1_0_4",
+    "house_index": 97,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_97/trajectories_batch_2_of_25.h5",
+      "traj_key": "traj_1",
+      "episode_length": 261,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_97.xml",
+    "scene_sha256": "3d0d57e8a152e13ef9c77e86f6040d7bc295fbefd6fed006d80b39ba3e574776",
+    "metadata_sha256": "50df899a9fb5ca3b41969a895323b4aeda28b690c99594c3b8eb83010e9d28dd",
+    "support_parent": "stand_6bc09b7e2670723819cfaf03855284c1_2_0_4",
+    "support_category": "TVStand",
+    "support_asset_id": "TV_Stand_202_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      10.068300024148158,
+      12.201800000111618,
+      0.7446555917862379,
+      0.7071067821538534,
+      0.7071067802191798,
+      2.0896940115665456e-07,
+      -2.0896946110044157e-07
+    ],
+    "physics_status": "nominal_verified_5_of_5",
+    "restoration_preflight": {
+      "source_index": 1949,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  },
+  {
+    "source_index": 14,
+    "role": "P-02",
+    "expected_house": 103,
+    "expected_asset": "Cup_30",
+    "mode": "ordinary",
+    "asset_id": "Cup_30",
+    "target_name": "cup_ff2c6ab62ccb690220c97cdcfeb658c5_1_0_2",
+    "house_index": 103,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_103/trajectories_batch_10_of_25.h5",
+      "traj_key": "traj_1",
+      "episode_length": 229,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_103.xml",
+    "scene_sha256": "ce54a1372e324e16ee4046db758479c80a49f13a4b955dc26f78b613193c4e3a",
+    "metadata_sha256": "1d23bc7d9545e68bc1b0e11497e2c2e6a36134a2baa4d021b7070d4294fdca35",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      7.313459458748234,
+      2.0988113404423916,
+      0.8012844308118927,
+      -0.5000005615720113,
+      -0.49999938835306174,
+      0.49999771420421835,
+      0.500002335859338
+    ],
+    "physics_status": "nominal_verified_5_of_5",
+    "restoration_preflight": {
+      "source_index": 14,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  },
+  {
+    "source_index": 1915,
+    "role": "C1-01a",
+    "expected_house": 95,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary",
+    "asset_id": "Wine_Bottle_1",
+    "target_name": "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_2",
+    "house_index": 95,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_95/trajectories_batch_6_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 213,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_95.xml",
+    "scene_sha256": "fcd415cddd49ab62f30cdf707c36a377a44d17c8d17ead22197acfcf95189dbf",
+    "metadata_sha256": "5e5aa941149c4907e2614b1d4cb2ae0d5a154864eb90c594c0711981dea073b4",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      4.5621656197516325,
+      2.250725233282635,
+      0.9159380033760485,
+      0.49975728571629013,
+      0.5001214368626958,
+      0.5001949775617968,
+      0.49992618273684425
+    ],
+    "physics_status": "infrastructure_error_source_mismatch",
+    "restoration_preflight": {
+      "source_index": 1915,
+      "missing_restore_bodies": [
+        "newspaper_618f7f987a4592f5d0749b387fe03da3_1_0_3"
+      ],
+      "status": "source_mismatch"
+    }
+  },
+  {
+    "source_index": 1916,
+    "role": "C1-01b",
+    "expected_house": 95,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary",
+    "asset_id": "Wine_Bottle_1",
+    "target_name": "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_2",
+    "house_index": 95,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_95/trajectories_batch_6_of_25.h5",
+      "traj_key": "traj_1",
+      "episode_length": 211,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_95.xml",
+    "scene_sha256": "fcd415cddd49ab62f30cdf707c36a377a44d17c8d17ead22197acfcf95189dbf",
+    "metadata_sha256": "5e5aa941149c4907e2614b1d4cb2ae0d5a154864eb90c594c0711981dea073b4",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      4.5621656197516325,
+      2.250725233282635,
+      0.9159380033760485,
+      0.49975728571629013,
+      0.5001214368626958,
+      0.5001949775617968,
+      0.49992618273684425
+    ],
+    "physics_status": "infrastructure_error_source_mismatch",
+    "restoration_preflight": {
+      "source_index": 1916,
+      "missing_restore_bodies": [
+        "newspaper_618f7f987a4592f5d0749b387fe03da3_1_0_3"
+      ],
+      "status": "source_mismatch"
+    }
+  },
+  {
+    "source_index": 118,
+    "role": "C1-02",
+    "expected_house": 144,
+    "expected_asset": "Pepper_Shaker_1",
+    "mode": "ordinary",
+    "asset_id": "Pepper_Shaker_1",
+    "target_name": "peppershaker_d3a7b2ab4bd62388f7ea7dd2ef7c1fdc_1_0_6",
+    "house_index": 144,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_144/trajectories_batch_15_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 222,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_144.xml",
+    "scene_sha256": "dc24fffd821db7fea2aebaa01790e317d28266ff84f6921ce4e43f25460ff1a2",
+    "metadata_sha256": "51c8ecf8f1022b9f67afe96c13b9c0a22f903f737b489da766ed25262f328961",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_2_0_6",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      3.911220076368968,
+      7.155316111443368,
+      0.8083532333576299,
+      -0.0017303615435541161,
+      0.001789557731553185,
+      0.7088586331685539,
+      0.7053461855815648
+    ],
+    "physics_status": "not_tested",
+    "restoration_preflight": {
+      "source_index": 118,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  },
+  {
+    "source_index": 1329,
+    "role": "C1-03",
+    "expected_house": 693,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary",
+    "asset_id": "Wine_Bottle_1",
+    "target_name": "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_6",
+    "house_index": 693,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_693/trajectories_batch_2_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 234,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_693.xml",
+    "scene_sha256": "8ddb6a931553da491afc7ed8ceeafc10001a96d3d71a8a6ce08292e111f5aa51",
+    "metadata_sha256": "788abb35fd9a1e551d7dcfef708cb0f269c45031b6a10961599dd0f8bdf5629b",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_2_0_6",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      6.975567289292019,
+      9.424054700413047,
+      0.9159329240914786,
+      0.7068330846396479,
+      0.7073803678071394,
+      1.1922964935041662e-05,
+      7.454984502792553e-05
+    ],
+    "physics_status": "not_tested",
+    "restoration_preflight": {
+      "source_index": 1329,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  },
+  {
+    "source_index": 4,
+    "role": "C2-01",
+    "expected_house": 10,
+    "expected_asset": "Mug_1",
+    "mode": "handle",
+    "asset_id": "Mug_1",
+    "target_name": "mug_8caf1bb3f88e9a00e02dfe9e6518aeb0_1_0_4",
+    "house_index": 10,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_10/trajectories_batch_1_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 248,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_10.xml",
+    "scene_sha256": "1b3287723b353f33c0eb707fee7576a2446e47be9e5fe461eb4bdcdbaa8b60dd",
+    "metadata_sha256": "f613b626ec24e788aa936edac42f57987656da22a2096fa199d3b3603ca081aa",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_4",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      8.540304705239066,
+      9.49758467113133,
+      0.8088784760839288,
+      -0.05781711185632599,
+      0.057429155900953904,
+      0.7040942550531716,
+      0.7054150222600993
+    ],
+    "physics_status": "infrastructure_error_source_mismatch",
+    "restoration_preflight": {
+      "source_index": 4,
+      "missing_restore_bodies": [
+        "lettuce_67e42f8ccc6350d979b726f13794f91e_1_0_6"
+      ],
+      "status": "source_mismatch"
+    }
+  },
+  {
+    "source_index": 26,
+    "role": "C2-02",
+    "expected_house": 107,
+    "expected_asset": "Mug_2",
+    "mode": "handle",
+    "asset_id": "Mug_2",
+    "target_name": "mug_38903e9f02926f380b587d1b9de9c00b_1_0_4",
+    "house_index": 107,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_107/trajectories_batch_20_of_25.h5",
+      "traj_key": "traj_1",
+      "episode_length": 236,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_107.xml",
+    "scene_sha256": "12b91a36006a444c08d185c0b9d53149c420b8abcbdddd1d09d2c49f58d38e92",
+    "metadata_sha256": "7c559d4ad7f1fb21b918761a020e9773ffb7aa415e5ec93d617ade85ed19da0d",
+    "support_parent": "chestofdrawers_bcf35268e2027afed18909dcf850d56a_1_0_4",
+    "support_category": "Dresser",
+    "support_asset_id": "Dresser_205_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      8.554990605034584,
+      8.359928010020981,
+      0.7504563918750059,
+      0.7071428872859271,
+      0.7070706727569471,
+      -1.0046055809888868e-06,
+      -2.6209766188279454e-05
+    ],
+    "physics_status": "not_tested",
+    "restoration_preflight": {
+      "source_index": 26,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  },
+  {
+    "source_index": 9,
+    "role": "C2-03",
+    "expected_house": 100,
+    "expected_asset": "RoboTHOR_mug_ai2_1_v",
+    "mode": "handle",
+    "asset_id": "RoboTHOR_mug_ai2_1_v",
+    "target_name": "mug_92c42ca5366a9cee73d1919f977d8b28_1_0_4",
+    "house_index": 100,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_100/trajectories_batch_14_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 248,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_100.xml",
+    "scene_sha256": "be8d8de83331e98520fc77a3abce5081c4f08e2e38bdd5a2895673dabeec3054",
+    "metadata_sha256": "50f84f6480e58db547b9a1e89a3571dbe17328a619b97945b65c3d2086f7efc2",
+    "support_parent": "chestofdrawers_7a2e462b2666d3558113b2d84da9dc74_1_0_4",
+    "support_category": "Dresser",
+    "support_asset_id": "Dresser_220_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      7.316400037281898,
+      0.3798490026781707,
+      1.3331644192828322,
+      0.5000033818151368,
+      0.49999371874635784,
+      0.5000061376417052,
+      0.4999967616977521
+    ],
+    "physics_status": "not_tested",
+    "restoration_preflight": {
+      "source_index": 9,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  },
+  {
+    "source_index": 750,
+    "role": "P-01-replacement",
+    "expected_house": 430,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary",
+    "reason": "user_authorized_scene_substitution; higher target and shorter base-target distance; not yet physical positive",
+    "asset_id": "Wine_Bottle_1",
+    "target_name": "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_6",
+    "house_index": 430,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_430/trajectories_batch_21_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 245,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_430.xml",
+    "scene_sha256": "25bd005c6dc89bda71b19510fa357dd6c9410fe55330884fda7eeb233bff0c53",
+    "metadata_sha256": "8a7359cd96565182974ffd1df43912eeb65d13ad2e7e45d6db3fca4c973b0e48",
+    "support_parent": "countertop_aa26fd5b3d56251659034cbb8b20053d_1_0_6",
+    "support_category": "CounterTop",
+    "support_asset_id": "Countertop_C_10x4",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      5.979604296800755,
+      2.6146335192577235,
+      1.1039875507788677,
+      0.4999064303133353,
+      0.500174548545411,
+      -0.5001407610278112,
+      -0.4997781518606976
+    ],
+    "physics_status": "running_physical_calibration",
+    "restoration_preflight": {
+      "source_index": 750,
+      "missing_restore_bodies": [],
+      "status": "names_present_not_yet_compiled"
+    }
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "source_index": 14,
+  "house_index": 103,
+  "asset_id": "Cup_30",
+  "target_name": "cup_ff2c6ab62ccb690220c97cdcfeb658c5_1_0_2",
+  "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2",
+  "support_category": "DiningTable",
+  "initial_base": [
+    7.183716297149658,
+    2.70900559425354,
+    -1.7024431228637695
+  ],
+  "initial_robot_groups": {
+    "base": [
+      7.183716297149658,
+      2.70900559425354,
+      -1.7024431228637695
+    ],
+    "torso": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm": [
+      0.5,
+      0.0,
+      0.0,
+      -2.299999952316284,
+      0.0,
+      -0.5,
+      0.0
+    ],
+    "right_arm": [
+      0.5,
+      0.0,
+      0.0,
+      -2.299999952316284,
+      0.0,
+      -0.5,
+      0.0
+    ],
+    "left_gripper": [
+      -0.05000000074505806,
+      0.05000000074505806
+    ],
+    "right_gripper": [
+      -0.05000000074505806,
+      0.05000000074505806
+    ],
+    "head": [
+      0.12247888743877411,
+      0.4522251486778259
+    ]
+  },
+  "target_initial_pose": [
+    7.313459458748234,
+    2.0988113404423916,
+    0.8012844308118927,
+    -0.5000005615720113,
+    -0.49999938835306174,
+    0.49999771420421835,
+    0.500002335859338
+  ],
+  "support_AABB_center": [
+    7.6838642978074185,
+    1.5517399999999997,
+    0.37516905
+  ],
+  "support_AABB_size": [
+    0.9944734043851629,
+    1.4727279999999998,
+    0.7503361
+  ],
+  "all_object_poses_restored": true,
+  "restored_object_count": 35,
+  "added_object_count": 3,
+  "cameras": [
+    {
+      "name": "robot_0/head_camera",
+      "reference_body": "robot_0/link_head_2",
+      "position": [
+        0.05000000074505806,
+        0.0,
+        0.05000000074505806
+      ],
+      "quaternion": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "fov": 139.0,
+      "source": "benchmark robot_mounted camera"
+    },
+    {
+      "name": "robot_0/wrist_camera_l",
+      "reference_body": "robot_0/link_left_arm_6",
+      "position": [
+        0.0,
+        -0.10000000149011612,
+        -0.15000000596046448
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.25881894880749623,
+        0.9659258520912372
+      ],
+      "fov": 45.0,
+      "source": "benchmark robot_mounted camera"
+    },
+    {
+      "name": "robot_0/wrist_camera_r",
+      "reference_body": "robot_0/link_right_arm_6",
+      "position": [
+        0.0,
+        0.10000000149011612,
+        -0.15000000596046448
+      ],
+      "quaternion": [
+        0.9659258520912372,
+        -0.25881894880749623,
+        0.0,
+        0.0
+      ],
+      "fov": 45.0,
+      "source": "benchmark robot_mounted camera"
+    },
+    {
+      "name": "robot_0/camera_follower",
+      "reference_body": "robot_0/base",
+      "position": [
+        -1.2999999523162842,
+        0.0,
+        2.700000047683716
+      ],
+      "quaternion": [
+        0.6532880102725505,
+        0.2705822899491613,
+        -0.2705822899491613,
+        -0.6532880102725505
+      ],
+      "fov": 45.0,
+      "source": "benchmark robot_mounted camera"
+    }
+  ],
+  "source_image_resolution": [
+    640,
+    480
+  ],
+  "visible_target_pixels": {
+    "overhead": 486,
+    "initial_robot_view": 435,
+    "closeup": 22853
+  },
+  "support_diagnostic_after_1s": {
+    "bearing_support_contact": true,
+    "settled_target_z": 0.8012843173282311,
+    "not_grasp_success": true
+  },
+  "physical_model_signature_sha256": "e25efa44ff1cc2974afecc8de0fd38ca095316f4d3b3e25028a26250617cf21e",
+  "camera_only_model_changes": true,
+  "source_scene_sha256": "ce54a1372e324e16ee4046db758479c80a49f13a4b955dc26f78b613193c4e3a",
+  "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+  "side_hints": "north/south/east/west refer to world xy; no side or detour is navigation-verified",
+  "human_approved": false,
+  "created_at_utc": "2026-10-01T13:28:35.024491+00:00"
+}

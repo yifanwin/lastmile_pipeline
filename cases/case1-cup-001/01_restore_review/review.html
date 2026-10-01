@@ -1,0 +1,83 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>场景人工审阅</title><style>body{font:16px/1.65 system-ui;margin:0;background:#f4f6f8;color:#223;max-width:1300px;margin:auto;padding:24px}h1{font-size:28px}.notice,section{background:white;padding:22px;border-radius:10px;margin:18px 0}.notice{border-left:5px solid #d18a27}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:white;padding:12px;border-radius:8px}img{width:100%;height:auto}figcaption{font-size:14px;color:#556}pre{white-space:pre-wrap;overflow-wrap:anywhere}label{display:block;margin:10px 0}input,select,textarea,button{font:inherit}textarea{width:95%;height:80px}button{padding:8px 14px;margin:8px;cursor:pointer}.checks label{display:inline-block;margin-right:15px}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><h1>case1-cup-001 · 步骤 1 场景审阅</h1><div class="notice"><b>人工状态：approved</b>。agent 只给建议；目标正确、确为桌面、可操作桌边与是否保留 Case 1，必须由你确认。步骤 2 可以预校准，但未获批准不会进入步骤 3。</div><section><b>来源</b>：episode 14 / house 103<br><b>目标</b>：Cup_30 / cup_ff2c6ab62ccb690220c97cdcfeb658c5_1_0_2<br><b>支撑</b>：diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2<br><b>A 点</b>：[7.183716297149658, 2.70900559425354, -1.7024431228637695]（成功候选，不是困难起点）<br><b>步骤 2</b>：verified</section><div class="grid"><figure><img src="views/overhead.png"><figcaption>俯视：源场景全部保留，橙框定位目标</figcaption></figure><figure><img src="views/initial_robot_view.png"><figcaption>初始视角：benchmark 相机和头部关节恢复</figcaption></figure><figure><img src="views/target_closeup.png"><figcaption>目标近景：检查目标身份、支撑与邻近杂物</figcaption></figure><figure><img src="views/support_access_map.png"><figcaption>支撑边界与桌边提示：未验证导航/绕行</figcaption></figure></div><section><h2>agent 场景建议（不能覆盖物理结果）</h2><pre>{
+  &quot;status&quot;: &quot;advisory_only&quot;,
+  &quot;actor&quot;: &quot;agent&quot;,
+  &quot;may_approve&quot;: false,
+  &quot;review_packet_sha256&quot;: &quot;fc873bbf5d0e33ff619366a41579a57a7cb064b896ec0af8842913f647e57c1e&quot;,
+  &quot;created_at_utc&quot;: &quot;2026-10-01T13:36:00.488599+00:00&quot;,
+  &quot;advice&quot;: {
+    &quot;target_assessment&quot;: {
+      &quot;asset_id&quot;: &quot;Cup_30&quot;,
+      &quot;target_name&quot;: &quot;cup_ff2c6ab62ccb690220c97cdcfeb658c5_1_0_2&quot;,
+      &quot;identity_visibility&quot;: &quot;目标被橙框标注；在初始机器人视角、俯视图和近景中均可见。可见像素记录分别为435、486和22853。&quot;,
+      &quot;pose_and_support&quot;: &quot;恢复后的目标位姿为[7.313459458748234, 2.0988113404423916, 0.8012844308118927, -0.5000005615720113, -0.49999938835306174, 0.49999771420421835, 0.500002335859338]。1秒后诊断显示bearing_support_contact为true，静止z约为0.8012843173；这支持其当前由餐桌承托的场景恢复事实。&quot;,
+      &quot;grasp_status&quot;: &quot;未验证抓取。诊断明确标记not_grasp_success为true，不能据此推断任何末端执行器已接触、可达或能够稳定抓取。&quot;,
+      &quot;local_geometry&quot;: &quot;目标位于餐桌AABB范围内但靠近世界坐标的西北侧：餐桌x范围约为[7.1866, 8.1811]、y范围约为[0.8154, 2.2881]，目标距西侧边界约0.127、距北侧边界约0.189。近景显示其附近存在较大的白色容器及其他餐具/器皿；精确间隙、碰撞裕量和目标自身尺寸未知。&quot;,
+      &quot;uncertainties&quot;: [
+        &quot;未知杯子的精确碰撞网格、口沿/把手几何及可抓取区域。&quot;,
+        &quot;未知周围物体与杯子之间的实际三维净空。&quot;,
+        &quot;未知机器人手臂关节限位、逆运动学解、碰撞检测结果和夹爪闭合可行性。&quot;
+      ]
+    },
+    &quot;tabletop_assessment&quot;: {
+      &quot;support_parent&quot;: &quot;diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2&quot;,
+      &quot;support_category&quot;: &quot;DiningTable&quot;,
+      &quot;support_AABB_center&quot;: [
+        7.6838642978074185,
+        1.5517399999999997,
+        0.37516905
+      ],
+      &quot;support_AABB_size&quot;: [
+        0.9944734043851629,
+        1.4727279999999998,
+        0.7503361
+      ],
+      &quot;restoration_status&quot;: &quot;all_object_poses_restored为true，已恢复对象数为35，另有3个新增对象。该信息仅说明场景状态恢复，不构成导航、避障、接近或抓取成功证明。&quot;,
+      &quot;surface_assessment&quot;: &quot;目标的z高度略高于餐桌AABB顶部估计值（约0.7503），且支持接触诊断为true，符合杯子放置于桌面的已恢复事实。目标位于桌面西北近边缘区域，取放时可能缺少部分侧向操作裕量；是否足以安全操作未知。&quot;,
+      &quot;clutter_assessment&quot;: &quot;俯视图与机器人视图均显示桌面上有多个器皿、食物/容器及餐具。目标附近可见大型白色容器，桌面其他区域也有物品。具体物体高度、可移动性、碰撞体和净空未知。&quot;
+    },
+    &quot;side_recommendations&quot;: {
+      &quot;north&quot;: {
+        &quot;recommendation&quot;: &quot;作为优先审阅方向之一，但仅为未验证接近建议。&quot;,
+        &quot;reason&quot;: &quot;目标位于餐桌北侧边缘附近，机器人初始基座也位于目标以北约0.61个世界y单位处，表观上不必绕过整张桌面。风险是北侧边缘距离目标约0.189，末端从北侧进入时的桌沿、目标近边缘位置及局部物体干涉均未验证。&quot;
+      },
+      &quot;south&quot;: {
+        &quot;recommendation&quot;: &quot;不建议作为首选；仅可作为需要进一步规划时的未验证备选。&quot;,
+        &quot;reason&quot;: &quot;从南侧接近通常需要跨越或绕行至餐桌对侧，且桌面中央和南侧可见多个物品。该路径可能增加基座绕行和手臂越过桌面的需求，但实际通道、可达性和碰撞情况未知。&quot;
+      },
+      &quot;east&quot;: {
+        &quot;recommendation&quot;: &quot;不建议作为首选；仅为未验证备选。&quot;,
+        &quot;reason&quot;: &quot;目标位于桌面西侧附近，从东侧操作需要横跨较大桌面宽度。俯视图显示桌面中部与东部存在多个物品，可能造成末端路径遮挡或碰撞风险；是否存在无碰撞通道未知。&quot;
+      },
+      &quot;west&quot;: {
+        &quot;recommendation&quot;: &quot;谨慎考虑，不建议优先于北侧；仅为未验证建议。&quot;,
+        &quot;reason&quot;: &quot;目标距餐桌西边缘约0.127，理论上可从临近侧接近，但其西侧在图中靠近机器人初始位置、餐桌边缘以及相邻家具/区域。近边缘布局可能限制机器人基座和手臂的摆放空间，具体可通行宽度未知。&quot;
+      }
+    },
+    &quot;detour_risks&quot;: [
+      {
+        &quot;risk&quot;: &quot;餐桌周围局部通道受限&quot;,
+        &quot;detail&quot;: &quot;机器人初始位置贴近餐桌西北区域；图像中西侧邻接深色家具/墙体区域，北侧也有桌椅或其他家具。它们的精确碰撞边界、走廊宽度及可绕行空间未知。&quot;
+      },
+      {
+        &quot;risk&quot;: &quot;桌面杂物干涉&quot;,
+        &quot;detail&quot;: &quot;目标周边及桌面中部存在容器、餐具和其他物体。任何跨桌或横向末端绕行都可能遇到未量化的碰撞或遮挡。&quot;
+      },
+      {
+        &quot;risk&quot;: &quot;目标近桌边&quot;,
+        &quot;detail&quot;: &quot;目标靠近餐桌西北边缘。若接近方向、夹爪姿态或接触过程控制不当，存在碰触桌沿或使目标靠近边缘失稳的未验证风险。&quot;
+      },
+      {
+        &quot;risk&quot;: &quot;感知与执行状态不等价&quot;,
+        &quot;detail&quot;: &quot;目标在多视角中可见且场景已恢复，但视觉可见性不证明机器人导航可行、手臂可达、夹爪可闭合或抓取稳定。&quot;
+      }
+    ],
+    &quot;recommendation&quot;: &quot;review&quot;,
+    &quot;human_questions&quot;: [
+      &quot;是否允许优先评估机器人当前北侧位置附近的局部接近，而不是要求绕行至其他桌侧？&quot;,
+      &quot;是否有杯子尺寸、碰撞体、允许抓取方式或夹爪接触限制的额外信息？当前未知。&quot;,
+      &quot;是否可提供餐桌周边家具、椅子及墙体的导航碰撞图或可通行宽度？当前未知。&quot;,
+      &quot;是否需要避免接触或移动目标邻近的大型白色容器及桌面其他物品？&quot;,
+      &quot;是否存在任务规定的抓取手、目标抓取姿态或放置要求？当前未知。&quot;
+    ]
+  }
+}</pre></section><section><h2>人工决定</h2><label>审阅者 <input id="reviewer" placeholder="你的名字"></label><label><input type="checkbox" id="target_correct"> 目标实例正确</label><label><input type="checkbox" id="is_tabletop"> 确实是桌面支撑</label><div class="checks">可操作桌边：<label><input type="checkbox" name="side" value="north">north</label><label><input type="checkbox" name="side" value="south">south</label><label><input type="checkbox" name="side" value="east">east</label><label><input type="checkbox" name="side" value="west">west</label></div><label>保留类型 <select id="type"><option value="case1_distance">Case 1 距离型</option><option value="reject">不保留/换场景</option></select></label><label>说明<textarea id="notes" placeholder="指出窄通道、可绕行边、希望调整的位置等"></textarea></label><button onclick="submitReview('approved')">批准</button><button onclick="submitReview('rejected')">拒绝/换场景</button><button onclick="downloadReview()">下载人工确认 JSON（离线）</button><pre id="result"></pre></section><script>function data(decision){return {case_id:"case1-cup-001",review_packet_sha256:"fc873bbf5d0e33ff619366a41579a57a7cb064b896ec0af8842913f647e57c1e",decision,reviewer:document.getElementById('reviewer').value,target_correct:document.getElementById('target_correct').checked,is_tabletop:document.getElementById('is_tabletop').checked,suitable_sides:[...document.querySelectorAll('input[name=side]:checked')].map(x=>x.value),retain_case_type:document.getElementById('type').value,notes:document.getElementById('notes').value}}async function submitReview(decision){try{if(location.protocol==='file:')throw new Error('离线打开请下载 JSON，再用 lastmile approve 导入；在线请启动 serve-review');let r=await fetch('/api/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data(decision))});let x=await r.json();document.getElementById('result').textContent=JSON.stringify(x,null,2);if(!r.ok)throw new Error(x.error)}catch(e){document.getElementById('result').textContent=e.message}}function downloadReview(){let d=data(document.getElementById('type').value==='reject'?'rejected':'approved');let u=URL.createObjectURL(new Blob([JSON.stringify(d,null,2)],{type:'application/json'}));let a=document.createElement('a');a.href=u;a.download="case1-cup-001"+'-human-review.json';a.click();URL.revokeObjectURL(u)} </script></html>

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "case_id": "case1-cup-001",
+  "case_type": "case1_distance",
+  "created_at_utc": "2026-10-01T13:28:35.336671+00:00",
+  "stages": {
+    "01_restore_review": {
+      "status": "approved",
+      "restore_complete": true,
+      "review_card_complete": true,
+      "human_approved": true,
+      "review_packet_sha256": "fc873bbf5d0e33ff619366a41579a57a7cb064b896ec0af8842913f647e57c1e"
+    },
+    "02_stable_grasp": {
+      "status": "verified",
+      "physics_verified": true
+    },
+    "03_station_map": {
+      "status": "not_run"
+    },
+    "04_construct_start": {
+      "status": "not_run"
+    },
+    "05_closed_loop": {
+      "status": "not_run"
+    },
+    "06_export_case": {
+      "status": "not_run"
+    }
+  },
+  "updated_at_utc": "2026-10-01T13:53:40.345379+00:00"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "superseded_diagnostic_only",
+  "reason": "distance-only contact sampler; replaced by E012 force-aware-v2 under shared pre-registered admission protocol",
+  "admission_eligible": false
+}

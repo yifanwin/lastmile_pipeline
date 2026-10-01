@@ -1,0 +1,56 @@
+{
+  "status": "verified",
+  "physics_verified": true,
+  "point_name": "A",
+  "point_semantics": "initial_success_station_not_failure_start",
+  "base": [
+    7.183716297149658,
+    2.70900559425354,
+    -1.7024431228637695
+  ],
+  "asset_id": "Cup_30",
+  "source_index": 14,
+  "side": "left",
+  "h": 0.738,
+  "grasp_ids": [
+    794
+  ],
+  "historical_stability": {
+    "asset_id": "Cup_30",
+    "mode": "ordinary",
+    "status": "admitted",
+    "nominal_successes": 5,
+    "nominal_trials": 5,
+    "perturbed_successes": 20,
+    "perturbed_trials": 20,
+    "reason": null,
+    "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41"
+  },
+  "fresh_A_witness": {
+    "source_index": 14,
+    "side": "left",
+    "h": 0.738,
+    "seed": 0,
+    "grasp_id": 794,
+    "status": "verified_success",
+    "reason": "strict_pick",
+    "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "attempts": [],
+    "planner_world": "actual collision geom mesh",
+    "grasp_row_ids": [
+      794
+    ],
+    "time_dilation_factor": 0.25,
+    "approach_overshoot_m": 0.01,
+    "adjustment_samples": 7640
+  },
+  "fresh_successes": 1,
+  "fresh_trials": 1,
+  "historical_counts_are_not_new_runs": true,
+  "human_approved": true,
+  "scope": "A 点抓取；未验证其他站位、导航或 Case 1 完整闭环",
+  "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+  "completed_at_utc": "2026-10-01T13:31:22.537431+00:00",
+  "fresh_trace_sha256": "3584c4d24ff9a93b796e184036b4128c801f72ea7901607f728c0270fddab55a"
+}

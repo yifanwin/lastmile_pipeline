@@ -1,0 +1,153 @@
+{
+  "results": [
+    {
+      "source_index": 1949,
+      "side": "right",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 600,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 291,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 395,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 616,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 827,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 253,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 853,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 211,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 379,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 510,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 998,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 568,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 167,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 58,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 180,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 466,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 367,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 137,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 770,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 713,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 921,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 559,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "lift_contact_hold_or_slip"
+        }
+      ],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        291,
+        559,
+        395,
+        616,
+        600,
+        28,
+        827,
+        253,
+        853,
+        211,
+        379,
+        628,
+        510,
+        998,
+        568,
+        167,
+        58,
+        180,
+        466,
+        367,
+        137,
+        770,
+        713,
+        921
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    }
+  ]
+}

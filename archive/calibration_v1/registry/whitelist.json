@@ -1,0 +1,36 @@
+{
+  "status": "physical_admissions_present",
+  "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+  "assets": [
+    {
+      "asset_id": "Cup_30",
+      "mode": "ordinary",
+      "status": "admitted",
+      "nominal_successes": 5,
+      "nominal_trials": 5,
+      "perturbed_successes": 20,
+      "perturbed_trials": 20,
+      "reason": null,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "grasp_ids": [
+        794
+      ],
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "selection_protocol_sha256": "6a8f7183c6df0e0667c6790e995c8146f327d7ff8cd98fd909215a92e93a87fc",
+      "evidence_reports": [
+        "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/reports/E013-cup-admission-nominal.json",
+        "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/reports/E012-cup-admission-perturbed.json"
+      ],
+      "scope": "only this asset/grasp and tested station error distribution; not other scenes or navigation",
+      "asset_xml_sha256": "9c863e44d916508b7fb60c6a61b336c2bf9dfe8868b97c33f27c736124e581c9",
+      "grasp_sha256": "e28584580e9ec2c9ff4d42d1fae0cd9da8be0cdc60889dcf0a2bbc9f875e79e3",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "episode_sha256": "bc4e24420fd5ab2d619b2132b45ef8b850bff38494c43e91ad6fd1577983fbb5",
+      "compiled_model_sha256": "0933778a875194388da016ff90fdd70b7c0602a13dfcab16b3312f0a0d5b6b19",
+      "contact_sampler_version": "force-aware-v2"
+    }
+  ],
+  "note": "静态合法 grasp 不等于物理稳定；未测试不能标为拒绝或不可达"
+}

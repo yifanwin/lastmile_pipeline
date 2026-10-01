@@ -1,0 +1,15 @@
+{
+  "version": "lastmile-rby1-pick-v1",
+  "status": "candidate_thresholds_not_physically_calibrated",
+  "action_order": [["base",3],["left_arm",7],["left_gripper",1],["right_arm",7],["right_gripper",1],["torso",1]],
+  "command_mode": {"base":"holo_joint_rel_planar_position","arm":"joint_rel_position","gripper":"joint_position","torso":"height","head":null},
+  "h_range": [0.0,0.738],
+  "h_candidates": [0.0,0.1845,0.369,0.5535,0.738],
+  "thresholds": {"lift_m":0.05,"hold_s":2.0,"base_translation_m":0.002,"base_yaw_rad":0.003490658503988659,"torso_error_rad":0.002,"head_error_rad":0.002,"idle_arm_error_rad":0.002,"relative_translation_m":0.01,"relative_rotation_rad":0.08726646259971647,"upright_rad":0.17453292519943295,"max_sample_gap_s":0.0041},
+  "budget": {"arms":["left","right"],"max_grasps_per_arm_height":24,"num_ik_seeds":64,"num_trajopt_seeds":4,"max_attempts":5,"seeds":[0,1,2,3,4]},
+  "admission": {"nominal_trials":5,"nominal_successes":5,"perturbed_trials":20,"perturbed_successes":19},
+  "perturbations": {"base_xy_m":0.01,"base_yaw_rad":0.03490658503988659},
+  "contents_simulated": false,
+  "unfiltered_grasp_fallback": false,
+  "physics_weld": false
+}

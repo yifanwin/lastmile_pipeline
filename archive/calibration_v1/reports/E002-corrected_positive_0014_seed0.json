@@ -1,0 +1,1604 @@
+{
+  "results": [
+    {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.0,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 212,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 777,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 92,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 369,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 741,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 55,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 399,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 419,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 947,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 576,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 113,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 748,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 580,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 986,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 593,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 757,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 589,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 35,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 49,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 463,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 444,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 190,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 726,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        794,
+        212,
+        777,
+        92,
+        369,
+        741,
+        55,
+        399,
+        419,
+        947,
+        576,
+        113,
+        748,
+        580,
+        986,
+        593,
+        757,
+        589,
+        35,
+        49,
+        463,
+        444,
+        190,
+        726
+      ],
+      "adjustment_samples": 260
+    },
+    {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.0,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 351,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 80,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 16,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 682,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 635,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 315,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 370,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 415,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 440,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 272,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 533,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 884,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 584,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 436,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 859,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 568,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 198,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 328,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 955,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 9,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 586,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 816,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 556,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 689,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        351,
+        80,
+        16,
+        682,
+        635,
+        315,
+        370,
+        415,
+        440,
+        272,
+        533,
+        884,
+        584,
+        436,
+        859,
+        568,
+        198,
+        328,
+        955,
+        9,
+        586,
+        816,
+        556,
+        689
+      ],
+      "adjustment_samples": 260
+    },
+    {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.1845,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 212,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 777,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 92,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 369,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 741,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 55,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 399,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 419,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 947,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 576,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 113,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 748,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 580,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 986,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 593,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 35,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 589,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 757,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 49,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 463,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 444,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 190,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 920,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        794,
+        212,
+        777,
+        92,
+        369,
+        741,
+        55,
+        399,
+        419,
+        947,
+        576,
+        113,
+        748,
+        580,
+        986,
+        593,
+        35,
+        589,
+        757,
+        49,
+        463,
+        444,
+        190,
+        920
+      ],
+      "adjustment_samples": 2100
+    },
+    {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.1845,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 351,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 80,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 16,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 682,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 635,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 315,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 370,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 415,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 440,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 272,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 533,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 884,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 584,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 436,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 859,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 568,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 198,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 328,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 955,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 816,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 586,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 9,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 556,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 144,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        351,
+        80,
+        16,
+        682,
+        635,
+        315,
+        370,
+        415,
+        440,
+        272,
+        533,
+        884,
+        584,
+        436,
+        859,
+        568,
+        198,
+        328,
+        955,
+        816,
+        586,
+        9,
+        556,
+        144
+      ],
+      "adjustment_samples": 2100
+    },
+    {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.369,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 212,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 777,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 92,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 369,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 741,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 55,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 399,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 419,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 947,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 576,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 113,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 748,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 580,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 986,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 35,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 593,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 589,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 49,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 757,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 463,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 920,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 444,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 190,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        794,
+        212,
+        777,
+        92,
+        369,
+        741,
+        55,
+        399,
+        419,
+        947,
+        576,
+        113,
+        748,
+        580,
+        986,
+        35,
+        593,
+        589,
+        49,
+        757,
+        463,
+        920,
+        444,
+        190
+      ],
+      "adjustment_samples": 3950
+    },
+    {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.369,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 351,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 80,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 16,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 682,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 635,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 315,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 370,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 415,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 440,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 533,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 272,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 884,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 584,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 436,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 859,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 568,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 198,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 816,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 955,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 328,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 586,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 556,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 144,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 9,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        351,
+        80,
+        16,
+        682,
+        635,
+        315,
+        370,
+        415,
+        440,
+        533,
+        272,
+        884,
+        584,
+        436,
+        859,
+        568,
+        198,
+        816,
+        955,
+        328,
+        586,
+        556,
+        144,
+        9
+      ],
+      "adjustment_samples": 3950
+    },
+    {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.5535,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 212,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 777,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 92,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 369,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 741,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 55,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 399,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 947,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 419,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 576,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 113,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 580,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 748,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 986,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 35,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 589,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 593,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 49,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 757,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 920,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 444,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 463,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 23,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        794,
+        212,
+        777,
+        92,
+        369,
+        741,
+        55,
+        399,
+        947,
+        419,
+        576,
+        113,
+        580,
+        748,
+        986,
+        35,
+        589,
+        593,
+        49,
+        757,
+        920,
+        444,
+        463,
+        23
+      ],
+      "adjustment_samples": 5790
+    },
+    {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.5535,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 351,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 80,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 16,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 682,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 635,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 315,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 370,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 415,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 533,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 440,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 884,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 272,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 584,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 816,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 955,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 436,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 859,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 568,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 198,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 328,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 144,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 586,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 556,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 782,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        351,
+        80,
+        16,
+        682,
+        635,
+        315,
+        370,
+        415,
+        533,
+        440,
+        884,
+        272,
+        584,
+        816,
+        955,
+        436,
+        859,
+        568,
+        198,
+        328,
+        144,
+        586,
+        556,
+        782
+      ],
+      "adjustment_samples": 5790
+    },
+    {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 212,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 777,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 92,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 369,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 741,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 55,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 399,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 947,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 576,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 419,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 113,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 580,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 748,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 35,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 986,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 589,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 920,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 49,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 593,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 757,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 23,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 444,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 451,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        794,
+        212,
+        777,
+        92,
+        369,
+        741,
+        55,
+        399,
+        947,
+        576,
+        419,
+        113,
+        580,
+        748,
+        35,
+        986,
+        589,
+        920,
+        49,
+        593,
+        757,
+        23,
+        444,
+        451
+      ],
+      "adjustment_samples": 7640
+    },
+    {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.738,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 351,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 80,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 16,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 682,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 635,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 415,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 370,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 533,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 440,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 315,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 884,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 584,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 816,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 272,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 955,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 328,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 568,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 859,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 144,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 198,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 436,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 556,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 586,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        },
+        {
+          "grasp_id": 782,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "local root-body AABB conservative approximation",
+      "grasp_row_ids": [
+        351,
+        80,
+        16,
+        682,
+        635,
+        415,
+        370,
+        533,
+        440,
+        315,
+        884,
+        584,
+        816,
+        272,
+        955,
+        328,
+        568,
+        859,
+        144,
+        198,
+        436,
+        556,
+        586,
+        782
+      ],
+      "adjustment_samples": 7640
+    }
+  ]
+}

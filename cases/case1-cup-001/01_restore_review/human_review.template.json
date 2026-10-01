@@ -1,0 +1,11 @@
+{
+  "case_id": "case1-cup-001",
+  "review_packet_sha256": "fc873bbf5d0e33ff619366a41579a57a7cb064b896ec0af8842913f647e57c1e",
+  "decision": "pending",
+  "reviewer": "",
+  "target_correct": null,
+  "is_tabletop": null,
+  "suitable_sides": [],
+  "retain_case_type": "case1_distance",
+  "notes": ""
+}

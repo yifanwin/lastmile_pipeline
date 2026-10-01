@@ -1,0 +1,11 @@
+{
+ "status":"draft_not_active_or_human_confirmed",
+ "frame":"asset root local frame, same as grasp NPZ",
+ "allowed_regions":[],
+ "forbidden_regions":[],
+ "local_cup_up_axis":null,
+ "contact_tolerance_m":0.001,
+ "max_pregrasp_translation_m":0.002,
+ "max_pregrasp_rotation_rad":0.03490658503988659,
+ "requirements":["both selected fingers contact confirmed handle regions","no selected finger supports against cup body or rim","unknown and overlapping boundary contacts fail closed","no target pushing/rotation before bilateral handle grasp"]
+}

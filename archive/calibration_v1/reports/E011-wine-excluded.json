@@ -1,0 +1,8 @@
+{
+  "source_index": 1916,
+  "status": "infrastructure_error",
+  "reason": "source_scene_missing_restore_body",
+  "missing_body": "newspaper_618f7f987a4592f5d0749b387fe03da3_1_0_3",
+  "count_in_asset_denominator": false,
+  "decision": "do not skip absent furniture/object; switch to a source-compatible Wine_Bottle_1 episode after preflight"
+}

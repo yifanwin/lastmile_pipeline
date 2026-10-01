@@ -1,0 +1,13 @@
+{
+  "source_trace": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E009-cup-force-aware/nominal_00.json",
+  "lift_final_m": 0.11514395159478608,
+  "lift_max_m": 0.11532506210475468,
+  "base_translation_max_m": 9.481322662755746e-05,
+  "base_yaw_max_deg": 0.005516897109954963,
+  "torso_command_error_max_rad": 0.00026384129021794767,
+  "final_continuous_bilateral_no_support_lift_s": 2.9919999999983418,
+  "illegal_sample_count": 0,
+  "physics_samples": 2500,
+  "sample_dt_s": 0.004,
+  "note": "hold diagnostic does not replace full relative-slip and protocol validator"
+}

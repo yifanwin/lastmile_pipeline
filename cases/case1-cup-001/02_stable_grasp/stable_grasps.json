@@ -1,0 +1,15 @@
+{
+  "asset_id": "Cup_30",
+  "side": "left",
+  "h": 0.738,
+  "grasp_ids": [
+    794
+  ],
+  "base": [
+    7.183716297149658,
+    2.70900559425354,
+    -1.7024431228637695
+  ],
+  "physics_verified": true,
+  "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41"
+}

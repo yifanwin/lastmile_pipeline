@@ -1,0 +1,166 @@
+{
+  "verdict": {
+    "asset_id": "Cup_30",
+    "mode": "ordinary",
+    "status": "admitted",
+    "nominal_successes": 5,
+    "nominal_trials": 5,
+    "perturbed_successes": 20,
+    "perturbed_trials": 20,
+    "reason": null,
+    "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41"
+  },
+  "traces": [
+    {
+      "trial_id": "E013-cup-admission-nominal-nominal-00",
+      "trace_path": "archive/calibration_v1/runs/repeats/E013-cup-admission-nominal/nominal_00.json",
+      "trace_sha256": "2c3f1c05fe4fef03431f83a6ddfc9a1efaa68013576c4caef940147197863827",
+      "kind": "nominal"
+    },
+    {
+      "trial_id": "E013-cup-admission-nominal-nominal-01",
+      "trace_path": "archive/calibration_v1/runs/repeats/E013-cup-admission-nominal/nominal_01.json",
+      "trace_sha256": "2c3f1c05fe4fef03431f83a6ddfc9a1efaa68013576c4caef940147197863827",
+      "kind": "nominal"
+    },
+    {
+      "trial_id": "E013-cup-admission-nominal-nominal-02",
+      "trace_path": "archive/calibration_v1/runs/repeats/E013-cup-admission-nominal/nominal_02.json",
+      "trace_sha256": "2c3f1c05fe4fef03431f83a6ddfc9a1efaa68013576c4caef940147197863827",
+      "kind": "nominal"
+    },
+    {
+      "trial_id": "E013-cup-admission-nominal-nominal-03",
+      "trace_path": "archive/calibration_v1/runs/repeats/E013-cup-admission-nominal/nominal_03.json",
+      "trace_sha256": "2c3f1c05fe4fef03431f83a6ddfc9a1efaa68013576c4caef940147197863827",
+      "kind": "nominal"
+    },
+    {
+      "trial_id": "E013-cup-admission-nominal-nominal-04",
+      "trace_path": "archive/calibration_v1/runs/repeats/E013-cup-admission-nominal/nominal_04.json",
+      "trace_sha256": "2c3f1c05fe4fef03431f83a6ddfc9a1efaa68013576c4caef940147197863827",
+      "kind": "nominal"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-00",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_00/grasp_0794_trace.json",
+      "trace_sha256": "c824715cefd3f86df9b5ef7e51d4a32408328800e4840533bc7eb434bb535a25",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-01",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_01/grasp_0794_trace.json",
+      "trace_sha256": "6133ff8ae32c2acd003b6e13ce271a01f1da8c9691ac25db3bb8a2ebb6bd4189",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-02",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_02/grasp_0794_trace.json",
+      "trace_sha256": "9f53fe0544f0ce9bd6c4f0c7beffc110dc50dfc2ec2b41afa4c465c4580b7290",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-03",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_03/grasp_0794_trace.json",
+      "trace_sha256": "6bd686f11a830e67c4eac2eed2157c9436dbb2c2886bf4c56b8897ed796e4591",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-04",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_04/grasp_0794_trace.json",
+      "trace_sha256": "2f69a6ab9e2497b277cb06cfaf9fc8a2f2db5134d93fa06d3525dfa4f5d8a50e",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-05",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_05/grasp_0794_trace.json",
+      "trace_sha256": "91f71775d4813650ad874c3f0c24c2ac00420a821c0a0443c1102cf57c8f37f0",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-06",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_06/grasp_0794_trace.json",
+      "trace_sha256": "144c4874e2e616e46c43e78ca93154c53899f1fdcdcffaa72ff1e8e2149040e1",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-07",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_07/grasp_0794_trace.json",
+      "trace_sha256": "3624c8297ab61652b696b0b995c5f1b81b04fc5e40a3c5542f81c1b1086af317",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-08",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_08/grasp_0794_trace.json",
+      "trace_sha256": "8782f5e19d5b290915686687f838deaeb213f2d3ea68c3d2b722ec9d986cf6da",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-09",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_09/grasp_0794_trace.json",
+      "trace_sha256": "ab8f929c6797d2003abae453ec6700d72b69e2db92ce7e6ebdc6f6e234db4ac7",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-10",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_10/grasp_0794_trace.json",
+      "trace_sha256": "a03061b800c41ddb72c0054c35446c10ebe38151f4ae6be99d7e6623ad530f86",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-11",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_11/grasp_0794_trace.json",
+      "trace_sha256": "c0cf3ecf10178de46af82fbfb72a4231294ea7dc995246b106c291c44fd8432b",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-12",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_12/grasp_0794_trace.json",
+      "trace_sha256": "94c13e6fb57ea394d1da9db5c21c0bd76cc21df9fd379f25b58a984de842e823",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-13",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_13/grasp_0794_trace.json",
+      "trace_sha256": "366630a36fc5a2571d7f89390fdf0e7f682855ff292883bcb51b0b3f67508c66",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-14",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_14/grasp_0794_trace.json",
+      "trace_sha256": "3b2a4986b60a580eab14b376f6b540ad4fcfbd6ec33a6be729545cbd92d0cf9d",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-15",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_15/grasp_0794_trace.json",
+      "trace_sha256": "d926ecd1bdfbad2599761af3d8e30e201208d42a4cd972fb3959508d5ab72d71",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-16",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_16/grasp_0794_trace.json",
+      "trace_sha256": "81a1685bbdd4ecdfa64650ff71ad8b9b91aa8bfcac3779a34cb2c073ca41ef6b",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-17",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_17/grasp_0794_trace.json",
+      "trace_sha256": "bb4d55578769c071955d665016d2f67b2eebd61df413660bd0608c29c801e714",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-18",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_18/grasp_0794_trace.json",
+      "trace_sha256": "2e105285f71e0e15226e1f2cd0cf614e258f4f55b482e5135b3423945b18d829",
+      "kind": "perturbed"
+    },
+    {
+      "trial_id": "E012-cup-admission-perturbed-perturbed-19",
+      "trace_path": "archive/calibration_v1/runs/repeats/E012-cup-admission-perturbed/perturbed_19/grasp_0794_trace.json",
+      "trace_sha256": "c332935802ad85ce0d0c4fbb6852562efe57877ad0b5e32d16ac6811f95bdb3c",
+      "kind": "perturbed"
+    }
+  ],
+  "revalidated_at_utc": "2026-10-01T13:29:38.423706+00:00"
+}

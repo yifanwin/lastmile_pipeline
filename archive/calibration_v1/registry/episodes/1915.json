@@ -1,0 +1,511 @@
+{
+  "source": {
+    "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_95/trajectories_batch_6_of_25.h5",
+    "traj_key": "traj_0",
+    "episode_length": 213,
+    "camera_system_class": "RBY1MjcfCameraSystem",
+    "source_data_date": "2026-02-06",
+    "benchmark_created_date": "2026-02-09"
+  },
+  "house_index": 95,
+  "scene_dataset": "procthor-10k",
+  "data_split": "val",
+  "seed": null,
+  "robot": {
+    "robot_name": "rby1m",
+    "init_qpos": {
+      "base": [
+        4.213425159454346,
+        2.8024768829345703,
+        -1.0234278440475464
+      ],
+      "torso": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "left_arm": [
+        0.5,
+        0.0,
+        0.0,
+        -2.299999952316284,
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "right_arm": [
+        0.5,
+        0.0,
+        0.0,
+        -2.299999952316284,
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "left_gripper": [
+        -0.05000000074505806,
+        0.05000000074505806
+      ],
+      "right_gripper": [
+        -0.05000000074505806,
+        0.05000000074505806
+      ],
+      "head": [
+        0.08440768718719482,
+        0.4732207655906677
+      ]
+    }
+  },
+  "img_resolution": [
+    640,
+    480
+  ],
+  "cameras": [
+    {
+      "name": "head_camera",
+      "type": "robot_mounted",
+      "reference_body_names": [
+        "robot_0/link_head_2"
+      ],
+      "camera_offset": [
+        0.05000000074505806,
+        0.0,
+        0.05000000074505806
+      ],
+      "lookat_offset": [
+        0.0,
+        0.0,
+        0.07999999821186066
+      ],
+      "camera_quaternion": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "fov": 139.0,
+      "record_depth": false
+    },
+    {
+      "name": "wrist_camera_l",
+      "type": "robot_mounted",
+      "reference_body_names": [
+        "robot_0/link_left_arm_6"
+      ],
+      "camera_offset": [
+        0.0,
+        -0.10000000149011612,
+        -0.15000000596046448
+      ],
+      "lookat_offset": [
+        0.0,
+        0.0,
+        0.07999999821186066
+      ],
+      "camera_quaternion": [
+        0.0,
+        0.0,
+        -0.25881895422935486,
+        0.9659258723258972
+      ],
+      "fov": 45.0,
+      "record_depth": false
+    },
+    {
+      "name": "wrist_camera_r",
+      "type": "robot_mounted",
+      "reference_body_names": [
+        "robot_0/link_right_arm_6"
+      ],
+      "camera_offset": [
+        0.0,
+        0.10000000149011612,
+        -0.15000000596046448
+      ],
+      "lookat_offset": [
+        0.0,
+        0.0,
+        0.07999999821186066
+      ],
+      "camera_quaternion": [
+        0.9659258723258972,
+        -0.25881895422935486,
+        0.0,
+        0.0
+      ],
+      "fov": 45.0,
+      "record_depth": false
+    },
+    {
+      "name": "camera_follower",
+      "type": "robot_mounted",
+      "reference_body_names": [
+        "robot_0/base"
+      ],
+      "camera_offset": [
+        -1.2999999523162842,
+        0.0,
+        2.700000047683716
+      ],
+      "lookat_offset": [
+        0.0,
+        0.0,
+        0.07999999821186066
+      ],
+      "camera_quaternion": [
+        0.6532880067825317,
+        0.27058228850364685,
+        -0.27058228850364685,
+        -0.6532880067825317
+      ],
+      "fov": 45.0,
+      "record_depth": false
+    }
+  ],
+  "scene_modifications": {
+    "added_objects": {
+      "place_receptacle/0_0/936714802d2849bea3efb1eb5c83cee6": "objects/objaverse/936714802d2849bea3efb1eb5c83cee6/936714802d2849bea3efb1eb5c83cee6.xml",
+      "place_receptacle/1_0/1bac786df9e446a795e442a83f49056a": "objects/objaverse/1bac786df9e446a795e442a83f49056a/1bac786df9e446a795e442a83f49056a.xml",
+      "place_receptacle/2_0/1e4b75a1bb484c42b99fcd3ddf23ae9f": "objects/objaverse/1e4b75a1bb484c42b99fcd3ddf23ae9f/1e4b75a1bb484c42b99fcd3ddf23ae9f.xml"
+    },
+    "object_poses": {
+      "soapdispenser_3034d0f5427a5be111e3fa83db2dc2a4_1_0_2": [
+        5.725290400885567,
+        7.806424718729676,
+        1.0849216246254643,
+        0.7074968728575342,
+        0.7067163657045588,
+        0.00022767194694080505,
+        0.00031860262900981247
+      ],
+      "papertowel_8c3d7f3c8d8e3b95ccf7fae0c1cac322_1_0_2": [
+        5.816351871954768,
+        7.054902423043271,
+        1.046962633487559,
+        0.7067853383693623,
+        0.7074265359494484,
+        -0.0010231430789790041,
+        0.00106530695568385
+      ],
+      "houseplant_c4d9cf2f1a22d0f04c91aa312ed8847a_1_0_2": [
+        3.550247979800405,
+        0.3144162982575011,
+        0.41298058837937,
+        0.5755201740727729,
+        0.575517747408712,
+        0.4108246674961982,
+        0.410827146412558
+      ],
+      "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_2": [
+        4.5621656197516325,
+        2.250725233282635,
+        0.9159380033760485,
+        0.49975728571629013,
+        0.5001214368626958,
+        0.5001949775617968,
+        0.49992618273684425
+      ],
+      "cup_00f92997b25a123a9fc9dcf350627c1e_1_0_2": [
+        4.808883720418686,
+        1.8860301519905396,
+        0.8232517108547559,
+        0.5000229718445949,
+        0.4999771547188,
+        0.49997817924056687,
+        0.5000216921997286
+      ],
+      "pot_811f072cf19900b4e135f7de5cb90e81_1_0_2": [
+        5.0563496951324005,
+        2.1746979914542353,
+        0.8355490079049578,
+        0.7071509724023338,
+        0.7070621663805806,
+        -0.0005359978956146438,
+        0.0005548061733506107
+      ],
+      "atomizer_f2c2791e460c41f03b6d3f28fbad8f2c_1_0_2": [
+        6.229971400847817,
+        4.701386599131926,
+        0.18080103730976912,
+        0.4998063874629224,
+        0.5001895817531298,
+        -0.5001034287113265,
+        -0.4999005080494191
+      ],
+      "ashcan_c6c85e44c01b199881223a6a35b693a4_1_0_2": [
+        6.351979979541313,
+        3.5886503006281956,
+        0.21540642647761588,
+        -0.5000003251998516,
+        -0.49999967480669144,
+        0.5000003726855585,
+        0.4999996273074093
+      ],
+      "houseplant_2b4f762bb078335eb5fd1385018f7fe6_1_0_3": [
+        0.3791309864045294,
+        4.504019269007202,
+        1.1089516977718499,
+        0.49999945932331596,
+        0.5000005960328888,
+        0.49999940396736225,
+        0.5000005406751376
+      ],
+      "pillow_874c097332ffacf84f31fb77733db15c_1_0_3": [
+        1.7337410137131586,
+        0.5450061750969369,
+        0.5547026181472491,
+        0.4000423216740893,
+        0.4076923643748382,
+        0.5888985488399999,
+        0.571796796138454
+      ],
+      "box_4ab2cc42c0121e89202b9f093bf6f267_1_0_3": [
+        0.1747846426757057,
+        2.798390011796098,
+        0.09108967285075739,
+        0.49999824728607106,
+        0.5000017110773081,
+        0.5000017475007908,
+        0.49999829412386615
+      ],
+      "floorlamp_c88e81ce1bcaecc19cecc8a021f49ba1_1_0_3": [
+        3.0335396939743347,
+        1.926117781025879,
+        0.8978079061286796,
+        -0.500002081555693,
+        -0.49999791843378644,
+        0.500002251993926,
+        0.49999774799778574
+      ],
+      "newspaper_618f7f987a4592f5d0749b387fe03da3_1_0_3": [
+        2.9537300297700324,
+        2.3618220372585186,
+        0.06539631931109385,
+        -0.49999915993024463,
+        -0.4999991906072274,
+        0.5000007622595282,
+        0.5000008872002709
+      ],
+      "place_receptacle/0_0/936714802d2849bea3efb1eb5c83cee6": [
+        4.0,
+        5.0,
+        15.559155961722135,
+        0.7071067811865477,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "place_receptacle/1_0/1bac786df9e446a795e442a83f49056a": [
+        4.644673181542092,
+        1.9846758209376976,
+        0.8283371063415559,
+        0.1851132524094673,
+        0.18511325240946733,
+        0.6824463962703509,
+        0.682446396270351
+      ],
+      "place_receptacle/2_0/1e4b75a1bb484c42b99fcd3ddf23ae9f": [
+        6.0,
+        5.0,
+        15.560421562045812,
+        0.7071067811865477,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "language": {
+    "task_description": "pick up the bottle and place it on the maroon box.",
+    "referral_expressions": {
+      "pickup_name": "dark green glass wine bottle",
+      "place_name": "maroon rectangular box with patterns"
+    },
+    "referral_expressions_priority": {
+      "pickup_name": [
+        [
+          0.217529296875,
+          0.346923828125,
+          "dark green wine bottle"
+        ],
+        [
+          0.2061767578125,
+          0.31982421875,
+          "dark green glass wine bottle"
+        ],
+        [
+          0.18994140625,
+          0.31103515625,
+          "green wine bottle"
+        ],
+        [
+          0.1531982421875,
+          0.326416015625,
+          "wine bottle"
+        ],
+        [
+          0.153076171875,
+          0.270263671875,
+          "green bottle"
+        ],
+        [
+          0.1488037109375,
+          0.337646484375,
+          "winebottle"
+        ],
+        [
+          0.0560302734375,
+          0.3017578125,
+          "bottle"
+        ],
+        [
+          0.0206298828125,
+          0.1864013671875,
+          "means"
+        ],
+        [
+          -0.0047607421875,
+          0.1324462890625,
+          "instrumentality"
+        ],
+        [
+          -0.027587890625,
+          0.1279296875,
+          "instrumentation"
+        ],
+        [
+          -0.0277099609375,
+          0.2283935546875,
+          "vessel"
+        ],
+        [
+          -0.058837890625,
+          0.164794921875,
+          "container"
+        ]
+      ],
+      "place_name": [
+        [
+          0.2088623046875,
+          0.357666015625,
+          "maroon rectangular box with patterns"
+        ],
+        [
+          0.1876220703125,
+          0.345947265625,
+          "maroon box with patterns"
+        ],
+        [
+          0.106201171875,
+          0.310302734375,
+          "glossy maroon box"
+        ],
+        [
+          0.0963134765625,
+          0.307861328125,
+          "maroon box"
+        ],
+        [
+          0.066162109375,
+          0.2578125,
+          "box"
+        ],
+        [
+          -0.004150390625,
+          0.219482421875,
+          "container"
+        ],
+        [
+          -0.0057373046875,
+          0.2049560546875,
+          "decorativox"
+        ],
+        [
+          -0.04779052734375,
+          0.08941650390625,
+          "instrumentality"
+        ],
+        [
+          -0.0499267578125,
+          0.1448974609375,
+          "place receptacl 0"
+        ],
+        [
+          -0.05975341796875,
+          0.09576416015625,
+          "instrumentation"
+        ],
+        [
+          -0.06170654296875,
+          0.12469482421875,
+          "means"
+        ]
+      ]
+    }
+  },
+  "task": {
+    "robot_base_pose": [
+      4.2134253947619165,
+      2.8024768903693507,
+      0.0,
+      0.8719065215389656,
+      0.0,
+      0.0,
+      -0.4896723574981758
+    ],
+    "pickup_obj_name": "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_2",
+    "pickup_obj_start_pose": [
+      4.5621656197516325,
+      2.250725233282635,
+      0.9159380033760485,
+      0.49975728571629013,
+      0.5001214368626958,
+      0.5001949775617968,
+      0.49992618273684425
+    ],
+    "task_type": "strict_pick",
+    "contents_simulated": false
+  },
+  "provenance": {
+    "source_index": 1915,
+    "role": "C1-01a",
+    "expected_house": 95,
+    "expected_asset": "Wine_Bottle_1",
+    "mode": "ordinary",
+    "asset_id": "Wine_Bottle_1",
+    "target_name": "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_2",
+    "house_index": 95,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_95/trajectories_batch_6_of_25.h5",
+      "traj_key": "traj_0",
+      "episode_length": 213,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_95.xml",
+    "scene_sha256": "fcd415cddd49ab62f30cdf707c36a377a44d17c8d17ead22197acfcf95189dbf",
+    "metadata_sha256": "5e5aa941149c4907e2614b1d4cb2ae0d5a154864eb90c594c0711981dea073b4",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      4.5621656197516325,
+      2.250725233282635,
+      0.9159380033760485,
+      0.49975728571629013,
+      0.5001214368626958,
+      0.5001949775617968,
+      0.49992618273684425
+    ],
+    "physics_status": "not_tested"
+  },
+  "modifications": [
+    "replace PnP task verdict with strict Pick; keep scene objects unchanged"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "selection": {
+    "method": "frozen control sequence; fresh independent full-state restore and physical execution",
+    "source_trace_sha256": "394dc692db45af4a8a94471e8a6f94c7085465bbe1d6d232117372a7ed09e60d",
+    "source_prefix_sha256": "66f10cdebb6b7f0bdefdf7fb3bc4df22a4d910d69f7e7039dcf32e6699987844",
+    "grasp_id": 794,
+    "source_index": 14,
+    "side": "left"
+  },
+  "trials": [
+    {
+      "trial_id": "E006-cup-nominal-nominal-00",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "3c4d01c65b5de03790211ffa0a19c9b8a07901af5be8c3666094d9750bb01b4f",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E006-cup-nominal/nominal_00.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E006-cup-nominal-nominal-01",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "3c4d01c65b5de03790211ffa0a19c9b8a07901af5be8c3666094d9750bb01b4f",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E006-cup-nominal/nominal_01.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E006-cup-nominal-nominal-02",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "3c4d01c65b5de03790211ffa0a19c9b8a07901af5be8c3666094d9750bb01b4f",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E006-cup-nominal/nominal_02.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E006-cup-nominal-nominal-03",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "3c4d01c65b5de03790211ffa0a19c9b8a07901af5be8c3666094d9750bb01b4f",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E006-cup-nominal/nominal_03.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    {
+      "trial_id": "E006-cup-nominal-nominal-04",
+      "kind": "nominal",
+      "snapshot_restored": true,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "selection_protocol_sha256": "3c4d01c65b5de03790211ffa0a19c9b8a07901af5be8c3666094d9750bb01b4f",
+      "trace_path": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/runs/repeats/E006-cup-nominal/nominal_04.json",
+      "prefix_checked": true,
+      "status": "verified_success",
+      "reason": "strict_pick"
+    }
+  ],
+  "successes": 5,
+  "note": "deterministic controller repeatability only; not perturbed or fresh planning success rate"
+}

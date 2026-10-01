@@ -1,0 +1,14 @@
+{
+  "case_id": "case1-r-001",
+  "trials": [
+    {
+      "trial_id": "E018-case1-smooth-pilot-00",
+      "trial": 0,
+      "status": "executed_failure",
+      "reason": "navigation_collision:['robot_0/base / diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_2']",
+      "partial_navigation_samples": 9036
+    }
+  ],
+  "successes": 0,
+  "expected_trials": 1
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "case1-r-001",
+  "trials": [
+    {
+      "trial_id": "E017-case1-pilot-00",
+      "trial": 0,
+      "status": "executed_failure",
+      "reason": "navigation_torso_protocol",
+      "partial_navigation_samples": 543
+    }
+  ],
+  "successes": 0,
+  "expected_trials": 1
+}

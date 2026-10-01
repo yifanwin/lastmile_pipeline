@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+cases/**/compiled_model.mjb
+cases/**/*.npz
+cases/**/trials/
+cases/**/engine_context/
+archive/calibration_v1/runs/**
+archive/calibration_v1/reports/*.log
+cases/**/fresh_A_witness/*trace.json
+reports/*.log

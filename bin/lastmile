@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+W="$(cd "$(dirname "$0")/.." && pwd)"
+GPU="${CUDA_VISIBLE_DEVICES:-5}"; GL="${MUJOCO_GL:-egl}"
+cd "$W/.."
+source molmospaces/setup_env.sh >/dev/null
+export CUDA_VISIBLE_DEVICES="$GPU" MUJOCO_EGL_DEVICE_ID="$GPU" MUJOCO_GL="$GL" MPLCONFIGDIR=/tmp/lastmile_mpl
+export PYTHONPATH="$W/src:${PYTHONPATH:-}"
+exec molmospaces/.venv/bin/python -m lastmile.workflow.cli "$@"

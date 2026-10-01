@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "case_id": "case1-cup-001",
+  "files": {
+    "historical_revalidation.json": "8eac7f43c188e18634896fb23c6ec58da9e4ebdf7c59617fd4c844a5d85a32c2",
+    "stable_grasps.json": "8df85ee3f42ec6c587ef78500fb737eda0afda8903c6c35ea062079e7a0df83c",
+    "fresh_A_witness/result.json": "0773cd85ec7474f753ba5c180202088451f9f8b8b4591ed52c2b3199a05b6fda",
+    "fresh_A_witness/grasp_0794_trace.json": "3584c4d24ff9a93b796e184036b4128c801f72ea7901607f728c0270fddab55a",
+    "fresh_A_witness/torso_adjust_trace.json": "37fc60cbfe2b9a8757eda16ffc4cf8e540b578bdeec953fab1616e23c36f7e50",
+    "fresh_A_witness/initial_snapshot.npz": "7787c82d425a9154eccc79bc62f6ad28dbd0c159924cbc81844dd8d4a648ea13",
+    "fresh_A_witness/compiled_model.mjb": "d262d0bf6775ee619d8ce976de16c75e1858a14831291a924b1aa713d771eb95"
+  },
+  "sealed_at_utc": "2026-10-01T13:33:30.374271+00:00"
+}

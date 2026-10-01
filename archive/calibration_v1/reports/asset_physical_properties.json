@@ -1,0 +1,138 @@
+{
+  "assets": [
+    {
+      "asset_id": "Candle_1",
+      "source_asset_sha256": "994b7f9987d392e3fd36f837ad938febe112577ee6ce2e776d4449ab4eac42a8",
+      "total_mass_kg": 0.160917426722245,
+      "collision_geom_count": 9,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    },
+    {
+      "asset_id": "Cup_30",
+      "source_asset_sha256": "9c863e44d916508b7fb60c6a61b336c2bf9dfe8868b97c33f27c736124e581c9",
+      "total_mass_kg": 2.7025265197804815,
+      "collision_geom_count": 28,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    },
+    {
+      "asset_id": "Mug_1",
+      "source_asset_sha256": "e888e379bec2abaf41cec761200abc3c61c43a093cda221ea3b8e540f2ebb884",
+      "total_mass_kg": 2.430049256530872,
+      "collision_geom_count": 10,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    },
+    {
+      "asset_id": "Mug_2",
+      "source_asset_sha256": "09d96b1cc7c20e9a2d4806970a201c98785df7be4417f20669a92de6b782a58e",
+      "total_mass_kg": 1.6951102870040067,
+      "collision_geom_count": 10,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    },
+    {
+      "asset_id": "Pepper_Shaker_1",
+      "source_asset_sha256": "ca757db39108b4ce0042acb63159d489a1d112d8a43ed8d4c3641167a4bc6a97",
+      "total_mass_kg": 0.4935277482078029,
+      "collision_geom_count": 1,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    },
+    {
+      "asset_id": "RoboTHOR_mug_ai2_1_v",
+      "source_asset_sha256": "93d4d0dd0df11ee4333b8b2a81fc82f11c490188d8d7b4e6f8d5cc5451b9b3a8",
+      "total_mass_kg": 1.5757987067142867,
+      "collision_geom_count": 12,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    },
+    {
+      "asset_id": "Wine_Bottle_1",
+      "source_asset_sha256": "6f788ddd24600f273c7a6b6b3247c60344ea7dbd5229f6624445cd15f564a786",
+      "total_mass_kg": 3.3000653570764436,
+      "collision_geom_count": 16,
+      "collision_types": [
+        6
+      ],
+      "collision_friction": [
+        [
+          0.9,
+          0.9,
+          0.001
+        ]
+      ],
+      "collision_mesh_count": 0,
+      "status": "static_physical_properties_only_not_grasp_admission",
+      "caution": "source scene collision decomposition can differ; runtime scene contacts are authoritative"
+    }
+  ],
+  "note": "no mass/friction/geometry edits; these measurements do not imply handle fit or stable grasp"
+}
