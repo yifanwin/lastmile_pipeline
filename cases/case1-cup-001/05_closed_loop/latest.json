@@ -1,4 +1,5 @@
 {
   "run_id": "astar_v2",
-  "construction_run_id": "robot_move_v3"
+  "construction_run_id": "robot_move_v3",
+  "final_review_uses_user_requested_three_trials": true
 }

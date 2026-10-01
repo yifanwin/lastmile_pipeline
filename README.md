@@ -1,11 +1,14 @@
 # Lastmile 半自动构造管线
 
-以《lastmile case 构建方案.md》第六节为中心。当前实现 **步骤 1–3、步骤 4 的原样筛选/仅移动机器人分支，以及步骤 5 的 A* 连续导航抓取验收**。步骤 6 最终人工接受与导出尚未实现。原始 A 点成功，不能作为困难起点；新困难起点从步骤 3 超范围候选选择。自动生成证据，人工决定场景是否保留，人工不能覆盖物理失败。
+以《lastmile case 构建方案.md》第六节为中心。当前实现 **步骤 1–3、步骤 4 的原样筛选/仅移动机器人分支，以及步骤 5 的 A* 连续导航抓取验收**。步骤 6 最终人工接受与导出已实现，当前 case 已获用户明确接受。原始 A 点成功，不能作为困难起点；新困难起点从步骤 3 超范围候选选择。自动生成证据，人工决定场景是否保留，人工不能覆盖物理失败。
 
 ## 当前交付
 
+- [正式交付 ZIP](cases/case1-cup-001/06_export_case/exports/final_v2.zip) · [可复现包说明](cases/case1-cup-001/06_export_case/exports/final_v2/README.md) · [步骤 6 报告](reports/step6-REPORT.md)
+- [人工接受记录](cases/case1-cup-001/06_export_case/reviews/final_v2/accepted_review.json)：明确认可同侧平移分类和本次三次要求。
+
 - [P131 → A 闭环视频](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4) · [第二张证据审阅卡](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html)
-- [最新报告](reports/step5-REPORT.md)：3 / 3 次新连续试验严格通过，等待最终人工接受。
+- [最新报告](reports/step5-REPORT.md)：3 / 3 次新连续试验严格通过，用户已最终接受并按三次要求正式导出。
 
 ## 已生成的候选
 
@@ -29,7 +32,7 @@ cases/<case-id>/
   03_station_map/           候选、双臂五高度规划、独立物理试验和站位图
   04_construct_start/       原样筛选历史、按运行记录的构造方式和派生起点
   05_closed_loop/           A* 连续导航、实测到站抓取、重复验收和视频
-  06_export_case/           后续最终人工确认和导出（预留）
+  06_export_case/           最终审阅、人工决定、草稿、正式包与回执
 docs/stages/                各阶段输入、输出和通过条件
 reports/                    当前交付报告和执行日志
 archive/calibration_v1/     旧校准配置、报告和原始轨迹，只读历史证据

@@ -1,0 +1,19 @@
+{
+  "source_index": 14,
+  "side": "left",
+  "h": 0.738,
+  "seed": 3,
+  "grasp_id": 794,
+  "status": "verified_success",
+  "reason": "strict_pick",
+  "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+  "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+  "attempts": [],
+  "planner_world": "actual collision geom mesh",
+  "grasp_row_ids": [
+    794
+  ],
+  "time_dilation_factor": 0.25,
+  "approach_overshoot_m": 0.01,
+  "adjustment_samples": 7640
+}

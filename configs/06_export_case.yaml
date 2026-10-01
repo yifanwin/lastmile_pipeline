@@ -1,0 +1,21 @@
+version: 1
+case_type: Case 1-R
+full_chain:
+  default_plan_min_trials: 5
+  required_trials: 3
+  required_successes: 3
+  policy_override:
+    actor: human
+    source: explicit_user_chat_request
+    user_answer: "3次成功即可。 继续完成 步骤 6"
+    scope: this_case_full_chain_repeats_only
+  nominal_and_perturbed_asset_thresholds_unchanged: true
+human_final_acceptance_required: true
+allow_human_override_physical_failure: false
+export:
+  schema_version: 1
+  draft_allowed: true
+  accepted_export_requires_accepted_review: true
+  include_full_physical_traces: true
+  bundle_compiled_model: true
+  include_credentials: false

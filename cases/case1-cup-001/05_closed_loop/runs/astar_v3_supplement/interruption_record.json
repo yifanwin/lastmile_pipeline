@@ -1,0 +1,9 @@
+{
+  "status": "interrupted_incomplete_not_admission_evidence",
+  "reason": "previous_turn_aborted_and_process_no_longer_running",
+  "user_required_full_chain_trials_now": 3,
+  "excluded_from_final_review": true,
+  "completed_trial_00_preserved": true,
+  "partial_trial_01_preserved": true,
+  "recorded_at_utc": "2026-10-01T16:22:41.672956+00:00"
+}

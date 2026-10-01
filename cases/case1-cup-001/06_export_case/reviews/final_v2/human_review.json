@@ -1,0 +1,17 @@
+{
+  "case_id": "case1-cup-001",
+  "review_id": "final_v2",
+  "review_packet_sha256": "bcaee6be153ec1fc8bb117e51e6115d0a9e6bb38ba25312fa69b9171400ada15",
+  "actor": "human",
+  "decision": "accepted",
+  "reviewer": "chat_user",
+  "decision_source": "explicit_user_chat_reply",
+  "user_answer": "接受（已观看并认可上述各项）",
+  "notes": "用户明确接受 P131→A、已观看并认可起点范围证书、仅改机器人初始 base、同侧平移分类及三次全成功要求。此前已向用户说明当前 final_v2；与初始 final_v1 相比补齐站位图哈希绑定，物理case和视频未变。",
+  "watched_closed_loop_video": true,
+  "accept_start_failure_evidence": true,
+  "accept_robot_initial_base_edit": true,
+  "accept_translation_only_classification": true,
+  "accept_three_trial_requirement": true,
+  "submitted_at_utc": "2026-10-01T16:31:21.212367+00:00"
+}

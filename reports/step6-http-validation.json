@@ -1,0 +1,10 @@
+{
+  "/review.html": 200,
+  "/evidence/cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4": 200,
+  "/evidence/.env": 404,
+  "/evidence/../../.env": 404,
+  "/%2e%2e/%2e%2e/.env": 404,
+  "agent_approval_blocked": true,
+  "cross_site_submission_blocked": true,
+  "no_human_acceptance_created_by_tests": true
+}

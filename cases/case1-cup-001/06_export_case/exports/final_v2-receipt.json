@@ -1,0 +1,14 @@
+{
+  "case_id": "case1-cup-001",
+  "review_id": "final_v2",
+  "export_id": "final_v2",
+  "status": "accepted_export",
+  "dataset_admitted": true,
+  "bundle_path": "cases/case1-cup-001/06_export_case/exports/final_v2",
+  "zip_path": "cases/case1-cup-001/06_export_case/exports/final_v2.zip",
+  "zip_sha256": "6e640b138bf9d935fb66c2900be8dd7ad65969e8a8f239ccddeb70e466f9bda8",
+  "package_manifest_sha256": "20450e5aafe254f81fcd92025ba65124b7e1739fbb76ffe92b8ac15da2772ad6",
+  "files_verified": 257,
+  "bytes": 1787195097,
+  "completed_at_utc": "2026-10-01T16:32:02.667974+00:00"
+}

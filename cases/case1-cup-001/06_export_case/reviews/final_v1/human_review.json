@@ -1,0 +1,14 @@
+{
+  "case_id": "case1-cup-001",
+  "review_id": "final_v1",
+  "review_packet_sha256": "21070711cd5f3f277e6527c512173cda282adb111ad4d7b00820fb490517dc8f",
+  "actor": "human",
+  "decision": "pending",
+  "reviewer": "",
+  "watched_closed_loop_video": false,
+  "accept_start_failure_evidence": false,
+  "accept_robot_initial_base_edit": false,
+  "accept_translation_only_classification": false,
+  "accept_three_trial_requirement": false,
+  "notes": ""
+}

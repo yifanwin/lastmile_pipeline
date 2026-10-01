@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "case_id": "case1-cup-001",
+  "status": "draft_pending_human_acceptance",
+  "dataset_admitted": false,
+  "human_final_accepted": false,
+  "case_type": "Case 1-R",
+  "classification": {
+    "base_translation_required": true,
+    "same_side_translation_case": true,
+    "must_change_table_side": false,
+    "same_side_all_stations_unreachable": false,
+    "start_failure_strength": "conservative_contact_bound_both_arms_all_yaw_continuous_legal_torso",
+    "fixed_base_failure_action_executed": false
+  },
+  "source": {
+    "source_index": 14,
+    "role": "P-02",
+    "expected_house": 103,
+    "expected_asset": "Cup_30",
+    "mode": "ordinary",
+    "asset_id": "Cup_30",
+    "target_name": "cup_ff2c6ab62ccb690220c97cdcfeb658c5_1_0_2",
+    "house_index": 103,
+    "source": {
+      "h5_file": "/weka/prior/datasets/robomolmo/rby1_pnp_benchmark_04FEB/RBY1PickAndPlaceDataGenConfig/val/house_103/trajectories_batch_10_of_25.h5",
+      "traj_key": "traj_1",
+      "episode_length": 229,
+      "camera_system_class": "RBY1MjcfCameraSystem",
+      "source_data_date": "2026-02-06",
+      "benchmark_created_date": "2026-02-09"
+    },
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "scene_xml": "/data0/wenyifan/MoMaTrajGen/molmospaces_data/assets/scenes/procthor-10k-val/val_103.xml",
+    "scene_sha256": "ce54a1372e324e16ee4046db758479c80a49f13a4b955dc26f78b613193c4e3a",
+    "metadata_sha256": "1d23bc7d9545e68bc1b0e11497e2c2e6a36134a2baa4d021b7070d4294fdca35",
+    "support_parent": "diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_0_2",
+    "support_category": "DiningTable",
+    "support_asset_id": "Dining_Table_203_1",
+    "support_status": "metadata_parent_only_not_physical_contact_verified",
+    "source_pose": [
+      7.313459458748234,
+      2.0988113404423916,
+      0.8012844308118927,
+      -0.5000005615720113,
+      -0.49999938835306174,
+      0.49999771420421835,
+      0.500002335859338
+    ],
+    "physics_status": "not_tested"
+  },
+  "construction_run_id": "robot_move_v3",
+  "closed_loop_run_id": "astar_v2",
+  "start_pose_id": "P131",
+  "start_base": [
+    6.706627595614837,
+    0.6653759999999997,
+    1.1703317577059125
+  ],
+  "goal_pose_id": "A",
+  "goal_base": [
+    7.183716297149658,
+    2.70900559425354,
+    -1.7024431228637695
+  ],
+  "staging_base": [
+    7.10437298373168,
+    2.892593825401009,
+    -1.7024431228637695
+  ],
+  "scene_edits": [
+    {
+      "field": "robot.initial_base",
+      "from": [
+        7.183716297149658,
+        2.70900559425354,
+        -1.7024431228637695
+      ],
+      "to": [
+        6.706627595614837,
+        0.6653759999999997,
+        1.1703317577059125
+      ]
+    }
+  ],
+  "qualification": {
+    "physics_qualified": true,
+    "full_chain_trials": 3,
+    "full_chain_strict_successes": 3,
+    "required_trials": 3,
+    "all_trials_successful": true,
+    "nominal_asset_evidence": {
+      "asset_id": "Cup_30",
+      "mode": "ordinary",
+      "status": "admitted",
+      "nominal_successes": 5,
+      "nominal_trials": 5,
+      "perturbed_successes": 20,
+      "perturbed_trials": 20,
+      "reason": null,
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41"
+    },
+    "historical_asset_counts_are_not_new_runs": true,
+    "default_plan_full_chain_trials": 5,
+    "policy_override": {
+      "actor": "human",
+      "source": "explicit_user_chat_request",
+      "user_answer": "3次成功即可。 继续完成 步骤 6",
+      "scope": "this_case_full_chain_repeats_only"
+    }
+  },
+  "task_language": "移动到可操作站位，抓起目标杯子并稳定保持；不做放置。",
+  "contents_simulated": false,
+  "not_a_population_success_rate_estimate": true,
+  "scope": "three accepted full-chain trials; original model and grasp; no same-side-wide impossibility claim",
+  "created_at_utc": "2026-10-01T16:23:23.744079+00:00"
+}

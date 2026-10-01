@@ -36,21 +36,37 @@
       "original_only_result_preserved": true
     },
     "05_closed_loop": {
-      "status": "running",
-      "run_id": "astar_v3_supplement",
-      "closed_loop_verified": false,
+      "status": "closed_loop_verified_human_accepted",
+      "run_id": "astar_v2",
+      "closed_loop_verified": true,
       "repeat_acceptance_verified": true,
       "strict_successes": 3,
-      "human_final_accepted": false,
+      "human_final_accepted": true,
       "video_ready": true,
       "video_path": "cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4",
       "review_path": "cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html",
       "raw_evidence_audit_passed": true,
-      "delivery_validated": true
+      "delivery_validated": true,
+      "final_review_id": "final_v2",
+      "accepted_review_path": "cases/case1-cup-001/06_export_case/reviews/final_v2/accepted_review.json"
     },
     "06_export_case": {
-      "status": "not_run"
+      "status": "exported",
+      "review_id": "final_v2",
+      "closed_loop_run_id": "astar_v2",
+      "physics_qualified": true,
+      "required_full_chain_trials": 3,
+      "human_final_accepted": true,
+      "exported": true,
+      "draft_ready": true,
+      "draft_bundle_path": "cases/case1-cup-001/06_export_case/staging/final_v2",
+      "draft_zip_path": "cases/case1-cup-001/06_export_case/staging/final_v2.zip",
+      "human_decision_sha256": "72974db9fea2967651b89eccf2698efcaf9dbc7d5242b1bf5c8649292a757e72",
+      "bundle_path": "cases/case1-cup-001/06_export_case/exports/final_v2",
+      "zip_path": "cases/case1-cup-001/06_export_case/exports/final_v2.zip",
+      "zip_sha256": "6e640b138bf9d935fb66c2900be8dd7ad65969e8a8f239ccddeb70e466f9bda8",
+      "package_manifest_sha256": "20450e5aafe254f81fcd92025ba65124b7e1739fbb76ffe92b8ac15da2772ad6"
     }
   },
-  "updated_at_utc": "2026-10-01T16:03:57.826317+00:00"
+  "updated_at_utc": "2026-10-01T16:36:16.183334+00:00"
 }

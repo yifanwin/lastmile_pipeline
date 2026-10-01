@@ -1,0 +1,232 @@
+{
+  "case_id": "case1-cup-001",
+  "review_id": "final_v2",
+  "status": "accepted_export",
+  "completed_at_utc": "2026-10-01T16:37:03.472271+00:00",
+  "physics": {
+    "full_chain_strict_successes": 3,
+    "required_trials": 3,
+    "raw_evidence_audit_passed": true,
+    "saved_state_replay_is_not_resimulation": true
+  },
+  "saved_state_replay": [
+    {
+      "trial": 0,
+      "passed": true,
+      "log": "reports/step6-accepted-replay.log"
+    },
+    {
+      "trial": 1,
+      "passed": true,
+      "log": "reports/step6-accepted-replay-trial1.log"
+    },
+    {
+      "trial": 2,
+      "passed": true,
+      "log": "reports/step6-accepted-replay-trial2.log"
+    }
+  ],
+  "human_acceptance": {
+    "actor": "human",
+    "decision": "accepted",
+    "decision_source": "explicit_user_chat_reply",
+    "user_answer": "接受（已观看并认可上述各项）"
+  },
+  "package_verification": {
+    "all_file_hashes_valid": true,
+    "files_verified": 257,
+    "status": "accepted_export",
+    "dataset_admitted": true,
+    "human_final_accepted": true
+  },
+  "zip_validation": {
+    "zip_sha256_valid": true,
+    "zip_crc_all_entries_valid": true,
+    "zip_entries": 258,
+    "zip_bytes": 460601005,
+    "no_credentials_or_git_paths": true,
+    "safe_archive_paths": true,
+    "dataset_admitted": true
+  },
+  "review_page": {
+    "embedded_images": [
+      {
+        "tag": "img",
+        "attribute": "src",
+        "sha256": "98c01e5d368e8fcaca6771e0177ab0d07f56935c23a8ed1763f23a94744ca8dc",
+        "bound_source_match": true
+      },
+      {
+        "tag": "video",
+        "attribute": "poster",
+        "sha256": "ae8400dcd3c967b4c719284065bde4aebc7069bdee90c981b2317869e0e6070d",
+        "bound_source_match": true
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "sha256": "74af84f2c20cded57cfb6ec6134342c78a9fbbf4ef5748179592a6c0ff1d6229",
+        "bound_source_match": true
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "sha256": "4dfebbf4f9032142195bd36460ed573204dd0c8c381704f459c7e385a469ce86",
+        "bound_source_match": true
+      }
+    ],
+    "local_media_links_verified": [
+      "/evidence/cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4",
+      "../../../05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4"
+    ],
+    "browser_screenshot_validated": false
+  },
+  "markdown_links_verified": [
+    {
+      "document": "reports/REPORT.md",
+      "target": "step6-REPORT.md"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "step5-REPORT.md"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/exports/final_v2.zip"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/exports/final_v2/README.md"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "step6-delivery-validation.json"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.html"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "step3-REPORT.md"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "step4-REPORT.md"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "step1-step2-REPORT.md"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../cases/case1-cup-001/manifest.json"
+    },
+    {
+      "document": "reports/REPORT.md",
+      "target": "../README.md"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/exports/final_v2.zip"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/exports/final_v2/README.md"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/exports/final_v2/case.json"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/exports/final_v2-receipt.json"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/reviews/final_v2/review.html"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/06_export_case/reviews/final_v2/accepted_review.json"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../cases/case1-cup-001/05_closed_loop/runs/astar_v2/evidence_audit.json"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "../docs/stages/06_export_case.md"
+    },
+    {
+      "document": "reports/step6-REPORT.md",
+      "target": "step6-delivery-validation.json"
+    },
+    {
+      "document": "cases/case1-cup-001/05_closed_loop/README.md",
+      "target": "runs/astar_v2/summary.json"
+    },
+    {
+      "document": "cases/case1-cup-001/05_closed_loop/README.md",
+      "target": "../06_export_case/exports/final_v2/README.md"
+    },
+    {
+      "document": "cases/case1-cup-001/05_closed_loop/README.md",
+      "target": "../06_export_case/reviews/final_v2/accepted_review.json"
+    },
+    {
+      "document": "cases/case1-cup-001/05_closed_loop/README.md",
+      "target": "runs/astar_v2/delivery/case1_r_closed_loop.mp4"
+    },
+    {
+      "document": "cases/case1-cup-001/05_closed_loop/README.md",
+      "target": "runs/astar_v2/delivery/review.html"
+    },
+    {
+      "document": "cases/case1-cup-001/05_closed_loop/README.md",
+      "target": "runs/astar_v2/evidence_audit.json"
+    },
+    {
+      "document": "cases/case1-cup-001/06_export_case/README.md",
+      "target": "reviews/final_v2/accepted_review.json"
+    },
+    {
+      "document": "cases/case1-cup-001/06_export_case/README.md",
+      "target": "reviews/final_v2/review.html"
+    },
+    {
+      "document": "cases/case1-cup-001/06_export_case/README.md",
+      "target": "exports/final_v2.zip"
+    },
+    {
+      "document": "cases/case1-cup-001/06_export_case/README.md",
+      "target": "exports/final_v2/README.md"
+    }
+  ],
+  "http_boundary_validation": {
+    "/review.html": 200,
+    "/evidence/cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4": 200,
+    "/evidence/.env": 404,
+    "/evidence/../../.env": 404,
+    "/%2e%2e/%2e%2e/.env": 404,
+    "agent_approval_blocked": true,
+    "cross_site_submission_blocked": true,
+    "no_human_acceptance_created_by_tests": true
+  },
+  "final_export_gate": {
+    "can_export_accepted_case": true,
+    "rechecked_after_metadata_update": true
+  },
+  "unit_tests": {
+    "passed": 100,
+    "log": "reports/unit-tests.log"
+  }
+}

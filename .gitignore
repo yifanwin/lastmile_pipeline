@@ -16,3 +16,8 @@ cases/**/03_station_map/**/trials/*/*trace.json
 cases/**/05_closed_loop/runs/**/trial_*/*trace.json
 cases/**/05_closed_loop/runs/**/trial_*/pick/*trace.json
 cases/**/*.mp4
+
+# Step 6 large reproducible bundles (small receipts stay trackable)
+cases/**/06_export_case/staging/
+cases/**/06_export_case/exports/*/
+cases/**/*.zip

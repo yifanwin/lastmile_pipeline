@@ -1,0 +1,9 @@
+{
+  "zip_sha256_valid": true,
+  "zip_crc_all_entries_valid": true,
+  "zip_entries": 258,
+  "zip_bytes": 460601005,
+  "no_credentials_or_git_paths": true,
+  "safe_archive_paths": true,
+  "dataset_admitted": true
+}

@@ -1,0 +1,74 @@
+{
+  "trial": 0,
+  "seed": 3,
+  "status": "verified_success",
+  "reason": "strict_pick",
+  "pick_backend_result": {
+    "source_index": 14,
+    "side": "left",
+    "h": 0.738,
+    "seed": 3,
+    "grasp_id": 794,
+    "status": "verified_success",
+    "reason": "strict_pick",
+    "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+    "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+    "attempts": [],
+    "planner_world": "actual collision geom mesh",
+    "grasp_row_ids": [
+      794
+    ],
+    "time_dilation_factor": 0.25,
+    "approach_overshoot_m": 0.01,
+    "adjustment_samples": 7640
+  },
+  "actual_arrival": {
+    "actual_arrival": [
+      7.183716297151128,
+      2.709005594269276,
+      -1.7024431228642518
+    ],
+    "goal": [
+      7.183716297149658,
+      2.70900559425354,
+      -1.7024431228637695
+    ],
+    "translation_error_m": 1.580436354970289e-11,
+    "yaw_error_rad": 4.82280881897168e-13,
+    "physical_time_s": 210.83999999987142,
+    "forbidden_contacts": 0,
+    "target_displacement_m": 1.487297843090423e-08
+  },
+  "staging_arrival": {
+    "actual_arrival": [
+      7.104372983857767,
+      2.892593825455467,
+      -1.7024431228707655
+    ],
+    "goal": [
+      7.10437298373168,
+      2.892593825401009,
+      -1.7024431228637695
+    ],
+    "translation_error_m": 1.3734528727086665e-10,
+    "yaw_error_rad": 6.9959593673729614e-12,
+    "physical_time_s": 190.65999999991845,
+    "forbidden_contacts": 0,
+    "target_displacement_m": 6.288081692664577e-07
+  },
+  "arrival_used_without_reset": true,
+  "restore_calls_during_navigation_and_pick": 0,
+  "navigation_samples": 52710,
+  "navigation_validation": "passed",
+  "navigation_end_time_s": 210.83999999987142,
+  "pick_start_base": [
+    7.183716297151128,
+    2.709005594269276,
+    -1.7024431228642518
+  ],
+  "total_physical_time_s": 251.49999999977666,
+  "start_evidence": "conservative_both_arm_all_yaw_continuous_torso_contact_bound",
+  "start_pose_id": "P131",
+  "construction_manifest_sha256": "2575712789a3006708eb398a8ded8990c85dbc3b1bc6b0423f0ad31314a2d135",
+  "new_physical_execution": true
+}
