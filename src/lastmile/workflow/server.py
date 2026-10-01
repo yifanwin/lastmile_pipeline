@@ -24,3 +24,14 @@ def serve(case_id,port):
    payload=json.dumps(result,ensure_ascii=False).encode();self.send_response(status);self.send_header('Content-Type','application/json');self.send_header('Content-Length',str(len(payload)));self.end_headers();self.wfile.write(payload)
  print(f'人工审阅：http://127.0.0.1:{port}/review.html',flush=True)
  HTTPServer(('127.0.0.1',port),partial(Handler,directory=str(folder))).serve_forever()
+
+def serve_map(case_id,run_id,port):
+ case_dir(run_id);folder=case_dir(case_id)/STAGES[2]/'runs'/run_id
+ if not (folder/'station_map.html').exists():raise ValueError('站位图尚未生成')
+ class ReadOnlyHandler(SimpleHTTPRequestHandler):
+  def translate_path(self,path):
+   candidate=Path(super().translate_path(path)).resolve()
+   return str(candidate) if candidate.is_relative_to(folder.resolve()) else str(folder/'__forbidden__')
+  def do_POST(self):self.send_error(405,'Read-only map')
+ server=HTTPServer(('127.0.0.1',port),partial(ReadOnlyHandler,directory=str(folder)))
+ print(f'站位图：http://127.0.0.1:{port}/station_map.html',flush=True);server.serve_forever()

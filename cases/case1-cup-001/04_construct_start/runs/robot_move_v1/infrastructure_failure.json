@@ -1,0 +1,6 @@
+{
+  "status": "infrastructure_error",
+  "reason": "sandbox_EGL_device_visibility_unavailable",
+  "not_candidate_negative_evidence": true,
+  "resolution": "reexecuted_in_authorized_CUDA5_environment_as_robot_move_v2"
+}

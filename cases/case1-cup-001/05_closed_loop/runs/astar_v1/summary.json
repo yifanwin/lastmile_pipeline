@@ -1,0 +1,20 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "astar_v1",
+  "construction_run_id": "robot_move_v2",
+  "trials_requested": 3,
+  "trials_completed": 1,
+  "strict_successes": 0,
+  "closed_loop_verified": false,
+  "repeat_acceptance_verified": false,
+  "human_final_accepted": false,
+  "trials": [
+    {
+      "trial": 0,
+      "status": "executed_failure",
+      "reason": "navigation_torso_protocol",
+      "partial_navigation_samples": 5779,
+      "new_physical_execution": true
+    }
+  ]
+}

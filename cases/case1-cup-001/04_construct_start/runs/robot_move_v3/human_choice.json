@@ -1,0 +1,14 @@
+{
+  "case_id": "case1-cup-001",
+  "actor": "human",
+  "decision": "method_selected",
+  "method": "robot_only",
+  "allow_scene_edits": [
+    "robot_initial_base"
+  ],
+  "source": "explicit_user_chat_request",
+  "user_answer": "继续构建真实困难起点case，这个点就是 步骤 3 中的站位图中执行失败或者超出范围的点，它们的完成可以先用A star算法到达目标附近，然后再执行curobo抓取。",
+  "supersedes_method_only": "original_only",
+  "candidate_approval": false,
+  "captured_at_utc": "2026-10-01T15:37:36.914204+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "case1-cup-001",
+  "files": {
+    "summary.json": "3b31e60d78493d3500228797a6f10ebcb78684b4fb5a7664b4d7d83de43364c9",
+    "human_choice.json": "e48c20c2bf5cf44768dbd035ef89d6aafb7885d130945e55a3c30bd7a1f03cb3",
+    "screening_registry.json": "5c4c7b162cfcd1bf8ec48393bae1da74dfe21d29ddc37e5605e42b536c5d4086"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "case1-cup-001",
+  "construction_run_id": "robot_move_v3",
+  "closed_loop_run_id": "astar_v2",
+  "physics_evidence_manifest_sha256": "e6003a5b2caa2e221311e68721c12f52b54b1dfa5f04244d056514eb8287f45f",
+  "video_sha256": "ca222f9d505eee56a6f12df77c5dbb2300d9918ef6b1738b150efb1ac19b27c1",
+  "decision": "pending",
+  "reviewer": "",
+  "watched_closed_loop_video": false,
+  "accept_start_failure_evidence": false,
+  "accept_robot_initial_base_edit": false,
+  "notes": "人工填写模板；当前未批准，步骤 6 导入/导出尚未实现。"
+}

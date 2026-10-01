@@ -1,0 +1,14 @@
+version: 1
+method: original_only
+human_method_required: true
+source_station_run: coarse_v1
+allowed_scene_edits: []
+allow_robot_initial_pose_change: false
+allow_target_pose_change: false
+allow_furniture_change: false
+allow_asset_replacement: false
+failure_inference_from_search_exhaustion: false
+original_pose_match_translation_m: 0.00001
+original_pose_match_yaw_rad: 0.00001
+policy: exclude_case1_if_original_start_has_any_protocol_compliant_pick_witness
+next_action_if_excluded: screen_other_unmodified_source_episodes

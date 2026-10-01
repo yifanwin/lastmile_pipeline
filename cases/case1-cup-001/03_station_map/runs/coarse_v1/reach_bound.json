@@ -1,0 +1,19 @@
+{
+  "contact_radius_m": 1.2171269401833589,
+  "arm_bounds": [
+    {
+      "side": "left",
+      "shoulder_xy_radius_m": 0.22000000000000153,
+      "finger_chain_radius_m": 0.8609927760035209
+    },
+    {
+      "side": "right",
+      "shoulder_xy_radius_m": 0.21999999999999975,
+      "finger_chain_radius_m": 0.8609927760035209
+    }
+  ],
+  "target_collision_radius_m": 0.10613416417983623,
+  "inflation_m": 0.03,
+  "coverage": "both arms, all yaw, continuous legal torso linkage under verified RBY1 cancellation; arbitrary arm configurations",
+  "not_search_failure": true
+}

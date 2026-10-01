@@ -1,0 +1,15 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "astar_v2",
+  "strict_successes": 3,
+  "raw_evidence_audit_passed": true,
+  "video_sha256_valid": true,
+  "ffprobe_frames_and_duration_match": true,
+  "full_video_decode_passed": true,
+  "encoded_last_frame_visually_checked": true,
+  "figure_and_start_hold_previews_visually_checked": true,
+  "embedded_images_byte_identical": true,
+  "local_report_and_review_links_valid": true,
+  "browser_screenshot_validated": false,
+  "unit_tests_passed": 81
+}

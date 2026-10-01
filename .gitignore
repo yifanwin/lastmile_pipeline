@@ -10,3 +10,9 @@ archive/calibration_v1/runs/**
 archive/calibration_v1/reports/*.log
 cases/**/fresh_A_witness/*trace.json
 reports/*.log
+cases/**/03_station_map/**/trials/*/*trace.json
+
+# Closed-loop raw physical evidence and large delivery assets
+cases/**/05_closed_loop/runs/**/trial_*/*trace.json
+cases/**/05_closed_loop/runs/**/trial_*/pick/*trace.json
+cases/**/*.mp4

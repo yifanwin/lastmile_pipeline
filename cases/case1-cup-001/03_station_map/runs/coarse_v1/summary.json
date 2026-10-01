@@ -1,0 +1,51 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "coarse_v1",
+  "status": "coarse_map_complete",
+  "source_index": 14,
+  "approved_sides": [
+    "north",
+    "south",
+    "west"
+  ],
+  "candidate_poses": 172,
+  "candidate_xy_locations": 58,
+  "geometry_counts": {
+    "eligible": 72,
+    "initial_pose_collision": 74,
+    "outside_contact_bound": 26
+  },
+  "planning_queries": 720,
+  "planning_counts": {
+    "search_exhausted": 679,
+    "full_path_planned": 41
+  },
+  "poses_with_full_path": 13,
+  "physical_trials": 12,
+  "physical_pick_successes": 9,
+  "physical_complete_pick_failures": 1,
+  "physical_incomplete_attempts": 2,
+  "gaussian_uses_only_complete_physics": true,
+  "gaussian_not_probability": true,
+  "gaussian_display_mask": "floor minus support footprint and projected environment AABBs; conservative visual mask, not navigation GT",
+  "A_control_success": true,
+  "scene_objects_unchanged": true,
+  "base_placement_is_not_navigation": true,
+  "grasp_ids": [
+    794
+  ],
+  "arms": [
+    "left",
+    "right"
+  ],
+  "heights": [
+    0.0,
+    0.1845,
+    0.369,
+    0.5535,
+    0.738
+  ],
+  "contact_radius_bound_m": 1.2171269401833589,
+  "scope": "coarse finite sampling and search budget; only executed poses have physical labels; no whole-side unreachable claim from search failure",
+  "completed_at_utc": "2026-10-01T14:30:57.715428+00:00"
+}

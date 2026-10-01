@@ -1,0 +1,14 @@
+{
+  "case_id": "case1-cup-001",
+  "actor": "human",
+  "decision": "method_selected",
+  "method": "original_only",
+  "allow_scene_edits": [],
+  "source": "explicit_user_chat_reply",
+  "user_answer": "仅筛选原始起点，不改场景",
+  "candidate_approval": false,
+  "review_packet_sha256": "fc873bbf5d0e33ff619366a41579a57a7cb064b896ec0af8842913f647e57c1e",
+  "source_episode_sha256": "bc4e24420fd5ab2d619b2132b45ef8b850bff38494c43e91ad6fd1577983fbb5",
+  "station_evidence_manifest_sha256": "5138c94c5e1a16285afe19405a384da048e2af58c674549bc57d1795a30f297c",
+  "captured_at_utc": "2026-10-01T14:57:41.506388+00:00"
+}

@@ -1,0 +1,518 @@
+[
+  {
+    "trial_id": "T00_A_left_h0.7380",
+    "pose_id": "A",
+    "base": [
+      7.183716297149658,
+      2.70900559425354,
+      -1.7024431228637695
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T00_A_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T00_A_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "ff38108c281dc15b7aa30e45c6cac5bf4fc0ddbfef4c55dc4b59cc0400cc4305"
+  },
+  {
+    "trial_id": "T01_P121_left_h0.7380",
+    "pose_id": "P121",
+    "base": [
+      6.866627595614837,
+      1.8471946666666663,
+      0.16378888260060315
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T01_P121_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T01_P121_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "9f52d2af9deb14fc36809b3703cf3b6ff4eef759dd6a094a1d51c66830750b30"
+  },
+  {
+    "trial_id": "T02_P127_left_h0.7380",
+    "pose_id": "P127",
+    "base": [
+      6.866627595614837,
+      2.4381039999999996,
+      -0.9985112127732664
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T02_P127_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T02_P127_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "a508b38af2bc6d8475b34c29b1a389e94fb48141da456a163e7ef4370e930f91"
+  },
+  {
+    "trial_id": "T03_P007_left_h0.7380",
+    "pose_id": "P007",
+    "base": [
+      7.554416957368902,
+      2.6081039999999995,
+      -2.361777018147359
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T03_P007_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T03_P007_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "988952c295247a730f94ee8bdc408ad27bb0d620048e2b71b2f716bb688ec1d0"
+  },
+  {
+    "trial_id": "T04_P125_left_h0.7380",
+    "pose_id": "P125",
+    "base": [
+      6.866627595614837,
+      2.142649333333333,
+      -0.09779550733179841
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T04_P125_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T04_P125_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "a80791189ecacd95c74d5a081fb4cc1b5c80d7fae156728995b8e48cf126213a"
+  },
+  {
+    "trial_id": "T05_P001_left_h0.7380",
+    "pose_id": "P001",
+    "base": [
+      7.036627595614837,
+      2.6081039999999995,
+      -1.4219756163388693
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T05_P001_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T05_P001_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "b369c40d5a53088ce6fd4cb2794c74bee60c956f8021e9a3b04b8a0815550ae7"
+  },
+  {
+    "trial_id": "T06_P005_left_h0.7380",
+    "pose_id": "P005",
+    "base": [
+      7.2955222764918695,
+      2.6081039999999995,
+      -1.5355910851610992
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T06_P005_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T06_P005_left_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "757e0c091eb2883abbe5e93214205f5c09e461e33bc5d98589741086834d783b"
+  },
+  {
+    "trial_id": "T07_P003_right_h0.7380",
+    "pose_id": "P003",
+    "base": [
+      7.036627595614837,
+      2.6081039999999995,
+      -0.7238439155411375
+    ],
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T07_P003_right_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T07_P003_right_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "c893c71efb0c5d5d31415c06841b566b1819651d2998c71211b6966a46da5f1e"
+  },
+  {
+    "trial_id": "T08_P008_right_h0.7380",
+    "pose_id": "P008",
+    "base": [
+      7.554416957368902,
+      2.6081039999999995,
+      -2.0127111677484932
+    ],
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.738,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "strict_pick",
+          "status": "executed_failure",
+          "reason": "torso_protocol"
+        }
+      ],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "executed_failure",
+      "reason": "torso_protocol"
+    },
+    "binary_pick_label": 0,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T08_P008_right_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T08_P008_right_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "8e17ad057e962d24abc92a9bb1679c8a8cadd3a65a6324a5bc34518dade4e6b9"
+  },
+  {
+    "trial_id": "T09_P009_right_h0.7380",
+    "pose_id": "P009",
+    "base": [
+      7.554416957368902,
+      2.6081039999999995,
+      -1.6636453173496273
+    ],
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "right",
+      "h": 0.738,
+      "seed": 0,
+      "grasp_id": 794,
+      "status": "verified_success",
+      "reason": "strict_pick",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "verified_success",
+      "reason": "strict_pick"
+    },
+    "binary_pick_label": 1,
+    "label_is_complete_dynamic_pick": true,
+    "result_path": "trials/T09_P009_right_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true,
+    "trace_path": "trials/T09_P009_right_h0.7380/grasp_0794_trace.json",
+    "trace_sha256": "1943072516d751465901d66916de637036c9501146cabd5c0e11d6e87b90b79c"
+  },
+  {
+    "trial_id": "T10_P157_left_h0.7380",
+    "pose_id": "P157",
+    "base": [
+      6.5466275956148365,
+      1.256285333333333,
+      0.4833314317984928
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts"
+    },
+    "binary_pick_label": null,
+    "label_is_complete_dynamic_pick": false,
+    "result_path": "trials/T10_P157_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true
+  },
+  {
+    "trial_id": "T11_P158_left_h0.7380",
+    "pose_id": "P158",
+    "base": [
+      6.5466275956148365,
+      1.256285333333333,
+      0.8323972821973585
+    ],
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "result": {
+      "source_index": 14,
+      "side": "left",
+      "h": 0.738,
+      "seed": 0,
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts",
+      "protocol_sha256": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+      "benchmark_sha256": "e8e08e49ba6798bbc13f6e6f6a856c15a84920b3e0537829f1b9f0104122138d",
+      "attempts": [
+        {
+          "grasp_id": 794,
+          "stage": "ik_prefilter",
+          "status": "budget_exhausted_no_solution"
+        }
+      ],
+      "planner_world": "actual collision geom mesh",
+      "grasp_row_ids": [
+        794
+      ],
+      "time_dilation_factor": 0.25,
+      "approach_overshoot_m": 0.01,
+      "adjustment_samples": 7640
+    },
+    "revalidated_verdict": {
+      "status": "budget_exhausted_no_solution",
+      "reason": "see_candidate_attempts"
+    },
+    "binary_pick_label": null,
+    "label_is_complete_dynamic_pick": false,
+    "result_path": "trials/T11_P158_left_h0.7380/result.json",
+    "snapshot_restored": true,
+    "single_trial_not_success_rate": true
+  }
+]

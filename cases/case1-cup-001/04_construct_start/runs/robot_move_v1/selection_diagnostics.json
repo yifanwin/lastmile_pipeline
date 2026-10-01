@@ -1,0 +1,122 @@
+[
+  {
+    "pose_id": "P056",
+    "offset_m": 0.2,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P056",
+    "offset_m": 0.35,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P056",
+    "offset_m": 0.5,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P056",
+    "offset_m": 0.65,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=False"
+  },
+  {
+    "pose_id": "P131",
+    "offset_m": 0.2,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P131",
+    "offset_m": 0.35,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P131",
+    "offset_m": 0.5,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P131",
+    "offset_m": 0.65,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=True, goal=False"
+  },
+  {
+    "pose_id": "P134",
+    "offset_m": 0.2,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P134",
+    "offset_m": 0.35,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P134",
+    "offset_m": 0.5,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P134",
+    "offset_m": 0.65,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=True, goal=False"
+  },
+  {
+    "pose_id": "P152",
+    "offset_m": 0.2,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P152",
+    "offset_m": 0.35,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P152",
+    "offset_m": 0.5,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P152",
+    "offset_m": 0.65,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=True, goal=False"
+  },
+  {
+    "pose_id": "P155",
+    "offset_m": 0.2,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P155",
+    "offset_m": 0.35,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P155",
+    "offset_m": 0.5,
+    "accepted_geometry": false,
+    "reason": "The MUJOCO_EGL_DEVICE_ID environment variable must be an integer between 0 and 0 (inclusive), got 5."
+  },
+  {
+    "pose_id": "P155",
+    "offset_m": 0.65,
+    "accepted_geometry": false,
+    "reason": "起点/终点不在保守导航自由空间: start=True, goal=False"
+  }
+]

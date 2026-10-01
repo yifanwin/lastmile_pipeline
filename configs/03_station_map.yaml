@@ -1,0 +1,38 @@
+version: 1
+run_id: coarse_v1
+sampling:
+  method: approved_table_sides_target_local_operation_bands
+  along_spacing_m: 0.30
+  corner_extension_m: 0.15
+  edge_offsets_m: [0.32, 0.48, 0.64]
+  yaw_offsets_deg: [-20, 0, 20]
+  include_exact_A: true
+  floor_grid_spacing_m: 0.04
+  floor_footprint_radius_m: 0.34
+planning:
+  arms: [left, right]
+  heights: [0.0, 0.1845, 0.369, 0.5535, 0.738]
+  grasp_ids: [794]
+  ik_seeds: 64
+  trajopt_seeds: 4
+  max_attempts: 5
+  activation_distance_m: 0.01
+  mesh_roi_distance_m: 4.5
+  seed: 0
+physics:
+  max_trials: 12
+  time_dilation: 0.25
+  approach_overshoot_m: 0.01
+  selection: exact_A_control_then_spatially_diverse_full_path_candidates_then_budget_boundary_checks
+interpolation:
+  knn: 3
+  sigma_m: 0.12
+  max_support_distance_m: 0.30
+  labels: executed_strict_pick_outcomes_only
+expectation:
+  central_question: where_fixed_scene_allows_pick_under_frozen_grasp_and_budget
+  A_control: strict_pick_success
+  other_stations: unknown_before_execution
+  no_solution_semantics: bounded_search_not_unreachability
+  stop_rule: twelve_physical_trials_or_all_full_path_candidates_exhausted
+  no_scene_modification: true

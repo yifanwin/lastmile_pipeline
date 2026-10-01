@@ -1,0 +1,32 @@
+version: 1
+method: robot_only
+source_station_run: coarse_v1
+candidate_priority: [P056, P131, P134, P152, P155]
+start_evidence_required: outside_contact_bound
+allowed_scene_edits: [robot_initial_base]
+allow_target_pose_change: false
+allow_furniture_change: false
+allow_asset_replacement: false
+navigation:
+  algorithm: astar_8_connected_no_corner_cut
+  grid_spacing_m: 0.025
+  configuration_margin_m: 0.025
+  staging_offsets_m: [0.20, 0.35, 0.50, 0.65]
+  max_speed_m_s: 0.06
+  state_record_stride: 10
+  execution: conservative_line_of_sight_simplification_stop_at_corners
+  linear_accel_m_s2: 0.005
+  angular_speed_rad_s: 0.025
+  angular_accel_rad_s2: 0.005
+physics:
+  trials: 3
+  side: left
+  h: 0.738
+  grasp_id: 794
+  time_dilation: 0.25
+  approach_overshoot_m: 0.01
+expectation:
+  central_question: can_a_map_out_of_reach_start_navigate_continuously_to_A_and_pick_without_arrival_reset
+  start: conservative_contact_bound_excludes_both_arms_all_yaw_all_legal_torso
+  success: three_fresh_continuous_astar_navigation_and_strict_pick_trials
+  stop_rule: retain_failure_and_stop_on_first_failed_trial

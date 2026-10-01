@@ -1,0 +1,10 @@
+{
+  "coordinate_frame": "world xy",
+  "nearest_threshold_m": 0.029284271247461906,
+  "threshold_method": "half floor-grid diagonal + 1 mm; not paper-specific theta",
+  "floor_point_count": 7533,
+  "actual_binary_samples": 10,
+  "mapped_samples": 10,
+  "unknown_points_not_zero": true,
+  "no_camera_frame_dataset_export": true
+}

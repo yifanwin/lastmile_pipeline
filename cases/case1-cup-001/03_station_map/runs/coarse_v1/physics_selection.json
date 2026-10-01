@@ -1,0 +1,316 @@
+[
+  {
+    "pose_id": "A",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 176
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 94
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 87
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P121",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 195
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P127",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 169
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 79
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 199
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 86
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P125",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 174
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P001",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 170
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P005",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 186
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 93
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 84
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P003",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 220
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 90
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 79
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P008",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 182
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 77
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P009",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 187
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P157",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "boundary_budget_check"
+  },
+  {
+    "pose_id": "P158",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "boundary_budget_check"
+  }
+]

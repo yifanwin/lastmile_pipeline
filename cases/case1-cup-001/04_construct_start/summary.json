@@ -1,0 +1,54 @@
+{
+  "status": "screened_out_original_start_success",
+  "screening_complete": true,
+  "candidate_selected": false,
+  "can_enter_step5": false,
+  "reason": "original_start_has_protocol_compliant_pick_witness",
+  "witness_ids": [
+    "T00_A_left_h0.7380"
+  ],
+  "case_id": "case1-cup-001",
+  "source_index": 14,
+  "method": "original_only",
+  "original_base": [
+    7.183716297149658,
+    2.70900559425354,
+    -1.7024431228637695
+  ],
+  "scene_edits": [],
+  "robot_initial_pose_changed": false,
+  "target_pose_changed": false,
+  "furniture_changed": false,
+  "new_physical_trials": 0,
+  "physics_witnesses_revalidated": [
+    {
+      "witness_id": "T00_A_left_h0.7380",
+      "base": [
+        7.183716297149658,
+        2.70900559425354,
+        -1.7024431228637695
+      ],
+      "side": "left",
+      "h": 0.738,
+      "grasp_id": 794,
+      "verdict": {
+        "status": "verified_success",
+        "reason": "strict_pick"
+      },
+      "trace_path": "cases/case1-cup-001/03_station_map/runs/coarse_v1/trials/T00_A_left_h0.7380/grasp_0794_trace.json",
+      "trace_sha256": "ff38108c281dc15b7aa30e45c6cac5bf4fc0ddbfef4c55dc4b59cc0400cc4305",
+      "prefix_path": "cases/case1-cup-001/03_station_map/runs/coarse_v1/trials/T00_A_left_h0.7380/torso_adjust_trace.json",
+      "prefix_sha256": "37fc60cbfe2b9a8757eda16ffc4cf8e540b578bdeec953fab1616e23c36f7e50",
+      "new_execution": false
+    }
+  ],
+  "source_episode_sha256": "bc4e24420fd5ab2d619b2132b45ef8b850bff38494c43e91ad6fd1577983fbb5",
+  "review_packet_sha256": "fc873bbf5d0e33ff619366a41579a57a7cb064b896ec0af8842913f647e57c1e",
+  "station_run_id": "coarse_v1",
+  "station_evidence_manifest_sha256": "5138c94c5e1a16285afe19405a384da048e2af58c674549bc57d1795a30f297c",
+  "human_method_choice_sha256": "e48c20c2bf5cf44768dbd035ef89d6aafb7885d130945e55a3c30bd7a1f03cb3",
+  "policy_config_sha256": "4f30cb4a48fd1ca490a353ae2d0922abba4d432ea50d8b07f01628b92498357c",
+  "case1_goal_achieved": false,
+  "closed_loop_verified": false,
+  "completed_at_utc": "2026-10-01T14:57:41.507446+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "html_embedded_png_identical": true,
+  "markdown_links": [
+    {
+      "file": "lastmile_pipeline/reports/step3-REPORT.md",
+      "broken_links": []
+    },
+    {
+      "file": "lastmile_pipeline/reports/REPORT.md",
+      "broken_links": []
+    },
+    {
+      "file": "lastmile_pipeline/README.md",
+      "broken_links": []
+    },
+    {
+      "file": "lastmile_pipeline/docs/stages/03_station_map.md",
+      "broken_links": []
+    }
+  ],
+  "html_http_status": 200,
+  "read_only_post_status": 405,
+  "png_visually_inspected": true,
+  "browser_screenshot": "not_completed_due_to_current_snap_headless_environment",
+  "self_contained_html_uses_no_external_assets": true
+}

@@ -1,0 +1,20 @@
+{
+  "source_index": 14,
+  "target": "cup_ff2c6ab62ccb690220c97cdcfeb658c5_1_0_2",
+  "restored_target_xyz": [
+    7.313459458748234,
+    2.0988113404423916,
+    0.8012844308118927
+  ],
+  "source_target_xyz": [
+    7.313459458748234,
+    2.0988113404423916,
+    0.8012844308118927
+  ],
+  "object_pose_count": 35,
+  "added_object_count": 3,
+  "qpos_count": 306,
+  "geom_count": 2501,
+  "status": "compiled_and_restored_not_grasp_success",
+  "cache_source": "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review"
+}

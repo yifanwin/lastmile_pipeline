@@ -1,0 +1,28 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "robot_move_v3",
+  "files": {
+    "case_config.json": "8d593121444286dfbec7e1fef824da6d24a01ac3a0feae81a110af356384e358",
+    "case_initial_snapshot.npz": "c95fa060d9f983b94f8fb8a39ef113a1623ba5f27ecedd076b5c18c70abfec98",
+    "reach_certificate.json": "f86fbdfb719d34c2d9219a2e73dcc557b5c99b383a2a1cd7d476ca1ec1227b2f",
+    "human_choice.json": "5973ff0cf1268a009fa3ca3383ad519d29b3c58692c4f03bd7b97e97a8f91d44",
+    "selection_diagnostics.json": "a88ff019845b0d32fcf30187e7a06a98ca9e3ffe10c9081af281122c9c4591c9",
+    "geometry/P056_staging0.65/grid_debug.npz": "f0ba7a2bf563e7dd8746800f1080a087ffe2fa5d8252ea5064c1d365eccc4ab5",
+    "geometry/P056_staging0.65/grid_debug.json": "72ee8f09f1b8cc6ef1fc4b2c8e9e4cc4acd6f10a28c7c598560a9bb333851c4a",
+    "geometry/P056_staging0.50/grid_debug.npz": "36d4907c4cc2adf341bc29ca6a5ad9101f71faae540b183da7c714f236899b7d",
+    "geometry/P056_staging0.50/grid_debug.json": "8d46ea88953f686969e0f2776bab5100a4cf6ab3304e552c673426e4327c5ed9",
+    "geometry/P056_staging0.35/grid_debug.npz": "e5e33a7358a398c66aefee752f7ccb6d03097ee3d43105b7b481f648da1010bb",
+    "geometry/P056_staging0.35/grid_debug.json": "e39df132962dbb0e52bd173750468d1977e8c66d4551b974e33fe9f9005f926b",
+    "geometry/P056_staging0.20/grid_debug.npz": "e5e33a7358a398c66aefee752f7ccb6d03097ee3d43105b7b481f648da1010bb",
+    "geometry/P056_staging0.20/grid_debug.json": "d61c5acab63e7cb94d075dce52cf6bca0f6f1b20665248e6e420404e1e3ac565",
+    "geometry/P131_staging0.20/grid_debug.npz": "2cbcfa97b2d6b8cc6e5e2bbbd1daaf2656c54abeb33f14ba471a949e86fdb81f",
+    "geometry/P131_staging0.20/grid_debug.json": "82abaa7de5eb506e10fa75181c7b5020102b02e76fec11a690e219b54664f972",
+    "geometry/P131_staging0.20/final_approach/grid_debug.npz": "84bc2159b471a71d5bc1ef6c24be8d9f8ed1330a2b045dab773c4bc81f565cbb",
+    "geometry/P131_staging0.20/final_approach/grid_debug.json": "546fde10318e4ab0ba49213c4443b059068418d29fc51ba17fbd8d9fe37db795",
+    "geometry/P131_staging0.20/views/initial_robot_view.png": "98c01e5d368e8fcaca6771e0177ab0d07f56935c23a8ed1763f23a94744ca8dc",
+    "geometry/P131_staging0.20/views/overhead.png": "421db236f74e1bc57d9f8686386601a6063795f80bc28cc95bac47ac4991753c",
+    "geometry/P131_staging0.20/views/support_access_map.svg": "91df60e747faf32cd44648fb5af905f174157fac49645108bfc574c84e8078c6",
+    "geometry/P131_staging0.20/views/support_access_map.png": "eedb4606c26f1635ed01b89cf30a7dc57a152a5e221844d709b44062b546adcf",
+    "geometry/P131_staging0.20/views/target_closeup.png": "a984b5aad24106842f75881c070a04a40547296fe222e9b86156de560cf82736"
+  }
+}

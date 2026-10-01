@@ -1,0 +1,8779 @@
+[
+  {
+    "pose_id": "A",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 184
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 115
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 106
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P002",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P007",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 333
+      },
+      {
+        "phase": "approach",
+        "success": false,
+        "status": "MotionGenStatus.IK_FAIL",
+        "waypoints": 0
+      }
+    ],
+    "planning_only": true,
+    "reason": "approach_plan_budget_exhausted"
+  },
+  {
+    "pose_id": "P008",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P011",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 168
+      },
+      {
+        "phase": "approach",
+        "success": false,
+        "status": "MotionGenStatus.IK_FAIL",
+        "waypoints": 0
+      }
+    ],
+    "planning_only": true,
+    "reason": "approach_plan_budget_exhausted"
+  },
+  {
+    "pose_id": "P126",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 168
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 116
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 108
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P128",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "left",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 177
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 101
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 96
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P002",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 193
+      },
+      {
+        "phase": "approach",
+        "success": false,
+        "status": "MotionGenStatus.IK_FAIL",
+        "waypoints": 0
+      }
+    ],
+    "planning_only": true,
+    "reason": "approach_plan_budget_exhausted"
+  },
+  {
+    "pose_id": "P007",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 180
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 295
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 116
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P008",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P011",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 184
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 120
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 117
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P126",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 171
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 99
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 94
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P128",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "left",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 182
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 81
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 77
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P002",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 184
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 99
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 93
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 190
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 93
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 92
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P008",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P011",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 175
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 78
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P126",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 169
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 80
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 77
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P128",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "left",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 179
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 86
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 77
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P001",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 187
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 98
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P002",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 189
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 98
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 91
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 187
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 96
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P008",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P011",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 180
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 91
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 92
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P122",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 176
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P126",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 175
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P128",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "left",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 176
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 94
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 87
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P001",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 170
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P002",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 216
+      },
+      {
+        "phase": "approach",
+        "success": false,
+        "status": "MotionGenStatus.IK_FAIL",
+        "waypoints": 0
+      }
+    ],
+    "planning_only": true,
+    "reason": "approach_plan_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 186
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 93
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 84
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 199
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 86
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P008",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P011",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 195
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P122",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 179
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 77
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 79
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P126",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 172
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P128",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 211
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 81
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P129",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "left",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P002",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P007",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P008",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 173
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 105
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 100
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P011",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P126",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P128",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "right",
+    "h": 0.0,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P002",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P007",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P008",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 175
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 99
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 93
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P011",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P126",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 189
+      },
+      {
+        "phase": "approach",
+        "success": false,
+        "status": "MotionGenStatus.IK_FAIL",
+        "waypoints": 0
+      }
+    ],
+    "planning_only": true,
+    "reason": "approach_plan_budget_exhausted"
+  },
+  {
+    "pose_id": "P127",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P128",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "right",
+    "h": 0.1845,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P002",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P005",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 183
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 117
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 99
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P008",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 180
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 86
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P011",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P126",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 196
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 79
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 85
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P127",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P128",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "right",
+    "h": 0.369,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P002",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 195
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 97
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P005",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 180
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 82
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 79
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P008",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 174
+      },
+      {
+        "phase": "approach",
+        "success": false,
+        "status": "MotionGenStatus.IK_FAIL",
+        "waypoints": 0
+      }
+    ],
+    "planning_only": true,
+    "reason": "approach_plan_budget_exhausted"
+  },
+  {
+    "pose_id": "P009",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 209
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 92
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 83
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P011",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P126",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 180
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 78
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 88
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P127",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P128",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P136",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "right",
+    "h": 0.5535,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "A",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P001",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P002",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P003",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 220
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 90
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 79
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P005",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 188
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 85
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P007",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P008",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 182
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 77
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P009",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 187
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P011",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P012",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P013",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P019",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P020",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P021",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P022",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P023",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P024",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P025",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P026",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P027",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P037",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P038",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P039",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P040",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P041",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P042",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P044",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P045",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P115",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P116",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P117",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P118",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P119",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P120",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P121",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P122",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P123",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P125",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P126",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 196
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 84
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P127",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P128",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P129",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "full_path_planned",
+    "ik_solved": true,
+    "paths": [
+      {
+        "phase": "pregrasp",
+        "success": true,
+        "status": "None",
+        "waypoints": 208
+      },
+      {
+        "phase": "approach",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      },
+      {
+        "phase": "lift",
+        "success": true,
+        "status": "None",
+        "waypoints": 76
+      }
+    ],
+    "planning_only": true,
+    "reason": null
+  },
+  {
+    "pose_id": "P136",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P137",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P138",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P139",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P140",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P141",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P142",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P143",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P144",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P145",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P146",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P147",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P148",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P149",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P150",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P157",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P158",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P159",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P160",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P161",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P162",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P163",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P164",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P165",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P166",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P167",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P168",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P169",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P170",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  },
+  {
+    "pose_id": "P171",
+    "side": "right",
+    "h": 0.738,
+    "grasp_id": 794,
+    "status": "search_exhausted",
+    "ik_solved": false,
+    "paths": [],
+    "planning_only": true,
+    "reason": "collision_aware_ik_budget_exhausted"
+  }
+]

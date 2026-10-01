@@ -1,0 +1,79 @@
+[
+  {
+    "pose_id": "P056",
+    "route_found": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P059",
+    "route_found": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P062",
+    "route_found": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P065",
+    "route_found": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P113",
+    "route_found": false,
+    "reason": "起点/终点不在保守导航自由空间: start=False, goal=True"
+  },
+  {
+    "pose_id": "P131",
+    "base": [
+      6.706627595614837,
+      0.6653759999999997,
+      1.1703317577059125
+    ],
+    "path_length_m": 2.46642135623731,
+    "initial_collision": [],
+    "route_found": true,
+    "side": "west",
+    "offset": 0.48
+  },
+  {
+    "pose_id": "P134",
+    "base": [
+      6.706627595614837,
+      0.9608306666666664,
+      1.080901371478814
+    ],
+    "path_length_m": 2.1664213562373096,
+    "initial_collision": [],
+    "route_found": true,
+    "side": "west",
+    "offset": 0.48
+  },
+  {
+    "pose_id": "P152",
+    "base": [
+      6.5466275956148365,
+      0.6653759999999997,
+      1.0795727185003436
+    ],
+    "path_length_m": 2.5389087296526016,
+    "initial_collision": [],
+    "route_found": true,
+    "side": "west",
+    "offset": 0.64
+  },
+  {
+    "pose_id": "P155",
+    "base": [
+      6.5466275956148365,
+      0.9608306666666664,
+      0.9778349528832556
+    ],
+    "path_length_m": 2.238908729652602,
+    "initial_collision": [],
+    "route_found": true,
+    "side": "west",
+    "offset": 0.64
+  }
+]

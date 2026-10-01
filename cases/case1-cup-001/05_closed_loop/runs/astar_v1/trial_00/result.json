@@ -1,0 +1,7 @@
+{
+  "trial": 0,
+  "status": "executed_failure",
+  "reason": "navigation_torso_protocol",
+  "partial_navigation_samples": 5779,
+  "new_physical_execution": true
+}

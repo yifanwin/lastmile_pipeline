@@ -16,17 +16,41 @@
       "physics_verified": true
     },
     "03_station_map": {
-      "status": "not_run"
+      "status": "coarse_map_complete",
+      "run_id": "coarse_v1",
+      "map_ready": true,
+      "summary_path": "cases/case1-cup-001/03_station_map/runs/coarse_v1/summary.json",
+      "full_navigation_verified": false
     },
     "04_construct_start": {
-      "status": "not_run"
+      "status": "geometry_candidate_ready",
+      "method": "robot_only",
+      "human_method_selected": true,
+      "screening_complete": true,
+      "candidate_selected": true,
+      "can_enter_step5": true,
+      "scene_edits": [
+        "robot_initial_base"
+      ],
+      "run_id": "robot_move_v3",
+      "original_only_result_preserved": true
     },
     "05_closed_loop": {
-      "status": "not_run"
+      "status": "running",
+      "run_id": "astar_v3_supplement",
+      "closed_loop_verified": false,
+      "repeat_acceptance_verified": true,
+      "strict_successes": 3,
+      "human_final_accepted": false,
+      "video_ready": true,
+      "video_path": "cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4",
+      "review_path": "cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html",
+      "raw_evidence_audit_passed": true,
+      "delivery_validated": true
     },
     "06_export_case": {
       "status": "not_run"
     }
   },
-  "updated_at_utc": "2026-10-01T13:53:40.345379+00:00"
+  "updated_at_utc": "2026-10-01T16:03:57.826317+00:00"
 }

@@ -1,0 +1,18 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "astar_v2",
+  "physics_evidence_manifest_sha256": "e6003a5b2caa2e221311e68721c12f52b54b1dfa5f04244d056514eb8287f45f",
+  "render_source_sha256": "6b31ab6abafcc3088d362e72a33fb0dda26e6617700588de4ad202a8e7971968",
+  "plot_source_sha256": "0e0102f9232e10b5a91e22172d74c651ae79f5b93e8615d7c6ae885e9011fc1b",
+  "files": {
+    "closed_loop_evidence.svg": "197157920db47898c31fa126618d430225fd96e5df43045d98b3dcd1bcf722b7",
+    "video_manifest.json": "c555a81bbd75e1f6b292d0732276bca776345bc7094fd8a819e61be5202a2f4c",
+    "review.html": "6677047a63f218fe5dbefa11ec869b6ee6a309045e2de06d26d0ebc0dc769599",
+    "case1_r_closed_loop.mp4": "ca222f9d505eee56a6f12df77c5dbb2300d9918ef6b1738b150efb1ac19b27c1",
+    "preview_start.png": "c240315faf6b9f34118c3ad86279ae0916d28857adc4bf9e62c7f03cccbb9091",
+    "closed_loop_evidence.png": "74af84f2c20cded57cfb6ec6134342c78a9fbbf4ef5748179592a6c0ff1d6229",
+    "preview_navigation.png": "8efde1e1d728248d5debda018039d2f88214231541a4c88a70bbdec8184ef57b",
+    "preview_hold.png": "ae8400dcd3c967b4c719284065bde4aebc7069bdee90c981b2317869e0e6070d",
+    "preview_lift.png": "0b017e14aef1f0e1fbf7f45a70bd797048e3180262fec8c9288c943f63208fcf"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "coarse_v1",
+  "all_checks_passed": true,
+  "planning_unique_queries": 720,
+  "required_planning_queries": 720,
+  "independent_trial_count": 12,
+  "trial_checks": [
+    {
+      "trial_id": "T00_A_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T01_P121_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T02_P127_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T03_P007_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T04_P125_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T05_P001_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T06_P005_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T07_P003_right_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T08_P008_right_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 0
+    },
+    {
+      "trial_id": "T09_P009_right_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": 1
+    },
+    {
+      "trial_id": "T10_P157_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": null
+    },
+    {
+      "trial_id": "T11_P158_left_h0.7380",
+      "source_snapshot_restored_nonbase_qpos_and_all_qvel_unchanged": true,
+      "label_recomputed": null
+    }
+  ],
+  "created_at_utc": "2026-10-01T14:31:10.112988+00:00"
+}

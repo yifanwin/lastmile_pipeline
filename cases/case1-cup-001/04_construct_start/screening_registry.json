@@ -1,0 +1,15 @@
+{
+  "case_id": "case1-cup-001",
+  "method": "original_only",
+  "accepted_candidates": [],
+  "excluded_candidates": [
+    {
+      "source_index": 14,
+      "reason": "original_start_has_protocol_compliant_pick_witness",
+      "evidence": [
+        "T00_A_left_h0.7380"
+      ]
+    }
+  ],
+  "pending_candidates": []
+}

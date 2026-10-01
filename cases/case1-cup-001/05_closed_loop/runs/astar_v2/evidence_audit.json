@@ -1,0 +1,51 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "astar_v2",
+  "all_checks_passed": true,
+  "placement_audit": {
+    "only_base_qpos_changed": true,
+    "non_base_qpos_exactly_source": true,
+    "all_qvel_exactly_source": true
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "navigation_samples": 52710,
+      "navigation_revalidated": true,
+      "pick_revalidated": {
+        "status": "verified_success",
+        "reason": "strict_pick"
+      },
+      "arrival_snapshot_base_exactly_prefix": true,
+      "arrival_to_pick_first_tick_gap_s": 0.004,
+      "saved_state_time_monotonic": true
+    },
+    {
+      "trial": 1,
+      "navigation_samples": 52710,
+      "navigation_revalidated": true,
+      "pick_revalidated": {
+        "status": "verified_success",
+        "reason": "strict_pick"
+      },
+      "arrival_snapshot_base_exactly_prefix": true,
+      "arrival_to_pick_first_tick_gap_s": 0.004,
+      "saved_state_time_monotonic": true
+    },
+    {
+      "trial": 2,
+      "navigation_samples": 52710,
+      "navigation_revalidated": true,
+      "pick_revalidated": {
+        "status": "verified_success",
+        "reason": "strict_pick"
+      },
+      "arrival_snapshot_base_exactly_prefix": true,
+      "arrival_to_pick_first_tick_gap_s": 0.004,
+      "saved_state_time_monotonic": true
+    }
+  ],
+  "strict_successes_recomputed": 3,
+  "repeat_acceptance_verified": true,
+  "initial_and_arrival_snapshots_checked": true
+}

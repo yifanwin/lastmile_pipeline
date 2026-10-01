@@ -139,7 +139,7 @@ def run_one(workspace,index,side,h,seed,run_dir,max_grasps=24,sim=None,world_geo
     fk=np.asarray(planner.fk_solve(sim.group(side+'_arm').tolist()))
     real=to_base_frame(sim.tcp(side),base)
     if np.linalg.norm(fk[:3]-real[:3,3])>.001:raise ValueError('cuRobo/MuJoCo TCP 坐标不一致')
-    errors=[];result_record=None
+    errors=[];result_record=None;last_dynamic_verdict=None
     ik_poses=[pose7(to_base_frame(world[i],base)) for i in candidates]
     ik_mask=planner.ik_solve_batch(ik_poses,seed_config=sim.group(side+'_arm').tolist(),num_seeds=64,disable_collision=False,pad_to=len(candidates))
     for gid in candidates[~ik_mask]:errors.append({'grasp_id':int(gid),'stage':'ik_prefilter','status':'budget_exhausted_no_solution'})
@@ -156,10 +156,12 @@ def run_one(workspace,index,side,h,seed,run_dir,max_grasps=24,sim=None,world_geo
         sim.record_phase='pregrasp'
         ok,status=execute_path(sim,planner,pre,side,h,(-.05,-.05),trace)
         if not ok:
+            write_json(run_dir/f'grasp_{int(grasp_id):04d}_pregrasp_failed_trace.json',{'initial':initial,'samples':trace,'failure':status})
             errors.append({'grasp_id':int(grasp_id),'stage':'pregrasp','status':status});continue
         sim.record_phase='approach'
         ok,status=execute_path(sim,planner,goal,side,h,(-.05,-.05),trace)
         if not ok:
+            write_json(run_dir/f'grasp_{int(grasp_id):04d}_approach_failed_trace.json',{'initial':initial,'samples':trace,'failure':status})
             errors.append({'grasp_id':int(grasp_id),'stage':'approach','status':status});continue
         sim.record_phase='close'
         grip=(0.,-.05) if side=='left' else (-.05,0.)
@@ -169,6 +171,7 @@ def run_one(workspace,index,side,h,seed,run_dir,max_grasps=24,sim=None,world_geo
         sim.record_phase='lift'
         ok,status=execute_path(sim,planner,lift,side,h,grip,trace)
         if not ok:
+            write_json(run_dir/f'grasp_{int(grasp_id):04d}_lift_failed_trace.json',{'initial':initial,'samples':trace,'failure':status})
             errors.append({'grasp_id':int(grasp_id),'stage':'lift','status':status});continue
         sim.record_phase='hold'
         for _ in range(550):tick(sim,side,h,trace)
@@ -176,7 +179,10 @@ def run_one(workspace,index,side,h,seed,run_dir,max_grasps=24,sim=None,world_geo
         record={'source_index':index,'side':side,'h':h,'seed':seed,'grasp_id':int(grasp_id),**verdict}
         write_json(run_dir/f'grasp_{int(grasp_id):04d}_trace.json',{'initial':initial,'samples':trace})
         if verdict['status']=='verified_success':result_record=record;break
+        last_dynamic_verdict=record.copy()
         errors.append({'grasp_id':int(grasp_id),'stage':'strict_pick',**verdict})
+    if result_record is None and last_dynamic_verdict is not None:
+        result_record=last_dynamic_verdict
     if result_record is None:
         result_record={'source_index':index,'side':side,'h':h,'seed':seed,
                        'status':'budget_exhausted_no_solution','reason':'see_candidate_attempts'}
@@ -189,7 +195,7 @@ def run_one(workspace,index,side,h,seed,run_dir,max_grasps=24,sim=None,world_geo
     return result_record
 
 
-def mesh_world_obstacles(sim):
+def mesh_world_obstacles(sim,max_distance=2.):
     """按真实 MuJoCo 碰撞 geom 合并世界 mesh，保留桌腿间隙和凹形边界。"""
     from curobo.geom.types import Mesh
     import trimesh
@@ -206,7 +212,7 @@ def mesh_world_obstacles(sim):
         # 规划中地面不作为底盘禁止接触；仿真中不关闭任何地面碰撞。
         if 'floor' in name.lower() or m.geom_type[gid]==mujoco.mjtGeom.mjGEOM_PLANE:continue
         center,size=geom_aabb(m,d,[gid])
-        if np.linalg.norm(np.maximum(np.abs(center[:2]-base[:2,3])-size[:2]/2,0))>2:continue
+        if np.linalg.norm(np.maximum(np.abs(center[:2]-base[:2,3])-size[:2]/2,0))>max_distance:continue
         kind=int(m.geom_type[gid]);dims=m.geom_size[gid]
         if kind==mujoco.mjtGeom.mjGEOM_MESH:
             mid=int(m.geom_dataid[gid]);v0=int(m.mesh_vertadr[mid]);f0=int(m.mesh_faceadr[mid])

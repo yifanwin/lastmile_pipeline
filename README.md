@@ -1,11 +1,17 @@
 # Lastmile 半自动构造管线
 
-以《lastmile case 构建方案.md》第六节为中心。当前实现 **Case 1 的步骤 1–2**；步骤 3–6 只有目录与门禁契约，尚未实现。自动生成证据，人工决定场景是否保留，人工不能覆盖物理失败。
+以《lastmile case 构建方案.md》第六节为中心。当前实现 **步骤 1–3、步骤 4 的原样筛选/仅移动机器人分支，以及步骤 5 的 A* 连续导航抓取验收**。步骤 6 最终人工接受与导出尚未实现。原始 A 点成功，不能作为困难起点；新困难起点从步骤 3 超范围候选选择。自动生成证据，人工决定场景是否保留，人工不能覆盖物理失败。
+
+## 当前交付
+
+- [P131 → A 闭环视频](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4) · [第二张证据审阅卡](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html)
+- [最新报告](reports/step5-REPORT.md)：3 / 3 次新连续试验严格通过，等待最终人工接受。
 
 ## 已生成的候选
 
 - [场景交互审阅卡](cases/case1-cup-001/01_restore_review/review.html)：episode 14 / house 103 / Cup_30 / DiningTable。
-- [流程状态](cases/case1-cup-001/manifest.json)。人工仍待确认。
+- [流程状态](cases/case1-cup-001/manifest.json)。人工已批准 north/south/west，步骤 3 粗站位图已完成。
+- [粗站位图](cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.html) · [PNG](cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.png)。
 - [本次执行报告](reports/REPORT.md)。A 指原 episode 的成功候选站位，不是困难起点。
 
 ## 目录
@@ -20,9 +26,9 @@ cases/<case-id>/
   inputs/                   有来源校验的 episode、资产与执行上下文
   01_restore_review/        恢复快照、四视图、审阅包、人工记录、agent 建议
   02_stable_grasp/          稳定 grasp、历史轨迹复核、新 A 点实跑
-  03_station_map/           后续站位图（预留）
-  04_construct_start/       后续人工选构造方式（预留）
-  05_closed_loop/           后续起点失败和绕行抓取证据（预留）
+  03_station_map/           候选、双臂五高度规划、独立物理试验和站位图
+  04_construct_start/       原样筛选历史、按运行记录的构造方式和派生起点
+  05_closed_loop/           A* 连续导航、实测到站抓取、重复验收和视频
   06_export_case/           后续最终人工确认和导出（预留）
 docs/stages/                各阶段输入、输出和通过条件
 reports/                    当前交付报告和执行日志
@@ -55,7 +61,17 @@ lastmile_pipeline/bin/lastmile status --case-id case1-cup-001
 lastmile_pipeline/bin/lastmile check-gate --case-id case1-cup-001
 ```
 
-审阅必须确认目标、桌面、适合桌边、保留纯距离型；无绕行可能就拒绝并换场景，不删墙补救。`check-gate` 只检查下一阶段条件，**不执行尚未实现的步骤 3**。
+审阅必须确认目标、桌面、适合桌边、保留纯距离型；无绕行可能就拒绝并换场景，不删墙补救。`check-gate` 只检查下一阶段条件，**不执行站位图任务本身**。
+
+## 步骤 3：粗站位图
+
+```bash
+lastmile_pipeline/bin/lastmile station-map --case-id case1-cup-001 --run-id coarse_v1
+# 相同冻结配置中断续跑
+lastmile_pipeline/bin/lastmile station-map --case-id case1-cup-001 --run-id coarse_v1 --resume
+```
+
+[阶段说明](docs/stages/03_station_map.md)。按人工批准的桌边采样含朝向的底盘位姿，几何筛选后检查双臂 × 五个 h，关键候选恢复同一原始快照做真实抓取。只放置机器人底盘，不移目标或家具；这不是导航。真实成功、规划通过、几何过滤和搜索预算耗尽分开显示。局部 Gaussian 插值只采用完整动态 Pick 标签，未知区域不填 0。
 
 ## 物理证据与限制
 
@@ -68,3 +84,20 @@ lastmile_pipeline/bin/lastmile check-gate --case-id case1-cup-001
 ```bash
 PYTHONPATH=lastmile_pipeline/src molmospaces/.venv/bin/python -m unittest discover -s lastmile_pipeline/tests -v
 ```
+
+## 步骤 4：仅筛选原始起点
+
+用户已选择不改场景；episode 14 原始起点通过严格 Pick，不能充当失败起点。筛选完成但未选中困难候选，步骤 5 不放行。
+
+[步骤说明](docs/stages/04_construct_start.md) · [审阅卡](cases/case1-cup-001/04_construct_start/construction_review.html) · [执行报告](reports/step4-REPORT.md)
+
+```bash
+MUJOCO_GL=disable lastmile_pipeline/bin/lastmile check-construct-gate --case-id case1-cup-001
+# 当前预期退出 1：原始起点已成功抓取
+```
+
+## 当前构造与连续执行
+
+“不改场景”是原样筛选那一次的临时选择，并非永久禁止修改。后续按用户明确请求切换到 `robot_only`，旧记录保留。当前 P131 起点只改机器人 base，目标/家具未变；未来其他场景修改需单独保留来源、修改清单和验收。
+
+[步骤 4 新分支说明](docs/stages/04_construct_start.md) · [步骤 5 说明](docs/stages/05_closed_loop.md)

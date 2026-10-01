@@ -1,0 +1,30 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "astar_v2",
+  "trial": 0,
+  "video_sha256": "ca222f9d505eee56a6f12df77c5dbb2300d9918ef6b1738b150efb1ac19b27c1",
+  "states_sha256": "712bd7eda596eb1aa9db40421aec7d08de43c5a59e856ad99b107220e653c916",
+  "physical_evidence_manifest_sha256": "e6003a5b2caa2e221311e68721c12f52b54b1dfa5f04244d056514eb8287f45f",
+  "physics_duration_s": 251.4799999997767,
+  "video_duration_s": 45.96,
+  "frames": 1149,
+  "fps": 25,
+  "playback_speed": {
+    "navigation": 8,
+    "torso_adjust": 4,
+    "start_and_pick": 1
+  },
+  "render_only_changes": [
+    "walls/windows/ceiling visually transparent; physical model untouched",
+    "overlays and measured trajectory inset"
+  ],
+  "only_saved_physical_states_no_motion_interpolation": true,
+  "strict_successes": 3,
+  "human_final_accepted": false,
+  "previews": {
+    "start": "preview_start.png",
+    "navigation": "preview_navigation.png",
+    "lift": "preview_lift.png",
+    "hold": "preview_hold.png"
+  }
+}

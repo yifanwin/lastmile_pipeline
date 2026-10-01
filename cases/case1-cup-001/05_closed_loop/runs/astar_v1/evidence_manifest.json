@@ -1,0 +1,13 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "astar_v1",
+  "files": {
+    "summary.json": "a9c7ae86295c19c40670b32b9e3f2572f21462beede44dce5440572ca6484c30",
+    "frozen_inputs.json": "2c3bf5474bee21c2dbc02f5049df015ea9f792b06c28816bb3da0056b148c8a1",
+    "engine/restoration.json": "a165d03cacda0d9ef7548f28574ea87d37f7e908d53e257aa97ae89edc1d5cc3",
+    "engine/initial_snapshot.npz": "7787c82d425a9154eccc79bc62f6ad28dbd0c159924cbc81844dd8d4a648ea13",
+    "trial_00/navigation_trace.json": "04b063809e46971584057ba1d4036bf15aee63ffc390f935a8f22e781c2cd3ca",
+    "trial_00/video_states.npz": "5434e1c1b8ae3f2975f87c0beaefbd182b6874c1928be62e132cd25b2497635b",
+    "trial_00/result.json": "4506877032bda091eafd7d8b8140aadde878d00fdd53ea8ece8243ab7bf15939"
+  }
+}

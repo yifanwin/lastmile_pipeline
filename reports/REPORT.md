@@ -1,56 +1,11 @@
-# 半自动 Case 1 管线交付报告
+# Lastmile 当前交付状态
 
-## 结果
+**P131 困难起点 → A* 真动态导航 → 实测到站无重置 → cuRobo 抓取，3 / 3 次新闭环严格通过。最终人工接受待确认。**
 
-**已实现并运行步骤 1 的自动恢复、步骤 2 的 A 点物理抓取。人工场景确认待处理，步骤 3–6 未实现。**
+- [最新执行报告](step5-REPORT.md)
+- [闭环视频](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4) · [证据审阅卡](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html)
+- [步骤 3 粗站位图](../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.html) · [步骤 3 报告](step3-REPORT.md)
+- [原样筛选历史报告](step4-REPORT.md)：当时临时选择不改场景，原始 A 点成功而筛除；现已由新 robot_only 分支接续，不改写旧结论。
+- [历史步骤 1–2 报告](step1-step2-REPORT.md) · [流程状态](../cases/case1-cup-001/manifest.json) · [操作说明](../README.md)
 
-工作区已按六阶段半自动流程重组。旧协议校准和资产试验完整迁入 `archive/calibration_v1`，当前入口是 `bin/lastmile`，每个候选的输入、快照、审阅和抓取证据集中于 `cases/<case-id>`。未改源 benchmark、资产 XML、墙体或家具。
-
-## 本次执行
-
-1. 冻结原 episode 14 / house 103 / Cup_30 / DiningTable 来源，校验源 XML 和 grasp 哈希；恢复 35 个物体位姿、3 个额外对象、机器人关节和 benchmark 相机。另行检查全部 35 个对象的位置与朝向，均一致。相机校正前后物理模型签名一致。
-2. 输出俯视、初始机器人视角、近景和桌面边界图；目标框由实例分割生成。下图已经实际检查，其他三图见交互审阅卡。
-3. 经用户明确授权，使用 `.env` 指定 API 发送三张场景图与事实，获得桌边和绕行风险建议。首次回复为空；增加输出预算后得到有效建议。未记录密钥、服务地址或原始响应。agent 明确只有建议权。
-4. 复核历史稳定性原始轨迹、动作前缀、冻结选择协议与预注册扰动；再在当前恢复模型上用 CUDA 5 新执行一次完整 A 点抓取，未更换 grasp 行号兜底。
-5. 验证人工门禁、证据哈希、拒绝和篡改检查；49 个单元测试通过。本机审阅页 HTTP 200，跨站提交被拒绝（400）。默认端口占用，实际审阅服务改用 18765，仅绑定回环地址。
-
-![初始机器人视角](../cases/case1-cup-001/01_restore_review/views/initial_robot_view.png)
-
-*机器人初始视角；橙框为目标实例。原场景全部保留。视觉可见不证明导航通过。*
-
-## A 点结果
-
-| 证据 | 结果 | 范围 |
-|---|---|---|
-| 历史名义试验原始轨迹重新验收 | 5/5 | 冻结控制序列、独立快照恢复 |
-| 历史扰动试验原始轨迹重新验收 | 20/20 | 基座 x/y ±1 cm、yaw ±2°，冻结 row 794 |
-| 当前恢复模型新实跑 | 1/1 | 左臂、h=0.738、row 794、cuRobo 实际 mesh |
-
-新实跑执行：动态调整躯干 → 预抓取 → 接近 → 双指闭合 → 抬升 → 保持。最终抬升 **11.52 cm**，双指均承力，无桌面支撑；严格 Pick 通过（持续稳定保持至少 2 秒，并满足固定底盘、躯干联动、头部/闲置臂和无非法接触限制）。抓取段保存 2475 个物理采样，躯干调整另保存 7640 个采样。
-
-历史 25 次不冒充本次新试验。一次新实跑证明当前 A 点可执行，不单独估计成功率；小范围扰动稳定性不推广至其他站位或导航。
-
-## 交付入口与人工介入
-
-- [交互审阅卡](../cases/case1-cup-001/01_restore_review/review.html)
-- [流程状态](../cases/case1-cup-001/manifest.json)
-- [A 点结果](../cases/case1-cup-001/02_stable_grasp/summary.json)
-- [稳定 grasp](../cases/case1-cup-001/02_stable_grasp/stable_grasps.json)
-- [历史原轨迹复核及哈希](../cases/case1-cup-001/02_stable_grasp/historical_revalidation.json)
-- [新实跑验收](../cases/case1-cup-001/02_stable_grasp/fresh_A_witness/result.json)
-- [测试记录](unit-tests.log)、[对象姿态核对](pose-verification.json)
-- [操作说明](../README.md)
-
-当前本机服务：**http://127.0.0.1:18765/review.html**。远程可转发该端口，也可离线打开交互卡、下载人工 JSON 后导入。服务进程结束后可重新运行：
-
-```bash
-lastmile_pipeline/bin/lastmile serve-review --case-id case1-cup-001 --port 18765
-```
-
-请确认目标是否正确、是否桌面、适合操作桌边、是否保留纯距离型。若无真实绕行可能，请拒绝并换场景。agent 推荐继续审阅、北侧优先，但绕行可能性仍未知；已有历史导航失败保留于 archive，不能覆盖为成功。
-
-审批绑定审阅包哈希。未获人工批准，步骤 2 记为 `provisional_verified`，下一阶段门禁拒绝推进。人工批准只能解除场景门禁，不能改变物理失败标签。**当前不交付 Case 1 绕行闭环成功视频，不声称站位图或导航已经完成。**
-
-## 保留与下一步
-
-保留可复现代码、阶段配置、渲染图、来源记录、完整原始轨迹和恢复快照；大文件不纳入 Git，已设置忽略规则。本次未创建或修改 Git 分支、提交或历史。后续先人工确认场景，再实现固定快照的粗站位图；如确认场景不适合绕行，按用户授权换场景。
+当前目标、家具和资产仍未改动，仅机器人派生起点改变。范围证书覆盖 P131 的双臂、原地朝向和连续躯干，不声称整条西侧不可操作或泛化成功概率。步骤 6 最终接受与导出未执行。

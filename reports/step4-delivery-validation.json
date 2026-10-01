@@ -1,0 +1,8 @@
+{
+  "decision_packet_hashes_valid": true,
+  "local_delivery_links_valid": true,
+  "embedded_image_matches_original": true,
+  "browser_screenshot_validated": false,
+  "new_physical_trials": 0,
+  "step5_expected_gate_exit": 1
+}
