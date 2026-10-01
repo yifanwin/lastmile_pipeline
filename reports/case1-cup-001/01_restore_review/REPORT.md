@@ -16,7 +16,7 @@
 4. 复核历史稳定性原始轨迹、动作前缀、冻结选择协议与预注册扰动；再在当前恢复模型上用 CUDA 5 新执行一次完整 A 点抓取，未更换 grasp 行号兜底。
 5. 验证人工门禁、证据哈希、拒绝和篡改检查；49 个单元测试通过。本机审阅页 HTTP 200，跨站提交被拒绝（400）。默认端口占用，实际审阅服务改用 18765，仅绑定回环地址。
 
-![初始机器人视角](../cases/case1-cup-001/01_restore_review/views/initial_robot_view.png)
+![初始机器人视角](../../../cases/case1-cup-001/01_restore_review/views/initial_robot_view.png)
 
 *机器人初始视角；橙框为目标实例。原场景全部保留。视觉可见不证明导航通过。*
 
@@ -34,14 +34,14 @@
 
 ## 交付入口与人工介入
 
-- [交互审阅卡](../cases/case1-cup-001/01_restore_review/review.html)
-- [流程状态](../cases/case1-cup-001/manifest.json)
-- [A 点结果](../cases/case1-cup-001/02_stable_grasp/summary.json)
-- [稳定 grasp](../cases/case1-cup-001/02_stable_grasp/stable_grasps.json)
-- [历史原轨迹复核及哈希](../cases/case1-cup-001/02_stable_grasp/historical_revalidation.json)
-- [新实跑验收](../cases/case1-cup-001/02_stable_grasp/fresh_A_witness/result.json)
-- [测试记录](unit-tests.log)、[对象姿态核对](pose-verification.json)
-- [操作说明](../README.md)
+- [交互审阅卡](../../../cases/case1-cup-001/01_restore_review/review.html)
+- [流程状态](../../../cases/case1-cup-001/manifest.json)
+- [A 点结果](../../../cases/case1-cup-001/02_stable_grasp/summary.json)
+- [稳定 grasp](../../../cases/case1-cup-001/02_stable_grasp/stable_grasps.json)
+- [历史原轨迹复核及哈希](../../../cases/case1-cup-001/02_stable_grasp/historical_revalidation.json)
+- [新实跑验收](../../../cases/case1-cup-001/02_stable_grasp/fresh_A_witness/result.json)
+- [测试记录](../../logs/unit-tests.log)、[对象姿态核对](checks/pose-verification.json)
+- [操作说明](../../../README.md)
 
 当前本机服务：**http://127.0.0.1:18765/review.html**。远程可转发该端口，也可离线打开交互卡、下载人工 JSON 后导入。服务进程结束后可重新运行：
 

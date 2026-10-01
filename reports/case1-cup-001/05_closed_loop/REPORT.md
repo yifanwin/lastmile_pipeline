@@ -14,7 +14,7 @@
 
 - P131 base：`[6.706627596, 0.665376, 1.170331758]`，来自站位图，不是按目标固定距离截断导航。
 - 到目标水平距离 **1.556593 m**，大于覆盖双臂、所有原地朝向、连续合法躯干的保守接触上界 **1.217127 m**，余量 **.339466 m**。
-- 失败依据是 [保守接触范围证书](../cases/case1-cup-001/04_construct_start/runs/robot_move_v3/reach_certificate.json)，不是规划耗尽或伪造的伸臂失败动作。
+- 失败依据是 [保守接触范围证书](../../../cases/case1-cup-001/04_construct_start/runs/robot_move_v3/reach_certificate.json)，不是规划耗尽或伪造的伸臂失败动作。
 - 不声称整条西侧不可操作或必须换到另一侧；西侧其他站位已有成功证据。当前证明的是 P131 原地不可操作，需要平移换站位。
 
 ## 真实重复结果
@@ -27,7 +27,7 @@
 
 三次均检查双指真实正向承力、至少 .05 m 抬升、无支撑稳定保持至少 2 s，以及底盘、躯干、头、闲置臂和禁止碰撞约束。到站 base 与抓取前缀初始 base 完全一致，首个抓取调整 tick 距到站末 tick 为 .004 s。
 
-![真实路线和抬升证据](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/closed_loop_evidence.png)
+![真实路线和抬升证据](../../../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/closed_loop_evidence.png)
 
 图：虚线为 A* 参考，彩色线为三次实测结果；固定初始条件下轨迹和抬升曲线重合。三次重复不等于扰动鲁棒性或总体成功概率，抬升曲线也不能替代完整接触验收。
 
@@ -39,11 +39,11 @@
 
 ## 交付与验证
 
-- [闭环视频](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4) · [第二张证据审阅卡](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html)
-- [三次结果](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/summary.json) · [原始证据复核](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/evidence_audit.json)
-- [派生构造配置](../cases/case1-cup-001/04_construct_start/runs/robot_move_v3/case_config.json) · [人工方式记录](../cases/case1-cup-001/04_construct_start/runs/robot_move_v3/human_choice.json)
-- [视频溯源](../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/video_manifest.json) · [单元测试](unit-tests.log)
+- [闭环视频](../../../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4) · [第二张证据审阅卡](../../../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html)
+- [三次结果](../../../cases/case1-cup-001/05_closed_loop/runs/astar_v2/summary.json) · [原始证据复核](../../../cases/case1-cup-001/05_closed_loop/runs/astar_v2/evidence_audit.json)
+- [派生构造配置](../../../cases/case1-cup-001/04_construct_start/runs/robot_move_v3/case_config.json) · [人工方式记录](../../../cases/case1-cup-001/04_construct_start/runs/robot_move_v3/human_choice.json)
+- [视频溯源](../../../cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/video_manifest.json) · [单元测试](../../logs/unit-tests.log)
 
-视频是 trial 0 的真实保存状态回放，无生成或插值运动。导航 8×、躯干调整 4×、起点和抓取 1×，逐段标注；墙体只在渲染中剖切，物理碰撞始终保留。交付视频为 **45.96 s、1280×720、25 fps**。81 项单元测试通过，见 [交付校验记录](step5-delivery-validation.json)。证据图和起点/保持预览已实际查看，最终编码视频已完成全片解码、帧数/时长校验及抽帧查看；不声称浏览器截图验收。
+视频是 trial 0 的真实保存状态回放，无生成或插值运动。导航 8×、躯干调整 4×、起点和抓取 1×，逐段标注；墙体只在渲染中剖切，物理碰撞始终保留。交付视频为 **45.96 s、1280×720、25 fps**。81 项单元测试通过，见 [交付校验记录](checks/step5-delivery-validation.json)。证据图和起点/保持预览已实际查看，最终编码视频已完成全片解码、帧数/时长校验及抽帧查看；不声称浏览器截图验收。
 
 当前已完成所选构造的物理闭环和重复验收，没有自动人工批准或导出最终数据集。后续目标/家具修改可新开构造分支并单独记录、重新验收；步骤 6 仍等待人工介入。

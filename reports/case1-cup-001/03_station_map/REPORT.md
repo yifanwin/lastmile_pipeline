@@ -6,17 +6,17 @@
 
 ## 交付站位图
 
-![Case 1 粗站位图](../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.png)
+![Case 1 粗站位图](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.png)
 
 *绿色：至少一个实测配置严格 Pick 通过；红圈：同一 XY 另有臂/朝向配置实测失败。箭头采用实跑配置或首个采样朝向。橙色是预算内未找到方案，不是物理不可达。紫色来自独立的保守接触范围界。右上仅为真实二值标签的局部高斯插值，不是成功概率。*
 
-[自包含 HTML 站位图](../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.html) · [PNG](../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.png) · [SVG](../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.svg) · [含 yaw 的逐站位 CSV](../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_table.csv)
+[自包含 HTML 站位图](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.html) · [PNG](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.png) · [SVG](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_map.svg) · [含 yaw 的逐站位 CSV](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/station_table.csv)
 
 本机只读查看：http://127.0.0.1:18766/station_map.html。服务只绑定回环地址；远程可转发 18766，服务退出后可用 `bin/lastmile serve-station-map` 重启。
 
 ## 执行方式与 MoMa-Kitchen 对应
 
-参考 [MoMa-Kitchen 数据生成流程解析](../../MoMaKitchen/MoMa-Kitchen_数据生成流程解析.md) 中“候选底盘 → 独立操作 oracle → 稀疏地面标签 → Gaussian 插值”的方式；没有复制其未公开的 collection loop，也没有把其低层控制器假定为 cuRobo。
+参考 [MoMa-Kitchen 数据生成流程解析](../../../../MoMaKitchen/MoMa-Kitchen_数据生成流程解析.md) 中“候选底盘 → 独立操作 oracle → 稀疏地面标签 → Gaussian 插值”的方式；没有复制其未公开的 collection loop，也没有把其低层控制器假定为 cuRobo。
 
 1. **冻结输入与审批。** 校验原恢复包、协议、稳定性原轨迹及来源；配置/预期在运行前写入 frozen_inputs。中断后按同一审批、配置和场景哈希续跑。
 2. **目标附近操作带采样。** 三个获准桌边，沿边约 0.30 m；边距 0.32 / 0.48 / 0.64 m；面向目标及 ±20°。保留精确 A 点，共 58 个 XY 位置、172 个 pose。
@@ -46,12 +46,12 @@ T08 在 `[7.5544, 2.6081, -2.0127]`、右臂、h=.738 下，躯干最大联动�
 
 ## 证据与验证
 
-- [冻结输入、预算与事先预期](../cases/case1-cup-001/03_station_map/runs/coarse_v1/frozen_inputs.json)
-- [逐 pose / arm / h 规划明细](../cases/case1-cup-001/03_station_map/runs/coarse_v1/planning.json)
-- [全部物理结果及轨迹路径](../cases/case1-cup-001/03_station_map/runs/coarse_v1/physics.json)
-- [真实二值标签到地面点对应](../cases/case1-cup-001/03_station_map/runs/coarse_v1/floor_sparse_samples.csv)
-- [原始证据审计](../cases/case1-cup-001/03_station_map/runs/coarse_v1/evidence_audit.json)：12 次放置快照除三个 base 坐标外，所有 qpos、全部 qvel 与源快照一致；10 条完整 Pick 重新验收，标签一致；720 查询完整且唯一。
-- [文件哈希清单](../cases/case1-cup-001/03_station_map/runs/coarse_v1/evidence_manifest.json)、[测试记录](unit-tests.log)：56 项单元测试通过。
+- [冻结输入、预算与事先预期](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/frozen_inputs.json)
+- [逐 pose / arm / h 规划明细](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/planning.json)
+- [全部物理结果及轨迹路径](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/physics.json)
+- [真实二值标签到地面点对应](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/floor_sparse_samples.csv)
+- [原始证据审计](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/evidence_audit.json)：12 次放置快照除三个 base 坐标外，所有 qpos、全部 qvel 与源快照一致；10 条完整 Pick 重新验收，标签一致；720 查询完整且唯一。
+- [文件哈希清单](../../../cases/case1-cup-001/03_station_map/runs/coarse_v1/evidence_manifest.json)、[测试记录](../../logs/unit-tests.log)：56 项单元测试通过。
 
 图的原始 PNG 已实际检查，HTML 的嵌入 PNG 与交付图字节一致，明细表和交付链接检查通过；浏览器已请求本机页面，但当前 Snap 无头截图未完成，不声称完成 HTML 截图验收。只读服务 HTTP 200，POST 被拒绝（405）。绘图源入口与 PNG/SVG 一同保留；模型/快照/原始大轨迹留在工作区并设置 Git 忽略，不删除失败证据。本次不修改 Git 历史。
 

@@ -5,7 +5,7 @@ import numpy as np
 from lastmile.protocol import unpack_action, waypoint_action, torso_joints, arm_only_config, to_base_frame
 from lastmile.validation import validate_trace, select_grasps
 
-W = Path(__file__).absolute().parents[1]
+W = Path(__file__).resolve().parents[2]
 P = json.loads((W/'configs/protocols/protocol_v1.json').read_text())
 
 class ProtocolTests(unittest.TestCase):

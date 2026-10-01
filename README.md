@@ -4,11 +4,10 @@
 
 ## 当前交付
 
-- [正式交付 ZIP](cases/case1-cup-001/06_export_case/exports/final_v2.zip) · [可复现包说明](cases/case1-cup-001/06_export_case/exports/final_v2/README.md) · [步骤 6 报告](reports/step6-REPORT.md)
-- [人工接受记录](cases/case1-cup-001/06_export_case/reviews/final_v2/accepted_review.json)：明确认可同侧平移分类和本次三次要求。
+- [Case 1 交付文档（含站位图）](reports/delivery/case1-cup-001.md)
+- [P131 → A 闭环视频](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4)
 
-- [P131 → A 闭环视频](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4) · [第二张证据审阅卡](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/review.html)
-- [最新报告](reports/step5-REPORT.md)：3 / 3 次新连续试验严格通过，用户已最终接受并按三次要求正式导出。
+3 / 3 次连续试验成功，已获人工接受。最终交付仅提供文档及必要图片、视频，不要求打包或阅读 SHA 检查材料。既有工程归档保留。
 
 ## 已生成的候选
 
@@ -37,6 +36,12 @@ docs/stages/                各阶段输入、输出和通过条件
 reports/                    当前交付报告和执行日志
 archive/calibration_v1/     旧校准配置、报告和原始轨迹，只读历史证据
 ```
+
+报告已按用途和阶段拆分：`reports/delivery/` 放最终交付说明，`reports/overview/` 放实现总结，`reports/<case-id>/<阶段>/` 放阶段报告、`checks/` 检查记录和 `logs/` 日志。测试按 `physics/`、`navigation/`、`workflow/` 分组。
+
+- [文档索引](docs/README.md) · [目录结构说明](docs/architecture/directory-layout.md)
+- [报告索引](reports/README.md) · [仓库实现总结](reports/overview/repository-summary.md)
+- [源码职责索引](src/README.md) · [配置说明](configs/README.md) · [测试说明](tests/README.md)
 
 原工程、benchmark、源 XML 和资产不改；旧材料保留在 archive，不继续维护旧 scripts 为公共入口。历史 JSON 的旧路径由 workflow 映射，不修改原始轨迹。
 
@@ -92,7 +97,7 @@ PYTHONPATH=lastmile_pipeline/src molmospaces/.venv/bin/python -m unittest discov
 
 用户已选择不改场景；episode 14 原始起点通过严格 Pick，不能充当失败起点。筛选完成但未选中困难候选，步骤 5 不放行。
 
-[步骤说明](docs/stages/04_construct_start.md) · [审阅卡](cases/case1-cup-001/04_construct_start/construction_review.html) · [执行报告](reports/step4-REPORT.md)
+[步骤说明](docs/stages/04_construct_start.md) · [审阅卡](cases/case1-cup-001/04_construct_start/construction_review.html) · [执行报告](reports/case1-cup-001/04_construct_start/REPORT.md)
 
 ```bash
 MUJOCO_GL=disable lastmile_pipeline/bin/lastmile check-construct-gate --case-id case1-cup-001
