@@ -21,3 +21,8 @@ cases/**/*.mp4
 cases/**/06_export_case/staging/
 cases/**/06_export_case/exports/*/
 cases/**/*.zip
+
+# VLA raw evidence; retain small frozen configuration, summaries and final figures.
+cases/**/03_station_map/runs/molmobot*/trials/
+cases/**/03_station_map/runs/molmobot*/engine/
+cases/**/03_station_map/runs/molmobot*/*.log

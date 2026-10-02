@@ -1,0 +1,33 @@
+{
+  "all_frozen_files_unchanged": true,
+  "checks": {
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/candidates.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/floor_grid.npz": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/physics.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/evidence_manifest.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review/compiled_model.mjb": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review/initial_snapshot.npz": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review/human_review.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/inputs/source_episode.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/inputs/engine_context/registry/episodes/0014.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/configs/vla_station_test.yaml": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/configs/protocols/protocol_v1.json": true,
+    "/nas/wenyifan/models/MolmoBot-RBY1Multitask/config.yaml": true,
+    "/nas/wenyifan/models/MolmoBot-RBY1Multitask/model.pt": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/vla.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/vla_server.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/simulation.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/protocol.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/vla_station.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/vla_station_report.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/core.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/station_geometry.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/tests/physics/test_vla.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/tests/workflow/test_vla_server.py": true,
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/eval/real_robot_molmobot_rby1_door.py": true,
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/eval/real_robot_molmobot_rby1_multitask.py": true,
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/models/molmobot/inference_wrapper.py": true,
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/data/image_warping_utils.py": true,
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/eval/websocket_server.py": true
+  }
+}

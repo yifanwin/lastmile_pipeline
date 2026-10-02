@@ -1,0 +1,337 @@
+{
+  "all_checks_passed": true,
+  "completed_xy_records": 58,
+  "invalid_initializations": 23,
+  "independently_replayed_trials": 35,
+  "frozen_code_and_config_verified": {
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/configs/vla_station_test.yaml": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/configs/protocols/protocol_v1.json": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/vla.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/vla_server.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/simulation.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/protocol.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/vla_station.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/vla_station_report.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/core.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/station_geometry.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/tests/physics/test_vla.py": true,
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/tests/workflow/test_vla_server.py": true
+  },
+  "trials": [
+    {
+      "pose_id": "A",
+      "samples": 43,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "00ccbcd0ca1221bb721227709e93c8b7cca92daaf36ef3b7a7f6aa95bdf9bd22"
+    },
+    {
+      "pose_id": "P002",
+      "samples": 219,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "9d0ed593cb16843bafe03bbd66761425d9f4231cb2204f1b7f7a6cafd0704d47"
+    },
+    {
+      "pose_id": "P005",
+      "samples": 34,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "528723cfd2341285b1f9eb0b18a34b5d43314eb388d6aaf9352dece26441fa94"
+    },
+    {
+      "pose_id": "P008",
+      "samples": 1614,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "8b2a15317cafa5308cd5f57bcf4e547f5b9736454aecbcc5b39f5dea0453ef51"
+    },
+    {
+      "pose_id": "P011",
+      "samples": 205,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "ef4050bb66a4428025f0d4aabcd07968ae3e6532b82a1a5774d7e54fcde71eee"
+    },
+    {
+      "pose_id": "P020",
+      "samples": 457,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "ce473d1604e2013e327bd401646c1db34c1fbab1b4fcefcd9be64d96c12992b3"
+    },
+    {
+      "pose_id": "P023",
+      "samples": 847,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "f37ec1d197e5a58c6c031a994374f545c5f850ee5e61ef0c65f262c6103617f4"
+    },
+    {
+      "pose_id": "P026",
+      "samples": 48,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "05ea42dfeda9730b242939be5d286b0bcf1dd446fae6c892acb550afd41cdeba"
+    },
+    {
+      "pose_id": "P038",
+      "samples": 575,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "b0977793499f70133ffcffdf2752306d5b4a3c99dba7de02777d7493e00ce4e4"
+    },
+    {
+      "pose_id": "P041",
+      "samples": 1836,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "ffb8bb27af7d60005e560f77287d5c4700feae559b6244452f53dc8f941cbf5b"
+    },
+    {
+      "pose_id": "P044",
+      "samples": 412,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "e6fc975482e57f8d3e0983619a88e0023b33cd4477b472ca99665566e9fd96ef"
+    },
+    {
+      "pose_id": "P056",
+      "samples": 17,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "31d9a68bdf3460b1a05b579648769018aff5eb23858baeaee082641a5d563f95"
+    },
+    {
+      "pose_id": "P059",
+      "samples": 17,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "004fbffc8f22aff72f6fece81ff16e66146d04575d73e052c26ab14797d8209a"
+    },
+    {
+      "pose_id": "P062",
+      "samples": 28,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "4efa81b52dd550008021634677115d4b5c9fd7ca47f046504b9e0e2aa079d669"
+    },
+    {
+      "pose_id": "P065",
+      "samples": 438,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "a00bec2fd93b289d8cfcdc75dbd7d07a52a29ab3b356de5698ee1c2a1c157845"
+    },
+    {
+      "pose_id": "P113",
+      "samples": 23,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "d16614ec489d323486f3270d46f0b7319236a34c25a2a59a04b2dde6a9d268d5"
+    },
+    {
+      "pose_id": "P116",
+      "samples": 646,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "c68d33566ff53ba49f09dc04adf3156757b21b07106e8cb216c0dbfb380d83f2"
+    },
+    {
+      "pose_id": "P119",
+      "samples": 767,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "2c9633c78300f0be6294b05ad306c43edc9b62cf2d898b0ecda50ca890d6f895"
+    },
+    {
+      "pose_id": "P122",
+      "samples": 31,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "f33d81c87bbaab95895b741bd046eba523f9140592180a0189a4de7dfaa93798"
+    },
+    {
+      "pose_id": "P125",
+      "samples": 30,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "d88acb2a170b59a3f297efee0652478502597946956d7c1639c5aab1aa8d6741"
+    },
+    {
+      "pose_id": "P128",
+      "samples": 61,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "21d835203e189211f2fedb308928c5d827610234ad75b24a0ccd7101f2a815d3"
+    },
+    {
+      "pose_id": "P131",
+      "samples": 655,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "da6eb7b607fef38ca44f05005a78b2849f70b9743c3f518377bf6e75535f1b04"
+    },
+    {
+      "pose_id": "P134",
+      "samples": 656,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "ba109cb2ec0c53550bfbf46c693cb96b871558bd756077678d3d10100e91aaea"
+    },
+    {
+      "pose_id": "P137",
+      "samples": 240,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "c0f14253d30d5ee62988f9569fc7ab66f07e696e7091aa52dd8ca129a68b2d97"
+    },
+    {
+      "pose_id": "P140",
+      "samples": 525,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "e941b22de1ec9239c2141f84a6baa4ff683b64ffcc9cf49374c9666047b2a689"
+    },
+    {
+      "pose_id": "P143",
+      "samples": 245,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "1b11f6be45f22d5526b645fc71a54c5311bbbb90a13999bc21e194a508528715"
+    },
+    {
+      "pose_id": "P146",
+      "samples": 244,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "3f70c3eabf4bce9347cceff9948909d18ae808638b7a8d1ac91f1322162b7d4a"
+    },
+    {
+      "pose_id": "P149",
+      "samples": 574,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "5a84bab99402ef7360bc1a6282e349e61d9c34dfd0ff03400e5c2a0576019438"
+    },
+    {
+      "pose_id": "P152",
+      "samples": 35,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "6c1ae6018a904ea258a3a9d9299f2ca2778943bdb1bd63287ba0ce4e95c54532"
+    },
+    {
+      "pose_id": "P155",
+      "samples": 23,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "e7c7cec4fe76ff0ed9b78c783ea09db2ec2fd91b4eb3e6ebe3d9bed31916e367"
+    },
+    {
+      "pose_id": "P158",
+      "samples": 662,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "8760f4cdbf089fa65caa99be84a44cc940d06807dfa098a8366ba1c274a27039"
+    },
+    {
+      "pose_id": "P161",
+      "samples": 233,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "e16994bfcfa2044c3f915098fc8545ff604eab279177971956ceaaf2bb385ee0"
+    },
+    {
+      "pose_id": "P164",
+      "samples": 245,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "928f07cccae6fdd27727fb0fac4c2488b8f001c746d2925b90d5417dad24c231"
+    },
+    {
+      "pose_id": "P167",
+      "samples": 473,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "2c682be548a07faf8b495094bb35f6e874d7e8a087abf54592fb8189017b00dd"
+    },
+    {
+      "pose_id": "P170",
+      "samples": 429,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "torso_linkage"
+      },
+      "trace_sha256": "8f5ab86b5a5be2500823009b744cb5cc36a6ee0973c7f306948a0b556cf38f58"
+    }
+  ]
+}

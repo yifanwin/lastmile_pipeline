@@ -2,7 +2,7 @@ import argparse,json
 from .core import *
 def main():
  p=argparse.ArgumentParser(description='半自动 Lastmile：自动物理证据 + 人工门禁');s=p.add_subparsers(dest='command',required=True)
- for name in ['restore','agent-review','calibrate-a','approve','serve-review','status','check-gate','station-map','plot-station-map','audit-station-map','serve-station-map','construct-original','check-construct-gate','construct-robot-start','closed-loop','render-closed-loop','audit-closed-loop','prepare-final','accept-final','check-final-gate','export-case','verify-export','serve-final-review']:
+ for name in ['restore','agent-review','calibrate-a','approve','serve-review','status','check-gate','station-map','plot-station-map','audit-station-map','serve-station-map','construct-original','check-construct-gate','construct-robot-start','closed-loop','render-closed-loop','audit-closed-loop','prepare-final','accept-final','check-final-gate','export-case','verify-export','serve-final-review','vla-station-test']:
   q=s.add_parser(name);q.add_argument('--case-id',default='case1-cup-001')
   if name in ['station-map','plot-station-map','audit-station-map','serve-station-map','construct-original','check-construct-gate']:q.add_argument('--run-id',default='coarse_v1')
   if name in ['construct-robot-start','closed-loop','render-closed-loop','audit-closed-loop']:q.add_argument('--run-id',default='robot_move_v1')
@@ -17,6 +17,9 @@ def main():
   if name=='verify-export':q.add_argument('--bundle',required=True)
   if name=='serve-final-review':q.add_argument('--port',type=int,default=18767)
   if name=='station-map':q.add_argument('--resume',action='store_true')
+  if name=='vla-station-test':
+   q.add_argument('--station-run-id',default='coarse_v1');q.add_argument('--run-id',default='molmobot_multitask_xy_v1')
+   q.add_argument('--checkpoint-path');q.add_argument('--resume',action='store_true')
   if name=='construct-original':q.add_argument('--choice-file')
   if name=='restore':q.add_argument('--source-index',type=int,default=14)
   if name=='calibrate-a':q.add_argument('--provisional',action='store_true')
@@ -25,7 +28,10 @@ def main():
   if name=='serve-station-map':q.add_argument('--port',type=int,default=18766)
  a=p.parse_args()
  try:
-  if a.command=='restore':
+  if a.command=='vla-station-test':
+   from .vla_station import run_vla_station_test
+   result=run_vla_station_test(a.case_id,a.station_run_id,a.run_id,a.checkpoint_path,a.resume)
+  elif a.command=='restore':
    from .restore import run_restore
    result=run_restore(a.case_id,a.source_index)
   elif a.command=='agent-review':

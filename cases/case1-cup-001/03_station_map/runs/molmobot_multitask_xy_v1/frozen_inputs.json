@@ -1,0 +1,82 @@
+{
+  "case_id": "case1-cup-001",
+  "station_run_id": "coarse_v1",
+  "config": {
+    "version": 1,
+    "checkpoint_path": "/nas/wenyifan/models/MolmoBot-RBY1Multitask",
+    "task": "pick up the cup",
+    "seed": 0,
+    "camera_names": [
+      "wrist_camera_r",
+      "head_camera",
+      "wrist_camera_l"
+    ],
+    "image_width": 1024,
+    "image_height": 576,
+    "camera_fov_deg": {
+      "head_camera": 139.0,
+      "wrist_camera_l": 58.0,
+      "wrist_camera_r": 58.0
+    },
+    "policy_dt_s": 0.1,
+    "ctrl_dt_s": 0.02,
+    "sim_dt_s": 0.004,
+    "action_horizon": 16,
+    "execute_horizon": 8,
+    "task_horizon": 400,
+    "clamp_gripper": false,
+    "server_start_timeout_s": 900,
+    "inference_timeout_s": 180,
+    "video_fps": 10,
+    "expectation": {
+      "central_question": "can_visual_VLA_pick_from_each_collision_free_coarse_XY_start_with_full_20D_control",
+      "coverage": "58_XY_records_expected_35_valid_trials_including_9_old_outside_contact_bound",
+      "outcome": "unknown_before_execution",
+      "success_rule": "force_aware_two_finger_lift_5cm_unsupported_hold_2s_no_illegal_collision",
+      "stop_rule": "all_selected_starts_complete_or_shared_infrastructure_failure",
+      "baseline": "old_fixed_base_oracle_only_descriptive_at_exact_matching_pose",
+      "no_scene_modification": true
+    }
+  },
+  "files": {
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/candidates.json": "4bfbaa1e8902db858652ab76703c7797d4ee0144a8f2362f72e4134854078639",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/floor_grid.npz": "d5b552a49cb9edf8062eb598b8b4baf189afe2290e9f530bfe4be98e0a810e23",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/physics.json": "2ea8950e329b9548eda890a5b6188936f5638e00a657f4a9df4d2e48cae4360c",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/03_station_map/runs/coarse_v1/evidence_manifest.json": "5138c94c5e1a16285afe19405a384da048e2af58c674549bc57d1795a30f297c",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review/compiled_model.mjb": "d262d0bf6775ee619d8ce976de16c75e1858a14831291a924b1aa713d771eb95",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review/initial_snapshot.npz": "7787c82d425a9154eccc79bc62f6ad28dbd0c159924cbc81844dd8d4a648ea13",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/01_restore_review/human_review.json": "70c93acff2c1d113b98be1adc5ee349e20dc10ea4f62fba84de4e33f7f2c32f6",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/inputs/source_episode.json": "bc4e24420fd5ab2d619b2132b45ef8b850bff38494c43e91ad6fd1577983fbb5",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/cases/case1-cup-001/inputs/engine_context/registry/episodes/0014.json": "bc4e24420fd5ab2d619b2132b45ef8b850bff38494c43e91ad6fd1577983fbb5",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/configs/vla_station_test.yaml": "839b37345e4c1494ec73b1e882d648a1b27ecc6a64173919fd056473e4206b5e",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/configs/protocols/protocol_v1.json": "444262a739508f74014ad068fe7828ac89fa17064daf7a751d2a09230ac8ed41",
+    "/nas/wenyifan/models/MolmoBot-RBY1Multitask/config.yaml": "68860f510580b9d176d10fd01550a5ec8cd5d0976a977c6598fd0a5eaa3d2ec2",
+    "/nas/wenyifan/models/MolmoBot-RBY1Multitask/model.pt": "009fa4dc60493da7b4aad9ffa58481fdd87298c2c11d95f6d472b67b56789a3d",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/vla.py": "c168aff8700ad6388325ac834be9ce03cd93dd053fe3c582194970fd77df9027",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/vla_server.py": "02ab87bd244698284420fdeb7ce1969dfa073ec02f52e086bac7d6825baa963e",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/simulation.py": "023788959ad3fabad35bf14ea387ec3d0d70a671310616a17a4f4ec6fc0864cc",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/protocol.py": "4eeb45a960f91f6515e475457e595ee9b09845a43296dbd2fcb622b8bf06676a",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/vla_station.py": "3abfceb8f1cef037f6643f5f3e4be027f693fb59d7b72e99af71435eebd9eda0",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/vla_station_report.py": "f7f705413f1b30fac9adcfe0df665eb59c45028e82edf2b5191b3eb19b213c67",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/core.py": "57fe15aa03c6dffd533b7d91f1de8f79de8a8d0c9b0c5caf5138f0d085f65982",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/src/lastmile/workflow/station_geometry.py": "512e54f3d3e56d9dafeede43019d7098356fd995e75782d829935c9a18e68da0",
+    "/data0/wenyifan/MoMaTrajGen/lastmile_pipeline/tests/physics/test_vla.py": "8e8ab75d1fc17ca51fa460ac90d8f1e1fcf54d2db4fe6504ed3efb4acec16a50",
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/eval/real_robot_molmobot_rby1_door.py": "832c7b310594c9d87eac400e90803cca584c6cfa526fc9d561de1a95f20f338f",
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/eval/real_robot_molmobot_rby1_multitask.py": "a431994af7e99a41fea629b76f1616340ba99b7ef27cc17f97f3624a5860e181",
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/models/molmobot/inference_wrapper.py": "99455d312707ef440dfb8d7272d20c57809856390af1a5cb6ad07a096a19f0c4",
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/data/image_warping_utils.py": "1d930990e4f520460e24cc3ae859fabf3ffbe879c8658c2f6e25db4e19361c05",
+    "/data0/wenyifan/MoMaTrajGen/MolmoBot/MolmoBot/olmo/eval/websocket_server.py": "54ad5dbb4f3ecde5374f67dbcbb515322297ae2b45ef0586eb02b673b48a6e1c"
+  },
+  "git_branch": "main",
+  "git_commit": "8a9d1ccba52f8ede8eee6d3549e8fdfcc23dff4e",
+  "semantics": "full_20D_visual_mobile_pick_from_XY_not_fixed_base_reachability",
+  "expectation": {
+    "central_question": "can_visual_VLA_pick_from_each_collision_free_coarse_XY_start_with_full_20D_control",
+    "coverage": "58_XY_records_expected_35_valid_trials_including_9_old_outside_contact_bound",
+    "outcome": "unknown_before_execution",
+    "success_rule": "force_aware_two_finger_lift_5cm_unsupported_hold_2s_no_illegal_collision",
+    "stop_rule": "all_selected_starts_complete_or_shared_infrastructure_failure",
+    "baseline": "old_fixed_base_oracle_only_descriptive_at_exact_matching_pose",
+    "no_scene_modification": true
+  }
+}

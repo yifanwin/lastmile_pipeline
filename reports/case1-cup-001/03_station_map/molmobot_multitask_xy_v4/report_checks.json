@@ -1,0 +1,36 @@
+{
+  "images_embedded_in_html": true,
+  "image_files_exist": true,
+  "visual_inspection": "passed_browser_DOM_print_and_manual_figures",
+  "report_generated_from_markdown": true,
+  "embedded_pngs_decoded": 3,
+  "all_local_links_exist": true,
+  "browser": {
+    "title": "Case1 MolmoBot VLA v4",
+    "text": "Case1 MolmoBot 视觉移动抓取：molmobot_multitask_xy_v4\n\n运行状态：complete。58 个 XY 起点中，成功 5、物理失败 30、无效初始化 23、基础设施异常 0、未运行 0。\n\n每个有效起点单次试验；这不是每点成功概率，也不是固定底盘可抓取性。旧 case1 交付和人工门禁未修改。\n\nCase1 MolmoBot 视觉移动抓取：molmobot_multitask_xy_v4\n执行设置与事先预期\n起点结果与实际路线\n逐点证据与旧 oracle（仅描述性并列）\n结果边界与下一步\n证据与验证\n放宽反馈停止条件后的实测结果\n执行设置与事先预期\n本地 MolmoBot-RBY1Multitask，Pick 模式；右腕／头部／左腕 RGB 和22维本体状态，语言指令 pick up the cup。目标世界坐标、oracle 抓法和导航路径不输入策略。\n完整20维动作，头部固定；10 Hz 策略，20 ms 控制周期，4 ms 物理采样；16步预测、8步执行，最多40秒。seed=0，动作限幅有原始输出与执行目标记录。\n每次恢复原快照，仅改变底盘；",
+    "images": [
+      {
+        "complete": true,
+        "width": 1760,
+        "height": 1440
+      },
+      {
+        "complete": true,
+        "width": 2340,
+        "height": 3276
+      },
+      {
+        "complete": true,
+        "width": 2080,
+        "height": 1120
+      }
+    ],
+    "loaded": "complete"
+  },
+  "manual_start_map_and_routes_and_diagnostic": "passed",
+  "browser_print_chinese_layout": "passed",
+  "regression_tests_passed": 124,
+  "independent_physical_replays_passed": 35,
+  "all_frozen_files_including_weights_unchanged": true,
+  "legacy_manifest_protocol_and_coarse_summary_unchanged": true
+}

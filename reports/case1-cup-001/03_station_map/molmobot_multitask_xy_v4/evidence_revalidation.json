@@ -1,0 +1,1554 @@
+{
+  "all_checks_passed": true,
+  "independently_replayed_trials": 35,
+  "protocol": {
+    "version": "lastmile-visual-mobile-pick-v3",
+    "thresholds": {
+      "lift_m": 0.05,
+      "hold_s": 2.0,
+      "base_translation_m": 0.002,
+      "base_yaw_rad": 0.003490658503988659,
+      "torso_error_rad": 0.002,
+      "head_error_rad": 0.002,
+      "idle_arm_error_rad": 0.002,
+      "relative_translation_m": 0.01,
+      "relative_rotation_rad": 0.08726646259971647,
+      "upright_rad": 0.17453292519943295,
+      "max_sample_gap_s": 0.0041
+    },
+    "base_fixed": false,
+    "idle_arm_fixed": false,
+    "head_fixed": true,
+    "torso_actual_linkage_checked": true,
+    "torso_feedback_policy": "warn",
+    "torso_command_linkage_required": true,
+    "torso_feedback_deviations_are_terminal": false,
+    "physical_joint_limits_remain_terminal": true,
+    "collision_feedback_policy": "warn_minor",
+    "severe_penetration_m": 0.02,
+    "initial_collision_filter_unchanged": true,
+    "joint_limit_tolerance_rad": 0.002,
+    "success": "either_same_gripper_two_force_bearing_fingers_lift_5cm_unsupported_hold_2s",
+    "legacy_pick_protocol_unchanged": true
+  },
+  "trials": [
+    {
+      "pose_id": "A",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4327,
+            "first_time_s": 0.17200000000000013,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.024684021183531434
+          },
+          "torso_range": {
+            "samples": 142,
+            "first_time_s": 8.871999999999467,
+            "last_time_s": 32.38000000000381,
+            "max_residual_rad": 0.004500095554321094
+          }
+        },
+        "collision_warnings": {
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_4": {
+            "samples": 16,
+            "first_time_s": 32.36800000000382,
+            "last_time_s": 35.55200000000205,
+            "max_penetration_m": 0.0017277097998287
+          }
+        }
+      },
+      "trace_sha256": "3bc0d391f2202322d6592f2f16d2ccfb9102b2a682698857ed605aefe35694e1",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P002",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 3640,
+            "first_time_s": 0.8840000000000007,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.01767048632693046
+          },
+          "torso_range": {
+            "samples": 309,
+            "first_time_s": 17.827999999999292,
+            "last_time_s": 37.11200000000119,
+            "max_residual_rad": 0.00507267299332209
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "84f67c02e1be05e3e6714d0b87e86d189d733a2c68085cbf19001df40cd7ad7b",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P005",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 3557,
+            "first_time_s": 0.1360000000000001,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.028667279905462077
+          },
+          "torso_range": {
+            "samples": 601,
+            "first_time_s": 12.84399999999903,
+            "last_time_s": 34.45200000000266,
+            "max_residual_rad": 0.006081114486170058
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_24": {
+            "samples": 210,
+            "first_time_s": 24.252000000001438,
+            "last_time_s": 25.57200000000188,
+            "max_penetration_m": 0.0024266901385689163
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_13": {
+            "samples": 130,
+            "first_time_s": 25.0360000000017,
+            "last_time_s": 34.21600000000279,
+            "max_penetration_m": 0.0026307052256704625
+          }
+        }
+      },
+      "trace_sha256": "28e399db05ee867b16feecaf10a270e54f26aac242acd14944321ddf3635de92",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P008",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 3911,
+            "first_time_s": 4.967999999999896,
+            "last_time_s": 39.751999999999725,
+            "max_residual_rad": 0.019108087424474212
+          },
+          "torso_range": {
+            "samples": 558,
+            "first_time_s": 6.323999999999747,
+            "last_time_s": 37.080000000001206,
+            "max_residual_rad": 0.005285508189746332
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_10": {
+            "samples": 207,
+            "first_time_s": 10.815999999999253,
+            "last_time_s": 27.97600000000268,
+            "max_penetration_m": 0.001981506337496751
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_18": {
+            "samples": 257,
+            "first_time_s": 10.855999999999248,
+            "last_time_s": 30.40000000000349,
+            "max_penetration_m": 0.0016941722946858702
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_24": {
+            "samples": 176,
+            "first_time_s": 27.008000000002358,
+            "last_time_s": 27.708000000002592,
+            "max_penetration_m": 0.003522186243463157
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_14": {
+            "samples": 407,
+            "first_time_s": 27.024000000002363,
+            "last_time_s": 29.212000000003094,
+            "max_penetration_m": 0.0028343302965180045
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_11": {
+            "samples": 13,
+            "first_time_s": 27.896000000002655,
+            "last_time_s": 27.94400000000267,
+            "max_penetration_m": 0.0015332103856060242
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_4": {
+            "samples": 527,
+            "first_time_s": 29.400000000003157,
+            "last_time_s": 32.61200000000368,
+            "max_penetration_m": 0.003188741961440096
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_12": {
+            "samples": 16,
+            "first_time_s": 29.400000000003157,
+            "last_time_s": 29.460000000003177,
+            "max_penetration_m": 0.003056322503703717
+          }
+        }
+      },
+      "trace_sha256": "929803942cef1e8917666337ef893791f33b0ddb97788979990dc8387d9f0792",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P011",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 3320,
+            "first_time_s": 0.8280000000000006,
+            "last_time_s": 39.52399999999985,
+            "max_residual_rad": 0.02524853566964328
+          },
+          "torso_range": {
+            "samples": 120,
+            "first_time_s": 8.779999999999477,
+            "last_time_s": 32.392000000003804,
+            "max_residual_rad": 0.005238100433536156
+          }
+        },
+        "collision_warnings": {
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_5": {
+            "samples": 5,
+            "first_time_s": 39.156000000000056,
+            "last_time_s": 39.17200000000005,
+            "max_penetration_m": 0.0011374044548221045
+          }
+        }
+      },
+      "trace_sha256": "b552242bf7ffebf9aea81773282e2e46bb62ce79e8cd2e37009122278f138661",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P020",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 3836,
+            "first_time_s": 1.7720000000000014,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.024561667585234523
+          },
+          "torso_range": {
+            "samples": 597,
+            "first_time_s": 8.859999999999468,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.00710440500022333
+          }
+        },
+        "collision_warnings": {
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_4": {
+            "samples": 11,
+            "first_time_s": 9.455999999999403,
+            "last_time_s": 29.04800000000304,
+            "max_penetration_m": 0.0011511806018317764
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_13": {
+            "samples": 138,
+            "first_time_s": 39.12800000000007,
+            "last_time_s": 39.94399999999962,
+            "max_penetration_m": 0.0027525484283328675
+          }
+        }
+      },
+      "trace_sha256": "e134858be30198149128a0c7c5358b92db977e7e6173b78669728051fabe8cb9",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P023",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4170,
+            "first_time_s": 4.075999999999994,
+            "last_time_s": 39.0720000000001,
+            "max_residual_rad": 0.023826692027568444
+          },
+          "torso_range": {
+            "samples": 271,
+            "first_time_s": 9.74799999999937,
+            "last_time_s": 18.83599999999963,
+            "max_residual_rad": 0.00912920783045206
+          }
+        },
+        "collision_warnings": {
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_4": {
+            "samples": 9,
+            "first_time_s": 38.66000000000033,
+            "last_time_s": 38.69200000000031,
+            "max_penetration_m": 0.0014312921424698094
+          }
+        }
+      },
+      "trace_sha256": "da4da3bb4a57558ebf46416d679f53452f29e9cf951c73ff8bea057b4103c650",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P026",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 3968,
+            "first_time_s": 0.18800000000000014,
+            "last_time_s": 37.968000000000714,
+            "max_residual_rad": 0.020662278953719936
+          },
+          "torso_range": {
+            "samples": 203,
+            "first_time_s": 8.895999999999464,
+            "last_time_s": 36.992000000001255,
+            "max_residual_rad": 0.0057831400506634795
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_25": {
+            "samples": 3,
+            "first_time_s": 25.204000000001756,
+            "last_time_s": 25.21200000000176,
+            "max_penetration_m": 0.0010569065525516089
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_7": {
+            "samples": 68,
+            "first_time_s": 25.388000000001817,
+            "last_time_s": 25.656000000001907,
+            "max_penetration_m": 0.0034004517597219647
+          }
+        }
+      },
+      "trace_sha256": "b6fc73e194802bd1a70345c70c945767bc0adba10291affd85d3de2959b4883d",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P038",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 7012,
+            "first_time_s": 2.3000000000000016,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.04066764481267818
+          },
+          "torso_range": {
+            "samples": 1443,
+            "first_time_s": 6.631999999999713,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.015555344615967049
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "c4005f20f8661d1c1a6a20251f775a38aaeecfda10a4853abb00b6f6910f6310",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P041",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5579,
+            "first_time_s": 4.163999999999985,
+            "last_time_s": 38.51200000000041,
+            "max_residual_rad": 0.02999744809585597
+          },
+          "torso_range": {
+            "samples": 592,
+            "first_time_s": 8.187999999999542,
+            "last_time_s": 31.400000000003825,
+            "max_residual_rad": 0.0062335987552675064
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "f6650af41885c7e7f2f8994d17ca3cb3e66194da200392fc9c9532086d69badc",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P044",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 6297,
+            "first_time_s": 1.6480000000000012,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.02167492528402119
+          },
+          "torso_range": {
+            "samples": 913,
+            "first_time_s": 8.219999999999539,
+            "last_time_s": 39.73999999999973,
+            "max_residual_rad": 0.005763272384604873
+          }
+        },
+        "collision_warnings": {
+          "nonfinger_target:robot_0/ee_finger_l2": {
+            "samples": 2,
+            "first_time_s": 21.912000000000656,
+            "last_time_s": 21.92400000000066,
+            "max_penetration_m": 0.0011046598241540107
+          }
+        }
+      },
+      "trace_sha256": "00a1c50fd5e130ec2d608440980b240b13f70f7bb89bfde506909af9ba2bccf9",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P056",
+      "samples": 7681,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "severe_penetration",
+        "severe_contacts": [
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.02049247897198197,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 36165.36156078535
+          },
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.02049247897198197,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 36165.36159841187
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.02049247897198197,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 36165.36156078535
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.02049247897198197,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 36165.36159841187
+          }
+        ],
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4338,
+            "first_time_s": 0.06800000000000003,
+            "last_time_s": 30.720000000003598,
+            "max_residual_rad": 0.017087708699906258
+          },
+          "torso_range": {
+            "samples": 333,
+            "first_time_s": 7.3159999999996375,
+            "last_time_s": 27.396000000002488,
+            "max_residual_rad": 0.004932854733671075
+          }
+        },
+        "collision_warnings": {
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_9": {
+            "samples": 449,
+            "first_time_s": 13.355999999998973,
+            "last_time_s": 25.39200000000182,
+            "max_penetration_m": 0.006021321071396785
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_50": {
+            "samples": 581,
+            "first_time_s": 13.363999999998972,
+            "last_time_s": 25.384000000001816,
+            "max_penetration_m": 0.0058990610013605485
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_51": {
+            "samples": 10,
+            "first_time_s": 14.755999999998819,
+            "last_time_s": 14.887999999998804,
+            "max_penetration_m": 0.0010688644009888637
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_24": {
+            "samples": 203,
+            "first_time_s": 21.92000000000066,
+            "last_time_s": 23.440000000001167,
+            "max_penetration_m": 0.003706755143035597
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_36": {
+            "samples": 32,
+            "first_time_s": 22.40000000000082,
+            "last_time_s": 22.952000000001004,
+            "max_penetration_m": 0.0014664136314991405
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_18": {
+            "samples": 121,
+            "first_time_s": 23.38800000000115,
+            "last_time_s": 24.776000000001613,
+            "max_penetration_m": 0.002045970060518928
+          },
+          "environment:wall_2_5_collision_1": {
+            "samples": 30,
+            "first_time_s": 30.60400000000356,
+            "last_time_s": 30.720000000003598,
+            "max_penetration_m": 0.019005986697081742
+          },
+          "environment:wall_0_6_collision_1": {
+            "samples": 16,
+            "first_time_s": 30.660000000003578,
+            "last_time_s": 30.720000000003598,
+            "max_penetration_m": 0.014014045171253053
+          }
+        }
+      },
+      "trace_sha256": "d87ab5440e1e04e875480126525d4a9970c4c3ba13c1e1ef710a0bac1c1ef5fd",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P059",
+      "samples": 2186,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "severe_penetration",
+        "severe_contacts": [
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.020022084873626472,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 559.0158638597695
+          },
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.020022084873626472,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 559.0158437061722
+          },
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.020013485742835773,
+            "geom1": 14,
+            "geom2": 1492,
+            "normal_force_N": 476.8486188215218
+          },
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.020013485742835773,
+            "geom1": 14,
+            "geom2": 1492,
+            "normal_force_N": 476.8485861553024
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.020022084873626472,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 559.0158638597695
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.020022084873626472,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 559.0158437061722
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.020013485742835773,
+            "geom1": 14,
+            "geom2": 1492,
+            "normal_force_N": 476.8486188215218
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.020013485742835773,
+            "geom1": 14,
+            "geom2": 1492,
+            "normal_force_N": 476.8485861553024
+          }
+        ],
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 360,
+            "first_time_s": 0.06800000000000003,
+            "last_time_s": 8.739999999999482,
+            "max_residual_rad": 0.013735381402316027
+          }
+        },
+        "collision_warnings": {
+          "environment:wall_2_5_collision_1": {
+            "samples": 39,
+            "first_time_s": 8.587999999999498,
+            "last_time_s": 8.739999999999482,
+            "max_penetration_m": 0.018569924009873014
+          },
+          "environment:wall_0_6_collision_1": {
+            "samples": 16,
+            "first_time_s": 8.679999999999488,
+            "last_time_s": 8.739999999999482,
+            "max_penetration_m": 0.0135739194231365
+          }
+        }
+      },
+      "trace_sha256": "ca1508c36025e44231a1c26c1f6aedf96f615a1fa005cc8d57282497b48b7b9c",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P062",
+      "samples": 2530,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "severe_penetration",
+        "severe_contacts": [
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.021192283586358523,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 34192.58477730444
+          },
+          {
+            "reason": "wall_2_5_collision_1:",
+            "penetration_m": 0.021192283586358523,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 34192.58480634843
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.021192283586358523,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 34192.58477730444
+          },
+          {
+            "reason": "environment:wall_2_5_collision_1",
+            "penetration_m": 0.021192283586358523,
+            "geom1": 14,
+            "geom2": 1461,
+            "normal_force_N": 34192.58480634843
+          }
+        ],
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 813,
+            "first_time_s": 0.11200000000000007,
+            "last_time_s": 10.11599999999933,
+            "max_residual_rad": 0.02090004359709269
+          },
+          "torso_range": {
+            "samples": 101,
+            "first_time_s": 5.047999999999887,
+            "last_time_s": 5.447999999999843,
+            "max_residual_rad": 0.003689205481249015
+          }
+        },
+        "collision_warnings": {
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_9": {
+            "samples": 312,
+            "first_time_s": 4.223999999999978,
+            "last_time_s": 5.467999999999841,
+            "max_penetration_m": 0.005653886670679389
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_50": {
+            "samples": 309,
+            "first_time_s": 4.2279999999999776,
+            "last_time_s": 5.459999999999842,
+            "max_penetration_m": 0.00550414518973046
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_51": {
+            "samples": 261,
+            "first_time_s": 4.407999999999958,
+            "last_time_s": 5.447999999999843,
+            "max_penetration_m": 0.004426985280432284
+          },
+          "environment:wall_2_5_collision_1": {
+            "samples": 40,
+            "first_time_s": 9.959999999999347,
+            "last_time_s": 10.11599999999933,
+            "max_penetration_m": 0.019868906957814233
+          },
+          "environment:wall_0_6_collision_1": {
+            "samples": 17,
+            "first_time_s": 10.051999999999337,
+            "last_time_s": 10.11599999999933,
+            "max_penetration_m": 0.014868907069572942
+          }
+        }
+      },
+      "trace_sha256": "8c9a7a3405d8ab441eeaa4518820dc7f33428e7bab54e7d5da2329533577e797",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P065",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 6644,
+            "first_time_s": 1.7440000000000013,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.020270891476293545
+          },
+          "torso_range": {
+            "samples": 1063,
+            "first_time_s": 6.799999999999694,
+            "last_time_s": 37.90800000000075,
+            "max_residual_rad": 0.006986967317838292
+          }
+        },
+        "collision_warnings": {
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_35": {
+            "samples": 5,
+            "first_time_s": 5.079999999999884,
+            "last_time_s": 5.095999999999882,
+            "max_penetration_m": 0.001205504767258999
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_23": {
+            "samples": 17,
+            "first_time_s": 6.083999999999773,
+            "last_time_s": 6.147999999999766,
+            "max_penetration_m": 0.0011550896132889454
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_9": {
+            "samples": 594,
+            "first_time_s": 6.227999999999757,
+            "last_time_s": 26.348000000002138,
+            "max_penetration_m": 0.005825024143289404
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_51": {
+            "samples": 386,
+            "first_time_s": 6.235999999999756,
+            "last_time_s": 7.775999999999587,
+            "max_penetration_m": 0.005488264793082984
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_50": {
+            "samples": 530,
+            "first_time_s": 6.251999999999755,
+            "last_time_s": 26.340000000002135,
+            "max_penetration_m": 0.004435426812345313
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_24": {
+            "samples": 244,
+            "first_time_s": 6.987999999999674,
+            "last_time_s": 13.647999999998941,
+            "max_penetration_m": 0.003560560442636861
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_18": {
+            "samples": 19,
+            "first_time_s": 25.860000000001975,
+            "last_time_s": 25.932000000002,
+            "max_penetration_m": 0.0013494016857845616
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_2": {
+            "samples": 174,
+            "first_time_s": 39.22000000000002,
+            "last_time_s": 39.99999999999959,
+            "max_penetration_m": 0.006198579771985488
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_2_1_2_collision_46": {
+            "samples": 164,
+            "first_time_s": 39.22400000000002,
+            "last_time_s": 39.99999999999959,
+            "max_penetration_m": 0.0060485396144447055
+          }
+        }
+      },
+      "trace_sha256": "6360155a8c1491146b28181e5f4e174ede2f4774574fce349ab1f1ba2d102842",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P113",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5978,
+            "first_time_s": 0.09200000000000005,
+            "last_time_s": 39.84799999999967,
+            "max_residual_rad": 0.025361578415091346
+          },
+          "torso_range": {
+            "samples": 959,
+            "first_time_s": 7.423999999999626,
+            "last_time_s": 32.81600000000357,
+            "max_residual_rad": 0.007300429689323032
+          }
+        },
+        "collision_warnings": {
+          "environment:bread_dcb25a3fdc38be63308c7171e734e8a3_2_1_2_collision_3": {
+            "samples": 51,
+            "first_time_s": 8.335999999999526,
+            "last_time_s": 8.535999999999504,
+            "max_penetration_m": 0.0014767767350882628
+          },
+          "environment:bread_dcb25a3fdc38be63308c7171e734e8a3_2_1_2_collision_1": {
+            "samples": 37,
+            "first_time_s": 8.823999999999472,
+            "last_time_s": 9.335999999999416,
+            "max_penetration_m": 0.0012312076358255279
+          },
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_2": {
+            "samples": 10,
+            "first_time_s": 15.75199999999871,
+            "last_time_s": 15.787999999998705,
+            "max_penetration_m": 0.0015841378179337145
+          }
+        }
+      },
+      "trace_sha256": "f7457ec24e73ba461bc07c04650264bd1add890a8c5147d7aa8b3b9133da111e",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P116",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5873,
+            "first_time_s": 2.584000000000002,
+            "last_time_s": 39.555999999999834,
+            "max_residual_rad": 0.07256035749665836
+          },
+          "torso_range": {
+            "samples": 427,
+            "first_time_s": 5.331999999999856,
+            "last_time_s": 31.976000000004017,
+            "max_residual_rad": 0.004270071047497831
+          }
+        },
+        "collision_warnings": {
+          "environment:boiler_335af387651d9869b84abf1fb099bf69_1_1_2_collision_40": {
+            "samples": 78,
+            "first_time_s": 6.039999999999778,
+            "last_time_s": 7.339999999999635,
+            "max_penetration_m": 0.0013699523998638454
+          },
+          "environment:boiler_335af387651d9869b84abf1fb099bf69_1_1_2_collision_41": {
+            "samples": 22,
+            "first_time_s": 6.623999999999714,
+            "last_time_s": 6.707999999999704,
+            "max_penetration_m": 0.0012502644487265005
+          },
+          "environment:boiler_335af387651d9869b84abf1fb099bf69_1_1_2_collision_46": {
+            "samples": 88,
+            "first_time_s": 9.107999999999441,
+            "last_time_s": 9.619999999999385,
+            "max_penetration_m": 0.0016984512885449446
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_13": {
+            "samples": 22,
+            "first_time_s": 18.62799999999956,
+            "last_time_s": 18.711999999999588,
+            "max_penetration_m": 0.0010844571090478953
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_24": {
+            "samples": 420,
+            "first_time_s": 19.16799999999974,
+            "last_time_s": 27.028000000002365,
+            "max_penetration_m": 0.004732695415452524
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_6": {
+            "samples": 9,
+            "first_time_s": 20.688000000000248,
+            "last_time_s": 20.720000000000258,
+            "max_penetration_m": 0.001082034991164267
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_18": {
+            "samples": 305,
+            "first_time_s": 24.95200000000167,
+            "last_time_s": 26.820000000002295,
+            "max_penetration_m": 0.0013897431664576369
+          }
+        }
+      },
+      "trace_sha256": "e25a77aa54f35e5a3b99f4ca4bf999c88ab30a8eda11ef86832831b1b7332605",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P119",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4663,
+            "first_time_s": 3.0760000000000023,
+            "last_time_s": 39.50399999999986,
+            "max_residual_rad": 0.023427305214161236
+          },
+          "torso_range": {
+            "samples": 340,
+            "first_time_s": 7.235999999999646,
+            "last_time_s": 25.956000000002007,
+            "max_residual_rad": 0.005282982607391499
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "985e8eded335ba61229babc0c6dcc87748c83990f22e4548994a7ea9ecfd9b10",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P122",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4824,
+            "first_time_s": 0.12400000000000008,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.02138001398455445
+          },
+          "torso_range": {
+            "samples": 697,
+            "first_time_s": 9.151999999999436,
+            "last_time_s": 39.987999999999595,
+            "max_residual_rad": 0.005630223927563109
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_17": {
+            "samples": 74,
+            "first_time_s": 9.29999999999942,
+            "last_time_s": 12.603999999999056,
+            "max_penetration_m": 0.0017730608397197346
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_23": {
+            "samples": 19,
+            "first_time_s": 26.26000000000211,
+            "last_time_s": 26.540000000002202,
+            "max_penetration_m": 0.0013756875697687647
+          }
+        }
+      },
+      "trace_sha256": "16493754e0a6b0ae35daff430c95446b4c6123f1f2a5d05a2c6cd687b3efb40b",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P125",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4563,
+            "first_time_s": 0.12400000000000008,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.015902029861796587
+          },
+          "torso_range": {
+            "samples": 533,
+            "first_time_s": 7.087999999999663,
+            "last_time_s": 33.87600000000298,
+            "max_residual_rad": 0.005772981470434573
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_14": {
+            "samples": 67,
+            "first_time_s": 8.039999999999559,
+            "last_time_s": 8.30399999999953,
+            "max_penetration_m": 0.0013566207071532064
+          },
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_4": {
+            "samples": 4,
+            "first_time_s": 12.47999999999907,
+            "last_time_s": 12.491999999999068,
+            "max_penetration_m": 0.0010469710205501864
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_17": {
+            "samples": 92,
+            "first_time_s": 14.063999999998895,
+            "last_time_s": 16.047999999998698,
+            "max_penetration_m": 0.0038995567876144582
+          }
+        }
+      },
+      "trace_sha256": "0272038ace97b3b160d4f1f2bee7253917665c07e1ffa83368c7d70a03b3b256",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P128",
+      "samples": 3116,
+      "recomputed": {
+        "status": "verified_success",
+        "reason": "strict_visual_mobile_pick",
+        "selected_arm": "right",
+        "hold_start_s": 10.463999999999292,
+        "success_time_s": 12.463999999999071,
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 1252,
+            "first_time_s": 0.2440000000000002,
+            "last_time_s": 12.463999999999071,
+            "max_residual_rad": 0.016256502489690603
+          },
+          "torso_range": {
+            "samples": 229,
+            "first_time_s": 5.415999999999847,
+            "last_time_s": 12.463999999999071,
+            "max_residual_rad": 0.006246730891593585
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "32efd0ccb6ed10435c095ce2285048f74061d33d8f383c5c94e13646371d7185",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P131",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 6076,
+            "first_time_s": 3.912000000000003,
+            "last_time_s": 39.50799999999986,
+            "max_residual_rad": 0.028116316082733975
+          },
+          "torso_range": {
+            "samples": 717,
+            "first_time_s": 5.195999999999871,
+            "last_time_s": 35.100000000002304,
+            "max_residual_rad": 0.00803258252959627
+          }
+        },
+        "collision_warnings": {
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_9": {
+            "samples": 659,
+            "first_time_s": 11.147999999999216,
+            "last_time_s": 22.70000000000092,
+            "max_penetration_m": 0.004855754733497587
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_14": {
+            "samples": 382,
+            "first_time_s": 11.155999999999215,
+            "last_time_s": 22.79600000000095,
+            "max_penetration_m": 0.003263893629807716
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_51": {
+            "samples": 498,
+            "first_time_s": 11.159999999999215,
+            "last_time_s": 22.652000000000903,
+            "max_penetration_m": 0.0024733875259639647
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_33": {
+            "samples": 328,
+            "first_time_s": 11.163999999999215,
+            "last_time_s": 22.756000000000938,
+            "max_penetration_m": 0.003118520357308534
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_50": {
+            "samples": 1160,
+            "first_time_s": 15.587999999998727,
+            "last_time_s": 22.25600000000077,
+            "max_penetration_m": 0.01134253862865705
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_18": {
+            "samples": 1091,
+            "first_time_s": 17.60799999999922,
+            "last_time_s": 22.244000000000767,
+            "max_penetration_m": 0.01143326001435659
+          }
+        }
+      },
+      "trace_sha256": "65a30e53b73614d3428fcc12fc1f29fc31dfbc1c82a308ae8fe981db7fe20800",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P134",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5165,
+            "first_time_s": 2.620000000000002,
+            "last_time_s": 37.8120000000008,
+            "max_residual_rad": 0.020718673233293475
+          },
+          "torso_range": {
+            "samples": 642,
+            "first_time_s": 10.239999999999316,
+            "last_time_s": 37.14000000000117,
+            "max_residual_rad": 0.006493094667544077
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "04f110ec7d2150a739cfaeec6c172be031af843cb2946630b192e2b195aff4b4",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P137",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4043,
+            "first_time_s": 0.9600000000000007,
+            "last_time_s": 39.88399999999965,
+            "max_residual_rad": 0.015797466387781366
+          },
+          "torso_range": {
+            "samples": 241,
+            "first_time_s": 8.403999999999519,
+            "last_time_s": 28.680000000002916,
+            "max_residual_rad": 0.004895623208272904
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "6b1a36977a06729334ad0a0d42841a23dce75542c48ca0c2306ba0930a5b4bf9",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P140",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5785,
+            "first_time_s": 3.3920000000000026,
+            "last_time_s": 39.9759999999996,
+            "max_residual_rad": 0.02524630657424582
+          },
+          "torso_range": {
+            "samples": 875,
+            "first_time_s": 9.30399999999942,
+            "last_time_s": 39.77999999999971,
+            "max_residual_rad": 0.00767192367389614
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "f541512a787c7ab0e5bf3bb4ab90153549b6dd9b7c11905223bd7d54dcfdc4bc",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P143",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5205,
+            "first_time_s": 2.628000000000002,
+            "last_time_s": 39.73999999999973,
+            "max_residual_rad": 0.02291493637653634
+          },
+          "torso_range": {
+            "samples": 625,
+            "first_time_s": 7.843999999999579,
+            "last_time_s": 36.1880000000017,
+            "max_residual_rad": 0.006067130367141544
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_17": {
+            "samples": 184,
+            "first_time_s": 7.29599999999964,
+            "last_time_s": 8.74799999999948,
+            "max_penetration_m": 0.003399165696803549
+          }
+        }
+      },
+      "trace_sha256": "13d353fdd62a5805dc484453d8f267711e88a764a9608be7cc67246d390444dc",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P146",
+      "samples": 2656,
+      "recomputed": {
+        "status": "verified_success",
+        "reason": "strict_visual_mobile_pick",
+        "selected_arm": "right",
+        "hold_start_s": 8.623999999999494,
+        "success_time_s": 10.623999999999274,
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 1096,
+            "first_time_s": 0.9800000000000008,
+            "last_time_s": 10.623999999999274,
+            "max_residual_rad": 0.011448136866303707
+          },
+          "torso_range": {
+            "samples": 69,
+            "first_time_s": 7.92799999999957,
+            "last_time_s": 8.607999999999496,
+            "max_residual_rad": 0.003103788572964864
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "a4d26cbcc8e39465bea90a9435bd123d40eec5f41c3ed3ec441d2b38f45e221d",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P149",
+      "samples": 3166,
+      "recomputed": {
+        "status": "verified_success",
+        "reason": "strict_visual_mobile_pick",
+        "selected_arm": "right",
+        "hold_start_s": 10.66399999999927,
+        "success_time_s": 12.66399999999905,
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 1079,
+            "first_time_s": 2.3000000000000016,
+            "last_time_s": 12.66399999999905,
+            "max_residual_rad": 0.01802874402612346
+          },
+          "torso_range": {
+            "samples": 205,
+            "first_time_s": 5.347999999999854,
+            "last_time_s": 12.56399999999906,
+            "max_residual_rad": 0.006952014835354359
+          }
+        },
+        "collision_warnings": {
+          "nonfinger_target:robot_0/ee_finger_r1": {
+            "samples": 6,
+            "first_time_s": 8.635999999999493,
+            "last_time_s": 8.65599999999949,
+            "max_penetration_m": 0.001677366111676876
+          }
+        }
+      },
+      "trace_sha256": "b224fbdfd4e02917d72dc71b520a42276bcfa30a614c18bebfb611d717431e88",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P152",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5460,
+            "first_time_s": 0.1400000000000001,
+            "last_time_s": 39.551999999999836,
+            "max_residual_rad": 0.0217488552373988
+          },
+          "torso_range": {
+            "samples": 480,
+            "first_time_s": 11.259999999999204,
+            "last_time_s": 39.00400000000014,
+            "max_residual_rad": 0.003460810852596969
+          }
+        },
+        "collision_warnings": {
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_18": {
+            "samples": 400,
+            "first_time_s": 15.963999999998686,
+            "last_time_s": 36.5520000000015,
+            "max_penetration_m": 0.004374926632503365
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_39": {
+            "samples": 387,
+            "first_time_s": 15.979999999998684,
+            "last_time_s": 36.53200000000151,
+            "max_penetration_m": 0.004209614793095598
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_50": {
+            "samples": 24,
+            "first_time_s": 16.38799999999881,
+            "last_time_s": 16.479999999998842,
+            "max_penetration_m": 0.0013276181002453628
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_6": {
+            "samples": 430,
+            "first_time_s": 18.523999999999525,
+            "last_time_s": 34.288000000002754,
+            "max_penetration_m": 0.004028102177227797
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_48": {
+            "samples": 737,
+            "first_time_s": 18.527999999999526,
+            "last_time_s": 34.2080000000028,
+            "max_penetration_m": 0.003847035102903313
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_25": {
+            "samples": 421,
+            "first_time_s": 20.76000000000027,
+            "last_time_s": 22.55200000000087,
+            "max_penetration_m": 0.002418269936429288
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_40": {
+            "samples": 332,
+            "first_time_s": 20.796000000000284,
+            "last_time_s": 22.54800000000087,
+            "max_penetration_m": 0.002234216463074519
+          },
+          "environment:cup_87fd09609fb15ccc4e1ac91adc205fcb_3_1_2_collision_23": {
+            "samples": 279,
+            "first_time_s": 20.8480000000003,
+            "last_time_s": 22.620000000000893,
+            "max_penetration_m": 0.0024034477211031646
+          }
+        }
+      },
+      "trace_sha256": "a11a00f218748655d445caf5d6c69a61dad9d6b15f34660abccee3828b536d60",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P155",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 5432,
+            "first_time_s": 0.09200000000000005,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.02090273387396888
+          },
+          "torso_range": {
+            "samples": 823,
+            "first_time_s": 6.555999999999721,
+            "last_time_s": 39.699999999999754,
+            "max_residual_rad": 0.006239823710091033
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "24470a48849aef4a76acc22be81766f606ebab020159412ca62b516afd27a4c9",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P158",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 6033,
+            "first_time_s": 2.1200000000000014,
+            "last_time_s": 39.771999999999714,
+            "max_residual_rad": 0.031348279522027754
+          },
+          "torso_range": {
+            "samples": 1015,
+            "first_time_s": 5.219999999999868,
+            "last_time_s": 39.643999999999785,
+            "max_residual_rad": 0.008045337559885065
+          }
+        },
+        "collision_warnings": {
+          "environment:boiler_335af387651d9869b84abf1fb099bf69_1_1_2_collision_48": {
+            "samples": 26,
+            "first_time_s": 13.007999999999011,
+            "last_time_s": 13.107999999999,
+            "max_penetration_m": 0.0010947395095801363
+          }
+        }
+      },
+      "trace_sha256": "372caa431025381cfeff1b8b74cb33bb61d16a4c58ae8544703abd2b7b67137d",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P161",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4788,
+            "first_time_s": 0.9360000000000007,
+            "last_time_s": 39.99999999999959,
+            "max_residual_rad": 0.012523171704804673
+          },
+          "torso_range": {
+            "samples": 195,
+            "first_time_s": 5.243999999999866,
+            "last_time_s": 39.90799999999964,
+            "max_residual_rad": 0.0030010046695372046
+          }
+        },
+        "collision_warnings": {
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_5": {
+            "samples": 1,
+            "first_time_s": 8.943999999999459,
+            "last_time_s": 8.943999999999459,
+            "max_penetration_m": 0.0010630936734443933
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_17": {
+            "samples": 15,
+            "first_time_s": 9.263999999999424,
+            "last_time_s": 9.319999999999418,
+            "max_penetration_m": 0.0015718182376064111
+          }
+        }
+      },
+      "trace_sha256": "b9b3c4f724f3c258d744ee70e1c15e06b26fc91f50299634a0c3717f68e56eac",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P164",
+      "samples": 10000,
+      "recomputed": {
+        "status": "executed_failure",
+        "reason": "horizon_exhausted_lift_contact_hold_or_slip",
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 4136,
+            "first_time_s": 0.9720000000000008,
+            "last_time_s": 39.53199999999985,
+            "max_residual_rad": 0.014987148348172307
+          },
+          "torso_range": {
+            "samples": 289,
+            "first_time_s": 9.243999999999426,
+            "last_time_s": 33.82800000000301,
+            "max_residual_rad": 0.0057121884935146545
+          }
+        },
+        "collision_warnings": {
+          "environment:diningtable_f113cf7f8367e89f709b53cbee1a1c05_1_1_2_collision_4": {
+            "samples": 6,
+            "first_time_s": 12.767999999999038,
+            "last_time_s": 12.787999999999036,
+            "max_penetration_m": 0.0011646271829480882
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_14": {
+            "samples": 426,
+            "first_time_s": 17.36799999999914,
+            "last_time_s": 19.41199999999982,
+            "max_penetration_m": 0.0032136834743748018
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_11": {
+            "samples": 306,
+            "first_time_s": 17.42799999999916,
+            "last_time_s": 18.995999999999682,
+            "max_penetration_m": 0.0032549646916814126
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_10": {
+            "samples": 33,
+            "first_time_s": 18.80399999999962,
+            "last_time_s": 19.683999999999912,
+            "max_penetration_m": 0.002335424792945205
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_18": {
+            "samples": 39,
+            "first_time_s": 18.80399999999962,
+            "last_time_s": 19.70799999999992,
+            "max_penetration_m": 0.002710950581678685
+          },
+          "environment:bottle_8382d4ed00ffcc00a477337974541bb1_2_1_2_collision_4": {
+            "samples": 14,
+            "first_time_s": 19.611999999999888,
+            "last_time_s": 19.663999999999906,
+            "max_penetration_m": 0.001601258512989999
+          }
+        }
+      },
+      "trace_sha256": "975e13d6f0a4186a63c479ea5025ec279e2d66ad5ffb7c088e785dd0f1572e54",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P167",
+      "samples": 3850,
+      "recomputed": {
+        "status": "verified_success",
+        "reason": "strict_visual_mobile_pick",
+        "selected_arm": "right",
+        "hold_start_s": 13.399999999998968,
+        "success_time_s": 15.399999999998748,
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 1851,
+            "first_time_s": 2.3160000000000016,
+            "last_time_s": 14.147999999998886,
+            "max_residual_rad": 0.019771782269993984
+          },
+          "torso_range": {
+            "samples": 373,
+            "first_time_s": 5.4359999999998445,
+            "last_time_s": 10.56399999999928,
+            "max_residual_rad": 0.0052224604965003165
+          }
+        },
+        "collision_warnings": {
+          "nonfinger_target:robot_0/ee_finger_r2": {
+            "samples": 6,
+            "first_time_s": 8.5799999999995,
+            "last_time_s": 8.599999999999497,
+            "max_penetration_m": 0.0016229945041641952
+          }
+        }
+      },
+      "trace_sha256": "aab7d5aa8d703e2fabf313ad1585504648ce1d010a14845518911b75137a2560",
+      "all_file_hashes_verified": true
+    },
+    {
+      "pose_id": "P170",
+      "samples": 3128,
+      "recomputed": {
+        "status": "verified_success",
+        "reason": "strict_visual_mobile_pick",
+        "selected_arm": "right",
+        "hold_start_s": 10.511999999999286,
+        "success_time_s": 12.511999999999066,
+        "torso_feedback_warnings": {
+          "torso_linkage": {
+            "samples": 1187,
+            "first_time_s": 1.7120000000000013,
+            "last_time_s": 12.511999999999066,
+            "max_residual_rad": 0.014367343327450105
+          },
+          "torso_range": {
+            "samples": 237,
+            "first_time_s": 5.363999999999852,
+            "last_time_s": 12.467999999999071,
+            "max_residual_rad": 0.005369738872817649
+          }
+        },
+        "collision_warnings": {}
+      },
+      "trace_sha256": "f414cea09da90eb5d016195426f579537cff4b06d560bd34c7bb123f32d5f940",
+      "all_file_hashes_verified": true
+    }
+  ]
+}

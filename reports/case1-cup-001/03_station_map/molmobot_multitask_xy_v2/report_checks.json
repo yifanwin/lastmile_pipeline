@@ -1,0 +1,37 @@
+{
+  "images_embedded_in_html": true,
+  "image_files_exist": true,
+  "visual_inspection": "passed_browser_DOM_and_print_rendering_plus_manual_PNG_inspection",
+  "report_generated_from_markdown": true,
+  "embedded_pngs_decoded": 4,
+  "all_relative_links_exist": true,
+  "manual_figure_inspection": "start_results_and_torso_diagnostic_inspected_no_clipping_or_missing_labels",
+  "browser": {
+    "title": "Case1 MolmoBot VLA",
+    "text": "Case1 MolmoBot 视觉移动抓取：molmobot_multitask_xy_v2\n\n运行状态：complete。58 个 XY 起点中，成功 0、物理失败 35、无效初始化 23、基础设施异常 0、未运行 0。\n\n每个有效起点单次试验；这不是每点成功概率，也不是固定底盘可抓取性。旧 case1 交付和人工门禁未修改。\n\n注意：35次均为躯干联动约束提前终止（0.068–7.344秒），不是完整40秒抓取尝试。不能仅凭本次结果判定模型没有抓杯能力。\n\nCase1 MolmoBot 视觉移动抓取：molmobot_multitask_xy_v2\n执行设置与事先预期\n起点结果与实际路线\n逐点证据与旧 oracle（仅描述性并列）\n结果边界与下一步\n证据与验证\n躯干提前终止诊断\n后续建议（未执行）\n执行设置与事先预期\n本地 MolmoBot-RBY1Multitask，Pick 模式；右腕／头部／左腕 RGB 和22维本体状态，语言指令 pick up the cup。目标世界坐标、oracle 抓法和导航路径不输入策略。\n完整20维动作，头部固定；10 Hz 策略，20 ms 控",
+    "images": [
+      {
+        "complete": true,
+        "width": 1760,
+        "height": 1440
+      },
+      {
+        "complete": true,
+        "width": 2340,
+        "height": 3276
+      },
+      {
+        "complete": true,
+        "width": 1920,
+        "height": 640
+      },
+      {
+        "complete": true,
+        "width": 1024,
+        "height": 624
+      }
+    ],
+    "loaded": "complete"
+  },
+  "browser_validation_method": "Chromium localhost DOM and Page.printToPDF; GPU screenshot unavailable, software print rendered successfully"
+}

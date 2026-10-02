@@ -1,0 +1,15 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "molmobot_multitask_xy_v2",
+  "status": "complete",
+  "xy_records": 58,
+  "counts": {
+    "executed_failure": 35,
+    "invalid_initialization": 23
+  },
+  "executed_trials": 35,
+  "per_point_repeats": 1,
+  "semantics": "visual_mobile_pick_from_start_not_fixed_base_station_graspability",
+  "outcome_proportion_is_not_per_point_probability": true,
+  "updated_at_utc": "2026-10-02T04:36:51.568241+00:00"
+}

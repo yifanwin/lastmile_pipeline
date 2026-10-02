@@ -1,0 +1,23 @@
+{
+  "version": "lastmile-visual-mobile-pick-v1",
+  "thresholds": {
+    "lift_m": 0.05,
+    "hold_s": 2.0,
+    "base_translation_m": 0.002,
+    "base_yaw_rad": 0.003490658503988659,
+    "torso_error_rad": 0.002,
+    "head_error_rad": 0.002,
+    "idle_arm_error_rad": 0.002,
+    "relative_translation_m": 0.01,
+    "relative_rotation_rad": 0.08726646259971647,
+    "upright_rad": 0.17453292519943295,
+    "max_sample_gap_s": 0.0041
+  },
+  "base_fixed": false,
+  "idle_arm_fixed": false,
+  "head_fixed": true,
+  "torso_actual_linkage_checked": true,
+  "joint_limit_tolerance_rad": 0.002,
+  "success": "either_same_gripper_two_force_bearing_fingers_lift_5cm_unsupported_hold_2s",
+  "legacy_pick_protocol_unchanged": true
+}

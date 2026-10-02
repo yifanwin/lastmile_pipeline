@@ -1,0 +1,24 @@
+{
+  "case_id": "case1-cup-001",
+  "run_id": "molmobot_multitask_xy_v4",
+  "status": "complete",
+  "xy_records": 58,
+  "counts": {
+    "executed_failure": 30,
+    "invalid_initialization": 23,
+    "verified_success": 5
+  },
+  "executed_trials": 35,
+  "per_point_repeats": 1,
+  "semantics": "visual_mobile_pick_from_start_not_fixed_base_station_graspability",
+  "outcome_proportion_is_not_per_point_probability": true,
+  "torso_feedback_policy": "warn",
+  "torso_warning_trials": 35,
+  "torso_warning_category_samples": 163478,
+  "max_torso_warning_residual_rad": 0.07256035749665836,
+  "collision_feedback_policy": "warn_minor",
+  "minor_collision_warning_trials": 24,
+  "collision_warning_category_samples": 16252,
+  "max_minor_collision_penetration_m": 0.019868906957814233,
+  "updated_at_utc": "2026-10-02T07:01:32.289532+00:00"
+}

@@ -1,7 +1,11 @@
 # 报告索引
 
+
+最新 VLA：[v4 Markdown](case1-cup-001/03_station_map/molmobot_multitask_xy_v4/REPORT.md) · [HTML](case1-cup-001/03_station_map/molmobot_multitask_xy_v4/REPORT.html)。躯干／轻微碰撞仅告警，35次实跑有5次抓取成功；旧协议结果不能作等条件比较。
+
 ## 优先阅读
 
+- [MolmoBot Case1 VLA 评测](case1-cup-001/03_station_map/molmobot_multitask_xy_v2/REPORT.md) · [离线 HTML](case1-cup-001/03_station_map/molmobot_multitask_xy_v2/REPORT.html)：35次均因躯干联动约束提前终止，23个碰撞起点跳过，不据此推断模型抓杯能力。
 - [当前交付状态](REPORT.md)
 - [仓库实现总结](overview/repository-summary.md)
 - [Case 1 用户交付说明](delivery/case1-cup-001.md)

@@ -1,0 +1,29 @@
+version: 3
+checkpoint_path: /nas/wenyifan/models/MolmoBot-RBY1Multitask
+task: pick up the cup
+seed: 0
+camera_names: [wrist_camera_r, head_camera, wrist_camera_l]
+image_width: 1024
+image_height: 576
+camera_fov_deg: {head_camera: 139.0, wrist_camera_l: 58.0, wrist_camera_r: 58.0}
+policy_dt_s: 0.1
+ctrl_dt_s: 0.02
+sim_dt_s: 0.004
+action_horizon: 16
+execute_horizon: 8
+task_horizon: 400
+clamp_gripper: false
+torso_feedback_policy: warn
+collision_feedback_policy: warn_minor
+severe_penetration_m: 0.02
+server_start_timeout_s: 900
+inference_timeout_s: 180
+video_fps: 10
+expectation:
+  central_question: can_visual_VLA_pick_from_each_collision_free_coarse_XY_start_with_full_20D_control
+  coverage: 58_XY_records_expected_35_valid_trials_including_9_old_outside_contact_bound
+  outcome: unknown_before_execution
+  success_rule: force_aware_two_finger_lift_5cm_unsupported_hold_2s_no_severe_penetration
+  stop_rule: all_selected_starts_complete_or_shared_infrastructure_failure
+  baseline: old_fixed_base_oracle_only_descriptive_at_exact_matching_pose
+  no_scene_modification: true

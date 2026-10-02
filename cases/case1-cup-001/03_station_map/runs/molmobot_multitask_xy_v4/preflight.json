@@ -1,0 +1,25 @@
+{
+  "cuda_and_model_ready": true,
+  "camera_ready": true,
+  "offline": true,
+  "service_metadata": {
+    "checkpoint_path": "/nas/wenyifan/models/MolmoBot-RBY1Multitask",
+    "config_sha256": "68860f510580b9d176d10fd01550a5ec8cd5d0976a977c6598fd0a5eaa3d2ec2",
+    "task_type": "pick_pnp",
+    "camera_names": [
+      "wrist_camera_r",
+      "head_camera",
+      "wrist_camera_l"
+    ],
+    "state_dim": 22,
+    "action_dim": 20,
+    "clamp_gripper": false,
+    "execute_horizon": 8,
+    "action_horizon": 16,
+    "seed": 0,
+    "model_name": "lastmile-molmobot-multitask-pick"
+  },
+  "MUJOCO_GL": "egl",
+  "CUDA_VISIBLE_DEVICES": "5",
+  "completed_at_utc": "2026-10-02T05:54:25.352392+00:00"
+}

@@ -4,6 +4,11 @@
 
 ## 当前交付
 
+新增 [独立 MolmoBot VLA 起点测试](docs/stages/vla_station_test.md)：`bin/lastmile vla-station-test`。
+完整20维视觉移动抓取，58个XY独立记录；不覆盖下列旧交付或六阶段门禁。
+最新 [MolmoBot v4 报告](reports/case1-cup-001/03_station_map/molmobot_multitask_xy_v4/REPORT.md) · [离线 HTML](reports/case1-cup-001/03_station_map/molmobot_multitask_xy_v4/REPORT.html)：按用户授权，躯干反馈与轻微碰撞仅告警；35次实跑，5次抓起成功、27次超时、3次严重穿模停止，23个碰撞初始化跳过。
+历史 [MolmoBot v2 报告](reports/case1-cup-001/03_station_map/molmobot_multitask_xy_v2/REPORT.md) · [离线 HTML](reports/case1-cup-001/03_station_map/molmobot_multitask_xy_v2/REPORT.html)：35次实跑全部因躯干联动约束提前终止，23个碰撞起点跳过；不能仅据此判断模型抓杯能力。
+
 - [Case 1 交付文档（含站位图）](reports/delivery/case1-cup-001.md)
 - [P131 → A 闭环视频](cases/case1-cup-001/05_closed_loop/runs/astar_v2/delivery/case1_r_closed_loop.mp4)
 
